@@ -1,0 +1,16 @@
+Here we created a pivot tablewith the following settings:,,,,,,,
+,filter=,resp.corr,then set this to 1 (below) if you want only correct responses,,,,
+,rows=,SOA,,,,,
+,columns=,valid,,,,,
+,value=,resp.rt,set this to use the average not the sum,,,,
+We then copied that over to the right to make the lables prettier (milliseconds rather than frames etc),,,,,,,
+,,,,,,,
+resp.corr,1,,,,,,
+,,,,,,,
+Average of resp.rt,Column Labels,,,,,,
+Row Labels,0,1,Grand Total,,SOA (ms),invalid,valid
+6,0.363486437,0.378632954,0.371340187,,100,0.363486437,0.378632954
+12,0.365887864,0.325312274,0.346299648,,200,0.365887864,0.325312274
+24,0.334976802,0.303604237,0.318170071,,400,0.334976802,0.303604237
+48,0.333639493,0.375880782,0.356268755,,800,0.333639493,0.375880782
+Grand Total,0.350104694,0.345646698,0.347796089,,,,

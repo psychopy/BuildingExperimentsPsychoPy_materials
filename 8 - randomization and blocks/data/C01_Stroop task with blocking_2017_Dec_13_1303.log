@@ -1,0 +1,35 @@
+3.2234 	WARNING 	unknown type:Age
+3.2234 	WARNING 	unknown type:Gender
+3.2234 	WARNING 	unknown type:Participant
+3.8067 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x112ed5c50>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1440,  900]), stereo=False, units=u'norm', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+3.8068 	EXP 	window1: recordFrameIntervals = False
+3.9716 	EXP 	window1: recordFrameIntervals = True
+4.1563 	EXP 	window1: recordFrameIntervals = False
+4.2444 	EXP 	Created instructFixed = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='instructFixed', opacity=1.0, ori=0, pos=array([ 0. ,  0.6]), rgb=array([ 255.,  255.,  255.]), text=newstr(...), units='norm', win=Window(...), wrapWidth=1)
+4.2613 	EXP 	Created instructChanging = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='instructChanging', opacity=1.0, ori=0, pos=array([ 0. , -0.1]), rgb=array([ 255.,  255.,  255.]), text='default text', units=u'norm', win=Window(...), wrapWidth=1)
+4.2722 	EXP 	Created pushSpace = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='pushSpace', opacity=1.0, ori=0, pos=array([ 0. , -0.5]), rgb=array([ 255.,  255.,  255.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+4.2767 	EXP 	Created fixationPoint = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.4, italic=False, name='fixationPoint', opacity=1.0, ori=0, pos=array([ 0.   , -0.075]), rgb=array([ 255.,  255.,  255.]), text='*', units=u'norm', win=Window(...), wrapWidth=1)
+4.2870 	EXP 	Created stroopText = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.25, italic=False, name='stroopText', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 1.,  1.,  1.]), text='default text', units=u'norm', win=Window(...), wrapWidth=1)
+4.2955 	EXP 	Created feedbackText = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='feedbackText', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text='Feedback', units=u'norm', win=Window(...), wrapWidth=1)
+4.2983 	EXP 	Imported block_order_instr2.csv as conditions, 2 conditions, 2 params
+4.2987 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+4.2990 	EXP 	New trial (rep=0, index=0): OrderedDict([('language', u'English'), ('instructions', u'red = \u2190, green = \u2193, blue = \u2192')])
+4.3264 	EXP 	instructChanging: text = u'red = \u2190, green = \u2193, blue = \u2192'
+4.3264 	EXP 	instructFixed: autoDraw = True
+4.3264 	EXP 	instructChanging: autoDraw = True
+4.3264 	EXP 	pushSpace: autoDraw = True
+4.7959 	DATA 	Keypress: right
+5.5292 	DATA 	Keypress: left
+5.8978 	DATA 	Keypress: space
+5.9123 	EXP 	Imported English.xlsx as conditions, 9 conditions, 4 params
+5.9128 	EXP 	Created sequence: random, trialTypes=9, nReps=10, seed=None
+5.9132 	EXP 	New trial (rep=0, index=0): {u'congruent': 1L, u'word': u'green', u'corrAns': u'down', u'letterColor': u'green'}
+5.9237 	EXP 	instructFixed: autoDraw = False
+5.9237 	EXP 	instructChanging: autoDraw = False
+5.9237 	EXP 	pushSpace: autoDraw = False
+5.9237 	EXP 	stroopText: color = u'green (named)'
+5.9237 	EXP 	stroopText: text = u'green'
+5.9237 	EXP 	fixationPoint: autoDraw = True
+6.4288 	EXP 	fixationPoint: autoDraw = False
+6.4455 	EXP 	stroopText: autoDraw = True
+6.8152 	DATA 	Keypress: escape

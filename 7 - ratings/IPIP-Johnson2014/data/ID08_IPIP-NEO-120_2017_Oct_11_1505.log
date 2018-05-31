@@ -1,0 +1,1905 @@
+17.2512 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x117cecfd0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2560, 1440]), stereo=False, units=u'norm', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+17.2513 	EXP 	window1: recordFrameIntervals = False
+17.4168 	EXP 	window1: recordFrameIntervals = True
+17.6009 	EXP 	window1: recordFrameIntervals = False
+17.6784 	EXP 	Created instrText = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, name='instrText', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 1.,  1.,  1.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+17.6865 	EXP 	Created item = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='item', opacity=1.0, ori=0, pos=array([ 0. ,  0.5]), rgb=array([ 255.,  255.,  255.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+17.7208 	EXP 	Created rating = RatingScale(acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText=UNKNOWN, autoLog=True, choices=False, depth=0, disappear=False, flipVert=False, high=5, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=1, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating', noMouse=False, pos=[0.0, -0.2], precision=1, respKeys=['1', '2', '3', '4', '5'], rightKeys=['right'], scale='', self=UNKNOWN, showAccept=False, showValue=True, singleClick=False, size=0.8999999999999999, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.18, tickHeight=1.0, tickMarks=4.0, win=Window(...))
+17.7366 	EXP 	Created msgContinue = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, name='msgContinue', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 255.,  255.,  255.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+17.7691 	EXP 	Created thanksText = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='arial', fontFiles=[], height=0.3, italic=False, name='thanksText', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 1.,  1.,  1.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+17.7833 	EXP 	rating: flipVert = False
+17.7833 	EXP 	rating: autoLog = True
+17.7833 	EXP 	instrText: autoDraw = True
+19.2848 	DATA 	Keypress: space
+19.3002 	EXP 	Imported IPIP-NEO-PI-R-120-Johnson2014.xlsx as conditions, 120 conditions, 6 params
+19.3008 	EXP 	Created sequence: random, trialTypes=120, nReps=1, seed=None
+19.3011 	EXP 	New trial (rep=0, index=0): OrderedDict([('Number', 13), ('Item', u'Find it difficult to approach others.'), ('Scoring', u'+'), ('Code', u'N4'), ('Facet', u'Self-consciousness'), ('Factor', u'Neuroticism')])
+19.3091 	EXP 	RatingScale rating: reset()
+19.3338 	EXP 	instrText: autoDraw = False
+19.3338 	EXP 	item: text = u'Find it difficult to approach others.'
+19.3338 	EXP 	item: autoDraw = True
+19.3338 	EXP 	rating: autoDraw = True
+19.3338 	EXP 	msgContinue: autoDraw = True
+22.5358 	DATA 	Mouse: Left button down, pos=(700,590)
+22.6195 	DATA 	Mouse:  Left button up, pos=(700,590)
+23.5689 	DATA 	Keypress: return
+23.5706 	DATA 	RatingScale rating: (key response) rating=1
+23.5707 	DATA 	RatingScale rating: rating RT=4.261
+23.5707 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 3.228), (1, 4.261)]
+23.5860 	EXP 	New trial (rep=0, index=1): OrderedDict([('Number', 87), ('Item', u'Insult people.'), ('Scoring', u'-'), ('Code', u'A4'), ('Facet', u'Cooperation'), ('Factor', u'Agreeableness')])
+23.5900 	EXP 	RatingScale rating: reset()
+23.6013 	EXP 	item: autoDraw = False
+23.6013 	EXP 	rating: autoDraw = False
+23.6013 	EXP 	msgContinue: autoDraw = False
+23.6013 	EXP 	item: text = u'Insult people.'
+23.6013 	EXP 	item: autoDraw = True
+23.6013 	EXP 	rating: autoDraw = True
+23.6013 	EXP 	msgContinue: autoDraw = True
+25.0696 	DATA 	Mouse: Left button down, pos=(701,592)
+25.2027 	DATA 	Mouse:  Left button up, pos=(701,592)
+27.2877 	DATA 	Keypress: return
+27.2893 	DATA 	RatingScale rating: (key response) rating=1
+27.2894 	DATA 	RatingScale rating: rating RT=3.699
+27.2894 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 1.48), (1, 3.699)]
+27.3036 	EXP 	New trial (rep=0, index=2): OrderedDict([('Number', 1), ('Item', u'Worry about things.'), ('Scoring', u'+'), ('Code', u'N1'), ('Facet', u'Anxiety'), ('Factor', u'Neuroticism')])
+27.3091 	EXP 	RatingScale rating: reset()
+27.3195 	EXP 	item: autoDraw = False
+27.3195 	EXP 	rating: autoDraw = False
+27.3195 	EXP 	msgContinue: autoDraw = False
+27.3195 	EXP 	item: text = u'Worry about things.'
+27.3195 	EXP 	item: autoDraw = True
+27.3195 	EXP 	rating: autoDraw = True
+27.3195 	EXP 	msgContinue: autoDraw = True
+34.2884 	DATA 	Mouse: Left button down, pos=(1280,597)
+34.3553 	DATA 	Mouse:  Left button up, pos=(1280,597)
+37.2403 	DATA 	Keypress: return
+37.2419 	DATA 	RatingScale rating: (key response) rating=3
+37.2420 	DATA 	RatingScale rating: rating RT=9.932
+37.2420 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 6.98), (3, 9.932)]
+37.2566 	EXP 	New trial (rep=0, index=3): OrderedDict([('Number', 43), ('Item', u'Enjoy being reckless.'), ('Scoring', u'+'), ('Code', u'E5'), ('Facet', u'Excitement-seeking'), ('Factor', u'Extraversion')])
+37.2618 	EXP 	RatingScale rating: reset()
+37.2719 	EXP 	item: autoDraw = False
+37.2719 	EXP 	rating: autoDraw = False
+37.2719 	EXP 	msgContinue: autoDraw = False
+37.2719 	EXP 	item: text = u'Enjoy being reckless.'
+37.2719 	EXP 	item: autoDraw = True
+37.2719 	EXP 	rating: autoDraw = True
+37.2719 	EXP 	msgContinue: autoDraw = True
+42.2085 	DATA 	Mouse: Left button down, pos=(705,609)
+42.3083 	DATA 	Mouse:  Left button up, pos=(705,609)
+42.5442 	DATA 	Keypress: return
+42.5444 	DATA 	RatingScale rating: (key response) rating=1
+42.5445 	DATA 	RatingScale rating: rating RT=5.282
+42.5445 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 4.948), (1, 5.282)]
+42.5584 	EXP 	New trial (rep=0, index=4): OrderedDict([('Number', 49), ('Item', u'Have a vivid imagination.'), ('Scoring', u'+'), ('Code', u'O1'), ('Facet', u'Imagination'), ('Factor', u'Openness')])
+42.5642 	EXP 	RatingScale rating: reset()
+42.5733 	EXP 	item: autoDraw = False
+42.5733 	EXP 	rating: autoDraw = False
+42.5733 	EXP 	msgContinue: autoDraw = False
+42.5733 	EXP 	item: text = u'Have a vivid imagination.'
+42.5733 	EXP 	item: autoDraw = True
+42.5733 	EXP 	rating: autoDraw = True
+42.5733 	EXP 	msgContinue: autoDraw = True
+45.8428 	DATA 	Mouse: Left button down, pos=(1564,605)
+45.8927 	DATA 	Mouse:  Left button up, pos=(1564,605)
+46.1437 	DATA 	Keypress: return
+46.1456 	DATA 	RatingScale rating: (key response) rating=4
+46.1458 	DATA 	RatingScale rating: rating RT=3.581
+46.1458 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 3.28), (4, 3.581)]
+46.1596 	EXP 	New trial (rep=0, index=5): OrderedDict([('Number', 32), ('Item', u'Avoid crowds.'), ('Scoring', u'-'), ('Code', u'E2'), ('Facet', u'Gregariousness'), ('Factor', u'Extraversion')])
+46.1653 	EXP 	RatingScale rating: reset()
+46.1749 	EXP 	item: autoDraw = False
+46.1749 	EXP 	rating: autoDraw = False
+46.1749 	EXP 	msgContinue: autoDraw = False
+46.1749 	EXP 	item: text = u'Avoid crowds.'
+46.1749 	EXP 	item: autoDraw = True
+46.1749 	EXP 	rating: autoDraw = True
+46.1749 	EXP 	msgContinue: autoDraw = True
+48.0929 	DATA 	Mouse: Left button down, pos=(719,619)
+48.1922 	DATA 	Mouse:  Left button up, pos=(719,619)
+48.3767 	DATA 	Keypress: return
+48.3786 	DATA 	RatingScale rating: (key response) rating=1
+48.3787 	DATA 	RatingScale rating: rating RT=2.213
+48.3787 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 1.929), (1, 2.212)]
+48.3929 	EXP 	New trial (rep=0, index=6): OrderedDict([('Number', 101), ('Item', u'Like to tidy up.'), ('Scoring', u'+'), ('Code', u'C2'), ('Facet', u'Orderliness'), ('Factor', u'Conscientiousness')])
+48.3978 	EXP 	RatingScale rating: reset()
+48.4090 	EXP 	item: autoDraw = False
+48.4090 	EXP 	rating: autoDraw = False
+48.4090 	EXP 	msgContinue: autoDraw = False
+48.4090 	EXP 	item: text = u'Like to tidy up.'
+48.4090 	EXP 	item: autoDraw = True
+48.4090 	EXP 	rating: autoDraw = True
+48.4090 	EXP 	msgContinue: autoDraw = True
+52.0618 	DATA 	Mouse: Left button down, pos=(1008,618)
+52.1771 	DATA 	Mouse:  Left button up, pos=(1008,618)
+52.4781 	DATA 	Keypress: return
+52.4799 	DATA 	RatingScale rating: (key response) rating=2
+52.4800 	DATA 	RatingScale rating: rating RT=4.081
+52.4801 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 3.665), (2, 4.081)]
+52.4950 	EXP 	New trial (rep=0, index=7): OrderedDict([('Number', 11), ('Item', u'Am often down in the dumps.'), ('Scoring', u'+'), ('Code', u'N3'), ('Facet', u'Depression'), ('Factor', u'Neuroticism')])
+52.5007 	EXP 	RatingScale rating: reset()
+52.5100 	EXP 	item: autoDraw = False
+52.5100 	EXP 	rating: autoDraw = False
+52.5100 	EXP 	msgContinue: autoDraw = False
+52.5100 	EXP 	item: text = u'Am often down in the dumps.'
+52.5100 	EXP 	item: autoDraw = True
+52.5100 	EXP 	rating: autoDraw = True
+52.5100 	EXP 	msgContinue: autoDraw = True
+54.8450 	DATA 	Mouse: Left button down, pos=(718,605)
+54.9613 	DATA 	Mouse:  Left button up, pos=(718,605)
+55.3784 	DATA 	Keypress: return
+55.3805 	DATA 	RatingScale rating: (key response) rating=1
+55.3807 	DATA 	RatingScale rating: rating RT=2.879
+55.3807 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 2.345), (1, 2.879)]
+55.3951 	EXP 	New trial (rep=0, index=8): OrderedDict([('Number', 53), ('Item', u'Believe in the importance of art.'), ('Scoring', u'+'), ('Code', u'O2'), ('Facet', u'Artistic interests'), ('Factor', u'Openness')])
+55.4012 	EXP 	RatingScale rating: reset()
+55.4107 	EXP 	item: autoDraw = False
+55.4107 	EXP 	rating: autoDraw = False
+55.4107 	EXP 	msgContinue: autoDraw = False
+55.4107 	EXP 	item: text = u'Believe in the importance of art.'
+55.4107 	EXP 	item: autoDraw = True
+55.4107 	EXP 	rating: autoDraw = True
+55.4107 	EXP 	msgContinue: autoDraw = True
+57.3632 	DATA 	Mouse: Left button down, pos=(1947,610)
+57.4479 	DATA 	Mouse:  Left button up, pos=(1947,610)
+57.8302 	DATA 	Mouse: Left button down, pos=(1856,591)
+57.9294 	DATA 	Mouse:  Left button up, pos=(1856,591)
+58.1133 	DATA 	Keypress: return
+58.1152 	DATA 	RatingScale rating: (key response) rating=5
+58.1153 	DATA 	RatingScale rating: rating RT=2.713
+58.1153 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 2.43), (5, 2.713)]
+58.1295 	EXP 	New trial (rep=0, index=9): OrderedDict([('Number', 18), ('Item', u'Rarely overindulge.'), ('Scoring', u'-'), ('Code', u'N5'), ('Facet', u'Immoderation'), ('Factor', u'Neuroticism')])
+58.1342 	EXP 	RatingScale rating: reset()
+58.1455 	EXP 	item: autoDraw = False
+58.1455 	EXP 	rating: autoDraw = False
+58.1455 	EXP 	msgContinue: autoDraw = False
+58.1455 	EXP 	item: text = u'Rarely overindulge.'
+58.1455 	EXP 	item: autoDraw = True
+58.1455 	EXP 	rating: autoDraw = True
+58.1455 	EXP 	msgContinue: autoDraw = True
+61.3314 	DATA 	Mouse: Left button down, pos=(1567,592)
+61.4142 	DATA 	Mouse:  Left button up, pos=(1567,592)
+65.0172 	DATA 	Keypress: return
+65.0174 	DATA 	RatingScale rating: (key response) rating=4
+65.0175 	DATA 	RatingScale rating: rating RT=6.882
+65.0175 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 3.198), (4, 6.882)]
+65.0316 	EXP 	New trial (rep=0, index=10): OrderedDict([('Number', 46), ('Item', u'Have a lot of fun.'), ('Scoring', u'+'), ('Code', u'E6'), ('Facet', u'Cheerfulness'), ('Factor', u'Extraversion')])
+65.0352 	EXP 	RatingScale rating: reset()
+65.0471 	EXP 	item: autoDraw = False
+65.0471 	EXP 	rating: autoDraw = False
+65.0471 	EXP 	msgContinue: autoDraw = False
+65.0471 	EXP 	item: text = u'Have a lot of fun.'
+65.0471 	EXP 	item: autoDraw = True
+65.0471 	EXP 	rating: autoDraw = True
+65.0471 	EXP 	msgContinue: autoDraw = True
+68.5839 	DATA 	Mouse: Left button down, pos=(1567,601)
+68.6995 	DATA 	Mouse:  Left button up, pos=(1567,601)
+68.8997 	DATA 	Keypress: return
+68.9014 	DATA 	RatingScale rating: (key response) rating=4
+68.9015 	DATA 	RatingScale rating: rating RT=3.866
+68.9015 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 3.55), (4, 3.866)]
+68.9166 	EXP 	New trial (rep=0, index=11): OrderedDict([('Number', 22), ('Item', u'Become overwhelmed by events.'), ('Scoring', u'+'), ('Code', u'N6'), ('Facet', u'Vulnerability'), ('Factor', u'Neuroticism')])
+68.9223 	EXP 	RatingScale rating: reset()
+68.9319 	EXP 	item: autoDraw = False
+68.9319 	EXP 	rating: autoDraw = False
+68.9319 	EXP 	msgContinue: autoDraw = False
+68.9319 	EXP 	item: text = u'Become overwhelmed by events.'
+68.9319 	EXP 	item: autoDraw = True
+68.9319 	EXP 	rating: autoDraw = True
+68.9319 	EXP 	msgContinue: autoDraw = True
+72.8840 	DATA 	Mouse: Left button down, pos=(711,591)
+72.9508 	DATA 	Mouse:  Left button up, pos=(711,591)
+73.1683 	DATA 	Keypress: return
+73.1702 	DATA 	RatingScale rating: (key response) rating=1
+73.1703 	DATA 	RatingScale rating: rating RT=4.247
+73.1703 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 3.963), (1, 4.247)]
+73.1848 	EXP 	New trial (rep=0, index=12): OrderedDict([('Number', 25), ('Item', u'Make friends easily.'), ('Scoring', u'+'), ('Code', u'E1'), ('Facet', u'Friendliness'), ('Factor', u'Extraversion')])
+73.1897 	EXP 	RatingScale rating: reset()
+73.2013 	EXP 	item: autoDraw = False
+73.2013 	EXP 	rating: autoDraw = False
+73.2013 	EXP 	msgContinue: autoDraw = False
+73.2013 	EXP 	item: text = u'Make friends easily.'
+73.2013 	EXP 	item: autoDraw = True
+73.2013 	EXP 	rating: autoDraw = True
+73.2013 	EXP 	msgContinue: autoDraw = True
+75.0011 	DATA 	Mouse: Left button down, pos=(1824,601)
+75.1018 	DATA 	Mouse:  Left button up, pos=(1825,601)
+75.2849 	DATA 	Keypress: return
+75.2866 	DATA 	RatingScale rating: (key response) rating=5
+75.2868 	DATA 	RatingScale rating: rating RT=2.096
+75.2868 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 1.812), (5, 2.096)]
+75.3010 	EXP 	New trial (rep=0, index=13): OrderedDict([('Number', 108), ('Item', u'Break my promises.'), ('Scoring', u'-'), ('Code', u'C3'), ('Facet', u'Dutifulness'), ('Factor', u'Conscientiousness')])
+75.3052 	EXP 	RatingScale rating: reset()
+75.3173 	EXP 	item: autoDraw = False
+75.3173 	EXP 	rating: autoDraw = False
+75.3173 	EXP 	msgContinue: autoDraw = False
+75.3173 	EXP 	item: text = u'Break my promises.'
+75.3173 	EXP 	item: autoDraw = True
+75.3173 	EXP 	rating: autoDraw = True
+75.3173 	EXP 	msgContinue: autoDraw = True
+77.5192 	DATA 	Mouse: Left button down, pos=(843,609)
+77.8693 	DATA 	Mouse:  Left button up, pos=(789,610)
+78.4031 	DATA 	Keypress: return
+78.4048 	DATA 	RatingScale rating: (key response) rating=1
+78.4049 	DATA 	RatingScale rating: rating RT=3.099
+78.4049 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 2.215), (1, 3.099)]
+78.4191 	EXP 	New trial (rep=0, index=14): OrderedDict([('Number', 105), ('Item', u'Keep my promises.'), ('Scoring', u'+'), ('Code', u'C3'), ('Facet', u'Dutifulness'), ('Factor', u'Conscientiousness')])
+78.4237 	EXP 	RatingScale rating: reset()
+78.4346 	EXP 	item: autoDraw = False
+78.4346 	EXP 	rating: autoDraw = False
+78.4346 	EXP 	msgContinue: autoDraw = False
+78.4346 	EXP 	item: text = u'Keep my promises.'
+78.4346 	EXP 	item: autoDraw = True
+78.4346 	EXP 	rating: autoDraw = True
+78.4346 	EXP 	msgContinue: autoDraw = True
+79.8530 	DATA 	Mouse: Left button down, pos=(1919,593)
+79.9200 	DATA 	Mouse:  Left button up, pos=(1919,593)
+80.2365 	DATA 	Keypress: return
+80.2385 	DATA 	RatingScale rating: (key response) rating=5
+80.2386 	DATA 	RatingScale rating: rating RT=1.814
+80.2387 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 1.43), (5, 1.814)]
+80.2532 	EXP 	New trial (rep=0, index=15): OrderedDict([('Number', 68), ('Item', u'Am not interested in theoretical discussions.'), ('Scoring', u'-'), ('Code', u'O5'), ('Facet', u'Intellect'), ('Factor', u'Openness')])
+80.2608 	EXP 	RatingScale rating: reset()
+80.2689 	EXP 	item: autoDraw = False
+80.2689 	EXP 	rating: autoDraw = False
+80.2689 	EXP 	msgContinue: autoDraw = False
+80.2689 	EXP 	item: text = u'Am not interested in theoretical discussions.'
+80.2689 	EXP 	item: autoDraw = True
+80.2689 	EXP 	rating: autoDraw = True
+80.2689 	EXP 	msgContinue: autoDraw = True
+83.2883 	DATA 	Mouse: Left button down, pos=(794,609)
+83.3699 	DATA 	Mouse:  Left button up, pos=(794,609)
+83.6213 	DATA 	Keypress: return
+83.6233 	DATA 	RatingScale rating: (key response) rating=1
+83.6234 	DATA 	RatingScale rating: rating RT=3.361
+83.6234 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 3.028), (1, 3.361)]
+83.6376 	EXP 	New trial (rep=0, index=16): OrderedDict([('Number', 5), ('Item', u'Get angry easily.'), ('Scoring', u'+'), ('Code', u'N2'), ('Facet', u'Anger'), ('Factor', u'Neuroticism')])
+83.6422 	EXP 	RatingScale rating: reset()
+83.6530 	EXP 	item: autoDraw = False
+83.6530 	EXP 	rating: autoDraw = False
+83.6530 	EXP 	msgContinue: autoDraw = False
+83.6530 	EXP 	item: text = u'Get angry easily.'
+83.6530 	EXP 	item: autoDraw = True
+83.6530 	EXP 	rating: autoDraw = True
+83.6530 	EXP 	msgContinue: autoDraw = True
+85.1545 	DATA 	Mouse: Left button down, pos=(824,607)
+85.2396 	DATA 	Mouse:  Left button up, pos=(824,607)
+86.3887 	DATA 	Keypress: return
+86.3906 	DATA 	RatingScale rating: (key response) rating=1
+86.3907 	DATA 	RatingScale rating: rating RT=2.748
+86.3908 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 1.513), (1, 2.748)]
+86.4055 	EXP 	New trial (rep=0, index=17): OrderedDict([('Number', 41), ('Item', u'Love excitement.'), ('Scoring', u'+'), ('Code', u'E5'), ('Facet', u'Excitement-seeking'), ('Factor', u'Extraversion')])
+86.4095 	EXP 	RatingScale rating: reset()
+86.4217 	EXP 	item: autoDraw = False
+86.4217 	EXP 	rating: autoDraw = False
+86.4217 	EXP 	msgContinue: autoDraw = False
+86.4217 	EXP 	item: text = u'Love excitement.'
+86.4217 	EXP 	item: autoDraw = True
+86.4217 	EXP 	rating: autoDraw = True
+86.4217 	EXP 	msgContinue: autoDraw = True
+88.0894 	DATA 	Mouse: Left button down, pos=(1574,597)
+88.1720 	DATA 	Mouse:  Left button up, pos=(1576,597)
+92.5407 	DATA 	Keypress: return
+92.5425 	DATA 	RatingScale rating: (key response) rating=4
+92.5426 	DATA 	RatingScale rating: rating RT=6.132
+92.5426 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.681), (4, 6.132)]
+92.5570 	EXP 	New trial (rep=0, index=18): OrderedDict([('Number', 59), ('Item', u'Rarely notice my emotional reactions.'), ('Scoring', u'-'), ('Code', u'O3'), ('Facet', u'Emotionality'), ('Factor', u'Openness')])
+92.5628 	EXP 	RatingScale rating: reset()
+92.5729 	EXP 	item: autoDraw = False
+92.5729 	EXP 	rating: autoDraw = False
+92.5729 	EXP 	msgContinue: autoDraw = False
+92.5729 	EXP 	item: text = u'Rarely notice my emotional reactions.'
+92.5729 	EXP 	item: autoDraw = True
+92.5729 	EXP 	rating: autoDraw = True
+92.5729 	EXP 	msgContinue: autoDraw = True
+96.0418 	DATA 	Mouse: Left button down, pos=(758,605)
+96.1089 	DATA 	Mouse:  Left button up, pos=(758,605)
+96.4923 	DATA 	Keypress: return
+96.4945 	DATA 	RatingScale rating: (key response) rating=1
+96.4946 	DATA 	RatingScale rating: rating RT=3.931
+96.4946 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 3.48), (1, 3.931)]
+96.5088 	EXP 	New trial (rep=0, index=19): OrderedDict([('Number', 118), ('Item', u'Make rash decisions.'), ('Scoring', u'-'), ('Code', u'C6'), ('Facet', u'Cautiousness'), ('Factor', u'Conscientiousness')])
+96.5619 	EXP 	RatingScale rating: reset()
+96.5741 	EXP 	item: autoDraw = False
+96.5741 	EXP 	rating: autoDraw = False
+96.5741 	EXP 	msgContinue: autoDraw = False
+96.5741 	EXP 	item: text = u'Make rash decisions.'
+96.5741 	EXP 	item: autoDraw = True
+96.5741 	EXP 	rating: autoDraw = True
+96.5741 	EXP 	msgContinue: autoDraw = True
+98.2752 	DATA 	Mouse: Left button down, pos=(848,590)
+98.3447 	DATA 	Mouse:  Left button up, pos=(848,590)
+98.4255 	DATA 	Keypress: return
+98.4274 	DATA 	RatingScale rating: (key response) rating=1
+98.4275 	DATA 	RatingScale rating: rating RT=1.865
+98.4275 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 1.714), (1, 1.864)]
+98.4429 	EXP 	New trial (rep=0, index=20): OrderedDict([('Number', 35), ('Item', u'Take control of things.'), ('Scoring', u'+'), ('Code', u'E3'), ('Facet', u'Assertiveness'), ('Factor', u'Extraversion')])
+98.4476 	EXP 	RatingScale rating: reset()
+98.4592 	EXP 	item: autoDraw = False
+98.4592 	EXP 	rating: autoDraw = False
+98.4592 	EXP 	msgContinue: autoDraw = False
+98.4592 	EXP 	item: text = u'Take control of things.'
+98.4592 	EXP 	item: autoDraw = True
+98.4592 	EXP 	rating: autoDraw = True
+98.4592 	EXP 	msgContinue: autoDraw = True
+100.0954 	DATA 	Mouse: Left button down, pos=(1754,591)
+100.2091 	DATA 	Mouse:  Left button up, pos=(1754,591)
+100.3924 	DATA 	Keypress: return
+100.3943 	DATA 	RatingScale rating: (key response) rating=5
+100.3944 	DATA 	RatingScale rating: rating RT=1.946
+100.3944 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 1.662), (5, 1.946)]
+100.4095 	EXP 	New trial (rep=0, index=21): OrderedDict([('Number', 102), ('Item', u'Often forget to put things back in their proper place.'), ('Scoring', u'-'), ('Code', u'C2'), ('Facet', u'Orderliness'), ('Factor', u'Conscientiousness')])
+100.4173 	EXP 	RatingScale rating: reset()
+100.4249 	EXP 	item: autoDraw = False
+100.4249 	EXP 	rating: autoDraw = False
+100.4249 	EXP 	msgContinue: autoDraw = False
+100.4249 	EXP 	item: text = u'Often forget to put things back in their proper place.'
+100.4249 	EXP 	item: autoDraw = True
+100.4249 	EXP 	rating: autoDraw = True
+100.4249 	EXP 	msgContinue: autoDraw = True
+104.4604 	DATA 	Mouse: Left button down, pos=(1003,594)
+104.5769 	DATA 	Mouse:  Left button up, pos=(1003,594)
+106.1953 	DATA 	Mouse: Left button down, pos=(1238,589)
+106.2962 	DATA 	Mouse:  Left button up, pos=(1238,589)
+106.4803 	DATA 	Keypress: return
+106.4805 	DATA 	RatingScale rating: (key response) rating=3
+106.4806 	DATA 	RatingScale rating: rating RT=6.062
+106.4806 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 4.044), (3, 5.779), (3, 6.062)]
+106.4952 	EXP 	New trial (rep=0, index=22): OrderedDict([('Number', 116), ('Item', u'Have difficulty starting tasks.'), ('Scoring', u'-'), ('Code', u'C5'), ('Facet', u'Self-discipline'), ('Factor', u'Conscientiousness')])
+106.4998 	EXP 	RatingScale rating: reset()
+106.5118 	EXP 	item: autoDraw = False
+106.5118 	EXP 	rating: autoDraw = False
+106.5118 	EXP 	msgContinue: autoDraw = False
+106.5118 	EXP 	item: text = u'Have difficulty starting tasks.'
+106.5118 	EXP 	item: autoDraw = True
+106.5118 	EXP 	rating: autoDraw = True
+106.5118 	EXP 	msgContinue: autoDraw = True
+109.7618 	DATA 	Mouse: Left button down, pos=(1049,596)
+109.9126 	DATA 	Mouse:  Left button up, pos=(1049,596)
+111.4968 	DATA 	Keypress: return
+111.4985 	DATA 	RatingScale rating: (key response) rating=2
+111.4986 	DATA 	RatingScale rating: rating RT=4.998
+111.4986 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 3.263), (2, 4.998)]
+111.5139 	EXP 	New trial (rep=0, index=23): OrderedDict([('Number', 119), ('Item', u'Rush into things.'), ('Scoring', u'-'), ('Code', u'C6'), ('Facet', u'Cautiousness'), ('Factor', u'Conscientiousness')])
+111.5178 	EXP 	RatingScale rating: reset()
+111.5301 	EXP 	item: autoDraw = False
+111.5301 	EXP 	rating: autoDraw = False
+111.5301 	EXP 	msgContinue: autoDraw = False
+111.5301 	EXP 	item: text = u'Rush into things.'
+111.5301 	EXP 	item: autoDraw = True
+111.5301 	EXP 	rating: autoDraw = True
+111.5301 	EXP 	msgContinue: autoDraw = True
+115.2968 	DATA 	Mouse: Left button down, pos=(1237,608)
+115.3646 	DATA 	Mouse:  Left button up, pos=(1239,610)
+115.6641 	DATA 	Keypress: return
+115.6662 	DATA 	RatingScale rating: (key response) rating=3
+115.6663 	DATA 	RatingScale rating: rating RT=4.148
+115.6663 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 3.78), (3, 4.148)]
+115.6807 	EXP 	New trial (rep=0, index=24): OrderedDict([('Number', 78), ('Item', u'Cheat to get ahead.'), ('Scoring', u'-'), ('Code', u'A2'), ('Facet', u'Morality'), ('Factor', u'Agreeableness')])
+115.6864 	EXP 	RatingScale rating: reset()
+115.6971 	EXP 	item: autoDraw = False
+115.6971 	EXP 	rating: autoDraw = False
+115.6971 	EXP 	msgContinue: autoDraw = False
+115.6971 	EXP 	item: text = u'Cheat to get ahead.'
+115.6971 	EXP 	item: autoDraw = True
+115.6971 	EXP 	rating: autoDraw = True
+115.6971 	EXP 	msgContinue: autoDraw = True
+117.6649 	DATA 	Mouse: Left button down, pos=(797,623)
+117.7160 	DATA 	Keypress: return
+117.7180 	DATA 	RatingScale rating: (key response) rating=1
+117.7182 	DATA 	RatingScale rating: rating RT=2.031
+117.7183 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 1.979), (1, 2.031)]
+117.7191 	DATA 	Mouse:  Left button up, pos=(797,623)
+117.7324 	EXP 	New trial (rep=0, index=25): OrderedDict([('Number', 58), ('Item', u"Feel others' emotions."), ('Scoring', u'+'), ('Code', u'O3'), ('Facet', u'Emotionality'), ('Factor', u'Openness')])
+117.7387 	EXP 	RatingScale rating: reset()
+117.7475 	EXP 	item: autoDraw = False
+117.7475 	EXP 	rating: autoDraw = False
+117.7475 	EXP 	msgContinue: autoDraw = False
+117.7475 	EXP 	item: text = u"Feel others' emotions."
+117.7475 	EXP 	item: autoDraw = True
+117.7475 	EXP 	rating: autoDraw = True
+117.7475 	EXP 	msgContinue: autoDraw = True
+120.4319 	DATA 	Mouse: Left button down, pos=(1729,591)
+120.5150 	DATA 	Mouse:  Left button up, pos=(1729,591)
+121.0671 	DATA 	Keypress: return
+121.0692 	DATA 	RatingScale rating: (key response) rating=5
+121.0694 	DATA 	RatingScale rating: rating RT=3.329
+121.0694 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 2.694), (5, 3.329)]
+121.0825 	EXP 	New trial (rep=0, index=26): OrderedDict([('Number', 93), ('Item', u'Sympathize with the homeless.'), ('Scoring', u'+'), ('Code', u'A6'), ('Facet', u'Sympathy'), ('Factor', u'Agreeableness')])
+121.0900 	EXP 	RatingScale rating: reset()
+121.0985 	EXP 	item: autoDraw = False
+121.0985 	EXP 	rating: autoDraw = False
+121.0985 	EXP 	msgContinue: autoDraw = False
+121.0985 	EXP 	item: text = u'Sympathize with the homeless.'
+121.0985 	EXP 	item: autoDraw = True
+121.0985 	EXP 	rating: autoDraw = True
+121.0985 	EXP 	msgContinue: autoDraw = True
+123.3002 	DATA 	Mouse: Left button down, pos=(1580,595)
+123.3829 	DATA 	Mouse:  Left button up, pos=(1580,595)
+123.9173 	DATA 	Mouse: Left button down, pos=(1697,589)
+124.0162 	DATA 	Mouse:  Left button up, pos=(1697,589)
+124.5031 	DATA 	Mouse: Left button down, pos=(1802,593)
+124.6335 	DATA 	Mouse:  Left button up, pos=(1802,593)
+124.8505 	DATA 	Keypress: return
+124.8525 	DATA 	RatingScale rating: (key response) rating=5
+124.8526 	DATA 	RatingScale rating: rating RT=3.762
+124.8526 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 2.211), (5, 3.427), (5, 3.761)]
+124.8669 	EXP 	New trial (rep=0, index=27): OrderedDict([('Number', 28), ('Item', u'Keep others at a distance.'), ('Scoring', u'-'), ('Code', u'E1'), ('Facet', u'Friendliness'), ('Factor', u'Extraversion')])
+124.8717 	EXP 	RatingScale rating: reset()
+124.8822 	EXP 	item: autoDraw = False
+124.8822 	EXP 	rating: autoDraw = False
+124.8822 	EXP 	msgContinue: autoDraw = False
+124.8822 	EXP 	item: text = u'Keep others at a distance.'
+124.8822 	EXP 	item: autoDraw = True
+124.8822 	EXP 	rating: autoDraw = True
+124.8822 	EXP 	msgContinue: autoDraw = True
+128.4853 	DATA 	Mouse: Left button down, pos=(1037,595)
+128.6346 	DATA 	Mouse:  Left button up, pos=(1037,595)
+129.0525 	DATA 	Keypress: return
+129.0543 	DATA 	RatingScale rating: (key response) rating=2
+129.0544 	DATA 	RatingScale rating: rating RT=4.182
+129.0544 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 3.614), (2, 4.182)]
+129.0686 	EXP 	New trial (rep=0, index=28): OrderedDict([('Number', 21), ('Item', u'Panic easily.'), ('Scoring', u'+'), ('Code', u'N6'), ('Facet', u'Vulnerability'), ('Factor', u'Neuroticism')])
+129.0730 	EXP 	RatingScale rating: reset()
+129.0840 	EXP 	item: autoDraw = False
+129.0840 	EXP 	rating: autoDraw = False
+129.0840 	EXP 	msgContinue: autoDraw = False
+129.0840 	EXP 	item: text = u'Panic easily.'
+129.0840 	EXP 	item: autoDraw = True
+129.0840 	EXP 	rating: autoDraw = True
+129.0840 	EXP 	msgContinue: autoDraw = True
+131.2882 	DATA 	Mouse: Left button down, pos=(834,593)
+131.4365 	DATA 	Mouse:  Left button up, pos=(834,593)
+131.6199 	DATA 	Keypress: return
+131.6219 	DATA 	RatingScale rating: (key response) rating=1
+131.6220 	DATA 	RatingScale rating: rating RT=2.548
+131.6220 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 2.215), (1, 2.548)]
+131.6365 	EXP 	New trial (rep=0, index=29): OrderedDict([('Number', 79), ('Item', u'Take advantage of others.'), ('Scoring', u'-'), ('Code', u'A2'), ('Facet', u'Morality'), ('Factor', u'Agreeableness')])
+131.6414 	EXP 	RatingScale rating: reset()
+131.6522 	EXP 	item: autoDraw = False
+131.6522 	EXP 	rating: autoDraw = False
+131.6522 	EXP 	msgContinue: autoDraw = False
+131.6522 	EXP 	item: text = u'Take advantage of others.'
+131.6522 	EXP 	item: autoDraw = True
+131.6522 	EXP 	rating: autoDraw = True
+131.6522 	EXP 	msgContinue: autoDraw = True
+133.7367 	DATA 	Mouse: Left button down, pos=(817,578)
+133.8204 	DATA 	Mouse:  Left button up, pos=(817,578)
+134.1366 	DATA 	Keypress: return
+134.1390 	DATA 	RatingScale rating: (key response) rating=1
+134.1391 	DATA 	RatingScale rating: rating RT=2.497
+134.1392 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 2.097), (1, 2.497)]
+134.1539 	EXP 	New trial (rep=0, index=30): OrderedDict([('Number', 81), ('Item', u'Am concerned about others.'), ('Scoring', u'+'), ('Code', u'A3'), ('Facet', u'Altruism'), ('Factor', u'Agreeableness')])
+134.1599 	EXP 	RatingScale rating: reset()
+134.1691 	EXP 	item: autoDraw = False
+134.1691 	EXP 	rating: autoDraw = False
+134.1691 	EXP 	msgContinue: autoDraw = False
+134.1691 	EXP 	item: text = u'Am concerned about others.'
+134.1691 	EXP 	item: autoDraw = True
+134.1691 	EXP 	rating: autoDraw = True
+134.1691 	EXP 	msgContinue: autoDraw = True
+136.0716 	DATA 	Mouse: Left button down, pos=(1028,578)
+136.1885 	DATA 	Mouse:  Left button up, pos=(1028,578)
+137.8210 	DATA 	Mouse: Left button down, pos=(1519,586)
+137.9387 	DATA 	Mouse:  Left button up, pos=(1519,586)
+139.7553 	DATA 	Keypress: return
+139.7572 	DATA 	RatingScale rating: (key response) rating=4
+139.7574 	DATA 	RatingScale rating: rating RT=5.596
+139.7574 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.913), (4, 3.662), (4, 5.596)]
+139.7720 	EXP 	New trial (rep=0, index=31): OrderedDict([('Number', 38), ('Item', u'Am always on the go.'), ('Scoring', u'+'), ('Code', u'E4'), ('Facet', u'Actvity level'), ('Factor', u'Extraversion')])
+139.7773 	EXP 	RatingScale rating: reset()
+139.7868 	EXP 	item: autoDraw = False
+139.7868 	EXP 	rating: autoDraw = False
+139.7868 	EXP 	msgContinue: autoDraw = False
+139.7868 	EXP 	item: text = u'Am always on the go.'
+139.7868 	EXP 	item: autoDraw = True
+139.7868 	EXP 	rating: autoDraw = True
+139.7868 	EXP 	msgContinue: autoDraw = True
+141.1069 	DATA 	Mouse: Left button down, pos=(1469,608)
+141.1755 	DATA 	Mouse:  Left button up, pos=(1469,608)
+141.4083 	DATA 	Keypress: return
+141.4084 	DATA 	RatingScale rating: (key response) rating=4
+141.4085 	DATA 	RatingScale rating: rating RT=1.630
+141.4086 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.33), (4, 1.63)]
+141.4228 	EXP 	New trial (rep=0, index=32): OrderedDict([('Number', 39), ('Item', u'Do a lot in my spare time.'), ('Scoring', u'+'), ('Code', u'E4'), ('Facet', u'Actvity level'), ('Factor', u'Extraversion')])
+141.4279 	EXP 	RatingScale rating: reset()
+141.4380 	EXP 	item: autoDraw = False
+141.4380 	EXP 	rating: autoDraw = False
+141.4380 	EXP 	msgContinue: autoDraw = False
+141.4380 	EXP 	item: text = u'Do a lot in my spare time.'
+141.4380 	EXP 	item: autoDraw = True
+141.4380 	EXP 	rating: autoDraw = True
+141.4380 	EXP 	msgContinue: autoDraw = True
+144.9595 	DATA 	Mouse: Left button down, pos=(1675,610)
+145.0398 	DATA 	Mouse:  Left button up, pos=(1675,610)
+145.6741 	DATA 	Mouse: Left button down, pos=(1767,601)
+145.7603 	DATA 	Mouse:  Left button up, pos=(1767,601)
+146.0076 	DATA 	Keypress: return
+146.0095 	DATA 	RatingScale rating: (key response) rating=5
+146.0097 	DATA 	RatingScale rating: rating RT=4.581
+146.0097 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 3.546), (5, 4.248), (5, 4.581)]
+146.0243 	EXP 	New trial (rep=0, index=33): OrderedDict([('Number', 98), ('Item', u'Excel in what I do.'), ('Scoring', u'+'), ('Code', u'C1'), ('Facet', u'Self-efficacy'), ('Factor', u'Conscientiousness')])
+146.0287 	EXP 	RatingScale rating: reset()
+146.0405 	EXP 	item: autoDraw = False
+146.0405 	EXP 	rating: autoDraw = False
+146.0405 	EXP 	msgContinue: autoDraw = False
+146.0405 	EXP 	item: text = u'Excel in what I do.'
+146.0405 	EXP 	item: autoDraw = True
+146.0405 	EXP 	rating: autoDraw = True
+146.0405 	EXP 	msgContinue: autoDraw = True
+147.4251 	DATA 	Mouse: Left button down, pos=(1695,607)
+147.5433 	DATA 	Mouse:  Left button up, pos=(1695,607)
+148.0926 	DATA 	Mouse: Left button down, pos=(1841,598)
+148.1913 	DATA 	Mouse:  Left button up, pos=(1841,598)
+148.3915 	DATA 	Keypress: return
+148.3936 	DATA 	RatingScale rating: (key response) rating=5
+148.3938 	DATA 	RatingScale rating: rating RT=2.364
+148.3938 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.397), (5, 2.065), (5, 2.364)]
+148.4083 	EXP 	New trial (rep=0, index=34): OrderedDict([('Number', 82), ('Item', u'Love to help others.'), ('Scoring', u'+'), ('Code', u'A3'), ('Facet', u'Altruism'), ('Factor', u'Agreeableness')])
+148.4126 	EXP 	RatingScale rating: reset()
+148.4249 	EXP 	item: autoDraw = False
+148.4249 	EXP 	rating: autoDraw = False
+148.4249 	EXP 	msgContinue: autoDraw = False
+148.4249 	EXP 	item: text = u'Love to help others.'
+148.4249 	EXP 	item: autoDraw = True
+148.4249 	EXP 	rating: autoDraw = True
+148.4249 	EXP 	msgContinue: autoDraw = True
+150.0582 	DATA 	Mouse: Left button down, pos=(1687,584)
+150.1256 	DATA 	Mouse:  Left button up, pos=(1687,584)
+152.3927 	DATA 	Keypress: return
+152.3946 	DATA 	RatingScale rating: (key response) rating=4
+152.3948 	DATA 	RatingScale rating: rating RT=3.981
+152.3948 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.646), (4, 3.981)]
+152.4097 	EXP 	New trial (rep=0, index=35): OrderedDict([('Number', 74), ('Item', u'Believe that others have good intentions.'), ('Scoring', u'+'), ('Code', u'A1'), ('Facet', u'Trust'), ('Factor', u'Agreeableness')])
+152.4156 	EXP 	RatingScale rating: reset()
+152.4248 	EXP 	item: autoDraw = False
+152.4248 	EXP 	rating: autoDraw = False
+152.4248 	EXP 	msgContinue: autoDraw = False
+152.4248 	EXP 	item: text = u'Believe that others have good intentions.'
+152.4248 	EXP 	item: autoDraw = True
+152.4248 	EXP 	rating: autoDraw = True
+152.4248 	EXP 	msgContinue: autoDraw = True
+155.1281 	DATA 	Mouse: Left button down, pos=(1618,594)
+155.1927 	DATA 	Mouse:  Left button up, pos=(1618,594)
+155.4439 	DATA 	Keypress: return
+155.4458 	DATA 	RatingScale rating: (key response) rating=4
+155.4459 	DATA 	RatingScale rating: rating RT=3.029
+155.4459 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 2.712), (4, 3.029)]
+155.4604 	EXP 	New trial (rep=0, index=36): OrderedDict([('Number', 117), ('Item', u'Jump into things without thinking.'), ('Scoring', u'-'), ('Code', u'C6'), ('Facet', u'Cautiousness'), ('Factor', u'Conscientiousness')])
+155.4675 	EXP 	RatingScale rating: reset()
+155.4751 	EXP 	item: autoDraw = False
+155.4751 	EXP 	rating: autoDraw = False
+155.4751 	EXP 	msgContinue: autoDraw = False
+155.4751 	EXP 	item: text = u'Jump into things without thinking.'
+155.4751 	EXP 	item: autoDraw = True
+155.4751 	EXP 	rating: autoDraw = True
+155.4751 	EXP 	msgContinue: autoDraw = True
+157.7447 	DATA 	Mouse: Left button down, pos=(1341,601)
+157.8447 	DATA 	Mouse:  Left button up, pos=(1341,601)
+161.2967 	DATA 	Mouse: Left button down, pos=(744,608)
+161.3458 	DATA 	Mouse:  Left button up, pos=(744,608)
+161.5961 	DATA 	Keypress: return
+161.5982 	DATA 	RatingScale rating: (key response) rating=1
+161.5983 	DATA 	RatingScale rating: rating RT=6.130
+161.5983 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 2.278), (1, 5.83), (1, 6.13)]
+161.6128 	EXP 	New trial (rep=0, index=37): OrderedDict([('Number', 50), ('Item', u'Enjoy wild flights of fantasy.'), ('Scoring', u'+'), ('Code', u'O1'), ('Facet', u'Imagination'), ('Factor', u'Openness')])
+161.6182 	EXP 	RatingScale rating: reset()
+161.6277 	EXP 	item: autoDraw = False
+161.6277 	EXP 	rating: autoDraw = False
+161.6277 	EXP 	msgContinue: autoDraw = False
+161.6277 	EXP 	item: text = u'Enjoy wild flights of fantasy.'
+161.6277 	EXP 	item: autoDraw = True
+161.6277 	EXP 	rating: autoDraw = True
+161.6277 	EXP 	msgContinue: autoDraw = True
+165.0308 	DATA 	Mouse: Left button down, pos=(1038,597)
+165.1302 	DATA 	Mouse:  Left button up, pos=(1038,597)
+166.1641 	DATA 	Mouse: Left button down, pos=(814,603)
+166.2298 	DATA 	Mouse:  Left button up, pos=(814,603)
+168.0645 	DATA 	Keypress: return
+168.0665 	DATA 	RatingScale rating: (key response) rating=1
+168.0666 	DATA 	RatingScale rating: rating RT=6.447
+168.0666 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 3.412), (1, 4.547), (1, 6.447)]
+168.0812 	EXP 	New trial (rep=0, index=38): OrderedDict([('Number', 107), ('Item', u'Break rules.'), ('Scoring', u'-'), ('Code', u'C3'), ('Facet', u'Dutifulness'), ('Factor', u'Conscientiousness')])
+168.0850 	EXP 	RatingScale rating: reset()
+168.0969 	EXP 	item: autoDraw = False
+168.0969 	EXP 	rating: autoDraw = False
+168.0969 	EXP 	msgContinue: autoDraw = False
+168.0969 	EXP 	item: text = u'Break rules.'
+168.0969 	EXP 	item: autoDraw = True
+168.0969 	EXP 	rating: autoDraw = True
+168.0969 	EXP 	msgContinue: autoDraw = True
+170.3507 	DATA 	Mouse: Left button down, pos=(993,593)
+170.4481 	DATA 	Mouse:  Left button up, pos=(993,593)
+173.0503 	DATA 	Mouse: Left button down, pos=(1340,582)
+173.1654 	DATA 	Mouse:  Left button up, pos=(1340,582)
+173.4326 	DATA 	Keypress: return
+173.4345 	DATA 	RatingScale rating: (key response) rating=3
+173.4346 	DATA 	RatingScale rating: rating RT=5.349
+173.4346 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 2.28), (3, 4.967), (3, 5.349)]
+173.4495 	EXP 	New trial (rep=0, index=39): OrderedDict([('Number', 4), ('Item', u'Get stressed out easily.'), ('Scoring', u'+'), ('Code', u'N1'), ('Facet', u'Anxiety'), ('Factor', u'Neuroticism')])
+173.4540 	EXP 	RatingScale rating: reset()
+173.4652 	EXP 	item: autoDraw = False
+173.4652 	EXP 	rating: autoDraw = False
+173.4652 	EXP 	msgContinue: autoDraw = False
+173.4652 	EXP 	item: text = u'Get stressed out easily.'
+173.4652 	EXP 	item: autoDraw = True
+173.4652 	EXP 	rating: autoDraw = True
+173.4652 	EXP 	msgContinue: autoDraw = True
+175.1995 	DATA 	Mouse: Left button down, pos=(863,584)
+175.2994 	DATA 	Mouse:  Left button up, pos=(863,584)
+177.6678 	DATA 	Keypress: return
+177.6696 	DATA 	RatingScale rating: (key response) rating=2
+177.6697 	DATA 	RatingScale rating: rating RT=4.215
+177.6697 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.746), (2, 4.215)]
+177.6839 	EXP 	New trial (rep=0, index=40): OrderedDict([('Number', 96), ('Item', u'Try not to think about the needy.'), ('Scoring', u'-'), ('Code', u'A6'), ('Facet', u'Sympathy'), ('Factor', u'Agreeableness')])
+177.6889 	EXP 	RatingScale rating: reset()
+177.6998 	EXP 	item: autoDraw = False
+177.6998 	EXP 	rating: autoDraw = False
+177.6998 	EXP 	msgContinue: autoDraw = False
+177.6998 	EXP 	item: text = u'Try not to think about the needy.'
+177.6998 	EXP 	item: autoDraw = True
+177.6998 	EXP 	rating: autoDraw = True
+177.6998 	EXP 	msgContinue: autoDraw = True
+180.6849 	DATA 	Mouse: Left button down, pos=(1535,583)
+180.7846 	DATA 	Mouse:  Left button up, pos=(1535,583)
+182.5191 	DATA 	Mouse: Left button down, pos=(1016,599)
+182.5859 	DATA 	Mouse:  Left button up, pos=(1016,599)
+183.4387 	DATA 	Keypress: return
+183.4534 	DATA 	RatingScale rating: (key response) rating=2
+183.4535 	DATA 	RatingScale rating: rating RT=5.764
+183.4535 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 2.997), (2, 4.831), (2, 5.764)]
+183.4690 	EXP 	New trial (rep=0, index=41): OrderedDict([('Number', 36), ('Item', u'Wait for others to lead the way.'), ('Scoring', u'-'), ('Code', u'E3'), ('Facet', u'Assertiveness'), ('Factor', u'Extraversion')])
+183.4743 	EXP 	RatingScale rating: reset()
+183.4842 	EXP 	item: autoDraw = False
+183.4842 	EXP 	rating: autoDraw = False
+183.4842 	EXP 	msgContinue: autoDraw = False
+183.4842 	EXP 	item: text = u'Wait for others to lead the way.'
+183.4842 	EXP 	item: autoDraw = True
+183.4842 	EXP 	rating: autoDraw = True
+183.4842 	EXP 	msgContinue: autoDraw = True
+187.5542 	DATA 	Mouse: Left button down, pos=(849,571)
+187.6368 	DATA 	Mouse:  Left button up, pos=(849,571)
+188.7043 	DATA 	Mouse: Left button down, pos=(755,593)
+188.7881 	DATA 	Mouse:  Left button up, pos=(755,593)
+189.5543 	DATA 	Keypress: return
+189.5564 	DATA 	RatingScale rating: (key response) rating=1
+189.5565 	DATA 	RatingScale rating: rating RT=6.081
+189.5566 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 4.081), (1, 5.231), (1, 6.081)]
+189.5710 	EXP 	New trial (rep=0, index=42): OrderedDict([('Number', 83), ('Item', u'Am indifferent to the feelings of others.'), ('Scoring', u'-'), ('Code', u'A3'), ('Facet', u'Altruism'), ('Factor', u'Agreeableness')])
+189.5768 	EXP 	RatingScale rating: reset()
+189.5861 	EXP 	item: autoDraw = False
+189.5861 	EXP 	rating: autoDraw = False
+189.5861 	EXP 	msgContinue: autoDraw = False
+189.5861 	EXP 	item: text = u'Am indifferent to the feelings of others.'
+189.5861 	EXP 	item: autoDraw = True
+189.5861 	EXP 	rating: autoDraw = True
+189.5861 	EXP 	msgContinue: autoDraw = True
+192.7914 	DATA 	Mouse: Left button down, pos=(857,572)
+192.8891 	DATA 	Mouse:  Left button up, pos=(853,572)
+193.0723 	DATA 	Keypress: return
+193.0743 	DATA 	RatingScale rating: (key response) rating=2
+193.0744 	DATA 	RatingScale rating: rating RT=3.497
+193.0744 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 3.214), (2, 3.497)]
+193.0886 	EXP 	New trial (rep=0, index=43): OrderedDict([('Number', 86), ('Item', u'Yell at people.'), ('Scoring', u'-'), ('Code', u'A4'), ('Facet', u'Cooperation'), ('Factor', u'Agreeableness')])
+193.0933 	EXP 	RatingScale rating: reset()
+193.1045 	EXP 	item: autoDraw = False
+193.1045 	EXP 	rating: autoDraw = False
+193.1045 	EXP 	msgContinue: autoDraw = False
+193.1045 	EXP 	item: text = u'Yell at people.'
+193.1045 	EXP 	item: autoDraw = True
+193.1045 	EXP 	rating: autoDraw = True
+193.1045 	EXP 	msgContinue: autoDraw = True
+196.3425 	DATA 	Mouse: Left button down, pos=(963,583)
+196.4566 	DATA 	Mouse:  Left button up, pos=(963,583)
+197.2744 	DATA 	Mouse: Left button down, pos=(961,584)
+197.4404 	DATA 	Mouse:  Left button up, pos=(960,585)
+198.1907 	DATA 	Mouse: Left button down, pos=(735,598)
+198.2904 	DATA 	Mouse:  Left button up, pos=(735,598)
+198.6409 	DATA 	Keypress: return
+198.6428 	DATA 	RatingScale rating: (key response) rating=1
+198.6430 	DATA 	RatingScale rating: rating RT=5.548
+198.6430 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 3.248), (1, 5.098), (1, 5.548)]
+198.6577 	EXP 	New trial (rep=0, index=44): OrderedDict([('Number', 70), ('Item', u'Believe that there is no absolute right and wrong.'), ('Scoring', u'+'), ('Code', u'O6'), ('Facet', u'Liberalism'), ('Factor', u'Openness')])
+198.6648 	EXP 	RatingScale rating: reset()
+198.6724 	EXP 	item: autoDraw = False
+198.6724 	EXP 	rating: autoDraw = False
+198.6724 	EXP 	msgContinue: autoDraw = False
+198.6724 	EXP 	item: text = u'Believe that there is no absolute right and wrong.'
+198.6724 	EXP 	item: autoDraw = True
+198.6724 	EXP 	rating: autoDraw = True
+198.6724 	EXP 	msgContinue: autoDraw = True
+204.3437 	DATA 	Mouse: Left button down, pos=(1027,585)
+204.4593 	DATA 	Mouse:  Left button up, pos=(1027,585)
+208.3440 	DATA 	Mouse: Left button down, pos=(1232,589)
+208.4627 	DATA 	Mouse:  Left button up, pos=(1232,589)
+208.8273 	DATA 	Keypress: return
+208.8292 	DATA 	RatingScale rating: (key response) rating=3
+208.8293 	DATA 	RatingScale rating: rating RT=10.163
+208.8293 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 5.678), (3, 9.68), (3, 10.163)]
+208.8441 	EXP 	New trial (rep=0, index=45): OrderedDict([('Number', 56), ('Item', u'Do not enjoy going to art museums.'), ('Scoring', u'-'), ('Code', u'O2'), ('Facet', u'Artistic interests'), ('Factor', u'Openness')])
+208.8495 	EXP 	RatingScale rating: reset()
+208.8588 	EXP 	item: autoDraw = False
+208.8588 	EXP 	rating: autoDraw = False
+208.8588 	EXP 	msgContinue: autoDraw = False
+208.8588 	EXP 	item: text = u'Do not enjoy going to art museums.'
+208.8588 	EXP 	item: autoDraw = True
+208.8588 	EXP 	rating: autoDraw = True
+208.8588 	EXP 	msgContinue: autoDraw = True
+211.1781 	DATA 	Mouse: Left button down, pos=(1213,593)
+211.2775 	DATA 	Mouse:  Left button up, pos=(1213,593)
+211.4944 	DATA 	Keypress: return
+211.4963 	DATA 	RatingScale rating: (key response) rating=3
+211.4964 	DATA 	RatingScale rating: rating RT=2.646
+211.4964 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 2.33), (3, 2.646)]
+211.5114 	EXP 	New trial (rep=0, index=46): OrderedDict([('Number', 7), ('Item', u'Lose my temper.'), ('Scoring', u'+'), ('Code', u'N2'), ('Facet', u'Anger'), ('Factor', u'Neuroticism')])
+211.5154 	EXP 	RatingScale rating: reset()
+211.5277 	EXP 	item: autoDraw = False
+211.5277 	EXP 	rating: autoDraw = False
+211.5277 	EXP 	msgContinue: autoDraw = False
+211.5277 	EXP 	item: text = u'Lose my temper.'
+211.5277 	EXP 	item: autoDraw = True
+211.5277 	EXP 	rating: autoDraw = True
+211.5277 	EXP 	msgContinue: autoDraw = True
+213.6123 	DATA 	Mouse: Left button down, pos=(834,611)
+213.6948 	DATA 	Mouse:  Left button up, pos=(839,611)
+213.9293 	DATA 	Keypress: return
+213.9312 	DATA 	RatingScale rating: (key response) rating=1
+213.9313 	DATA 	RatingScale rating: rating RT=2.415
+213.9313 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 2.098), (1, 2.415)]
+213.9456 	EXP 	New trial (rep=0, index=47): OrderedDict([('Number', 52), ('Item', u'Like to get lost in thought.'), ('Scoring', u'+'), ('Code', u'O1'), ('Facet', u'Imagination'), ('Factor', u'Openness')])
+213.9503 	EXP 	RatingScale rating: reset()
+213.9605 	EXP 	item: autoDraw = False
+213.9605 	EXP 	rating: autoDraw = False
+213.9605 	EXP 	msgContinue: autoDraw = False
+213.9605 	EXP 	item: text = u'Like to get lost in thought.'
+213.9605 	EXP 	item: autoDraw = True
+213.9605 	EXP 	rating: autoDraw = True
+213.9605 	EXP 	msgContinue: autoDraw = True
+216.4637 	DATA 	Mouse: Left button down, pos=(1586,596)
+216.5302 	DATA 	Mouse:  Left button up, pos=(1586,596)
+218.2796 	DATA 	Keypress: return
+218.2817 	DATA 	RatingScale rating: (key response) rating=4
+218.2818 	DATA 	RatingScale rating: rating RT=4.331
+218.2818 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 2.514), (4, 4.33)]
+218.2968 	EXP 	New trial (rep=0, index=48): OrderedDict([('Number', 17), ('Item', u'Go on binges.'), ('Scoring', u'+'), ('Code', u'N5'), ('Facet', u'Immoderation'), ('Factor', u'Neuroticism')])
+218.3006 	EXP 	RatingScale rating: reset()
+218.3126 	EXP 	item: autoDraw = False
+218.3126 	EXP 	rating: autoDraw = False
+218.3126 	EXP 	msgContinue: autoDraw = False
+218.3126 	EXP 	item: text = u'Go on binges.'
+218.3126 	EXP 	item: autoDraw = True
+218.3126 	EXP 	rating: autoDraw = True
+218.3126 	EXP 	msgContinue: autoDraw = True
+219.8136 	DATA 	Mouse: Left button down, pos=(1023,614)
+219.8807 	DATA 	Mouse:  Left button up, pos=(1029,614)
+220.2808 	DATA 	Keypress: return
+220.2827 	DATA 	RatingScale rating: (key response) rating=2
+220.2828 	DATA 	RatingScale rating: rating RT=1.981
+220.2828 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.514), (2, 1.981)]
+220.2974 	EXP 	New trial (rep=0, index=49): OrderedDict([('Number', 63), ('Item', u'Dislike changes.'), ('Scoring', u'-'), ('Code', u'O4'), ('Facet', u'Adventurousness'), ('Factor', u'Openness')])
+220.3012 	EXP 	RatingScale rating: reset()
+220.3139 	EXP 	item: autoDraw = False
+220.3139 	EXP 	rating: autoDraw = False
+220.3139 	EXP 	msgContinue: autoDraw = False
+220.3139 	EXP 	item: text = u'Dislike changes.'
+220.3139 	EXP 	item: autoDraw = True
+220.3139 	EXP 	rating: autoDraw = True
+220.3139 	EXP 	msgContinue: autoDraw = True
+225.8828 	DATA 	Mouse: Left button down, pos=(1254,580)
+225.9827 	DATA 	Mouse:  Left button up, pos=(1254,580)
+227.0668 	DATA 	Keypress: return
+227.0686 	DATA 	RatingScale rating: (key response) rating=3
+227.0687 	DATA 	RatingScale rating: rating RT=6.767
+227.0688 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 5.583), (3, 6.767)]
+227.0829 	EXP 	New trial (rep=0, index=50): OrderedDict([('Number', 112), ('Item', u'Do just enough work to get by.'), ('Scoring', u'-'), ('Code', u'C4'), ('Facet', u'Achievement-striving'), ('Factor', u'Conscientiousness')])
+227.0887 	EXP 	RatingScale rating: reset()
+227.0991 	EXP 	item: autoDraw = False
+227.0991 	EXP 	rating: autoDraw = False
+227.0991 	EXP 	msgContinue: autoDraw = False
+227.0991 	EXP 	item: text = u'Do just enough work to get by.'
+227.0991 	EXP 	item: autoDraw = True
+227.0991 	EXP 	rating: autoDraw = True
+227.0991 	EXP 	msgContinue: autoDraw = True
+230.7850 	DATA 	Mouse: Left button down, pos=(768,596)
+230.8335 	DATA 	Mouse:  Left button up, pos=(768,596)
+231.1014 	DATA 	Keypress: return
+231.1038 	DATA 	RatingScale rating: (key response) rating=1
+231.1040 	DATA 	RatingScale rating: rating RT=4.014
+231.1040 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 3.697), (1, 4.014)]
+231.1180 	EXP 	New trial (rep=0, index=51): OrderedDict([('Number', 104), ('Item', u'Leave my belongings around.'), ('Scoring', u'-'), ('Code', u'C2'), ('Facet', u'Orderliness'), ('Factor', u'Conscientiousness')])
+231.1226 	EXP 	RatingScale rating: reset()
+231.1347 	EXP 	item: autoDraw = False
+231.1347 	EXP 	rating: autoDraw = False
+231.1347 	EXP 	msgContinue: autoDraw = False
+231.1347 	EXP 	item: text = u'Leave my belongings around.'
+231.1347 	EXP 	item: autoDraw = True
+231.1347 	EXP 	rating: autoDraw = True
+231.1347 	EXP 	msgContinue: autoDraw = True
+233.4512 	DATA 	Mouse: Left button down, pos=(1012,591)
+233.5851 	DATA 	Mouse:  Left button up, pos=(1012,591)
+233.8191 	DATA 	Keypress: return
+233.8210 	DATA 	RatingScale rating: (key response) rating=2
+233.8211 	DATA 	RatingScale rating: rating RT=2.698
+233.8211 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 2.33), (2, 2.697)]
+233.8342 	EXP 	New trial (rep=0, index=52): OrderedDict([('Number', 85), ('Item', u'Love a good fight.'), ('Scoring', u'-'), ('Code', u'A4'), ('Facet', u'Cooperation'), ('Factor', u'Agreeableness')])
+233.8384 	EXP 	RatingScale rating: reset()
+233.8504 	EXP 	item: autoDraw = False
+233.8504 	EXP 	rating: autoDraw = False
+233.8504 	EXP 	msgContinue: autoDraw = False
+233.8504 	EXP 	item: text = u'Love a good fight.'
+233.8504 	EXP 	item: autoDraw = True
+233.8504 	EXP 	rating: autoDraw = True
+233.8504 	EXP 	msgContinue: autoDraw = True
+236.8863 	DATA 	Mouse: Left button down, pos=(1581,581)
+236.9689 	DATA 	Mouse:  Left button up, pos=(1581,581)
+238.0556 	DATA 	Keypress: return
+238.0558 	DATA 	RatingScale rating: (key response) rating=4
+238.0559 	DATA 	RatingScale rating: rating RT=4.217
+238.0559 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 3.049), (4, 4.217)]
+238.0704 	EXP 	New trial (rep=0, index=53): OrderedDict([('Number', 57), ('Item', u'Experience my emotions intensely.'), ('Scoring', u'+'), ('Code', u'O3'), ('Facet', u'Emotionality'), ('Factor', u'Openness')])
+238.0753 	EXP 	RatingScale rating: reset()
+238.0858 	EXP 	item: autoDraw = False
+238.0858 	EXP 	rating: autoDraw = False
+238.0858 	EXP 	msgContinue: autoDraw = False
+238.0858 	EXP 	item: text = u'Experience my emotions intensely.'
+238.0858 	EXP 	item: autoDraw = True
+238.0858 	EXP 	rating: autoDraw = True
+238.0858 	EXP 	msgContinue: autoDraw = True
+241.8059 	DATA 	Mouse: Left button down, pos=(1099,600)
+241.9215 	DATA 	Mouse:  Left button up, pos=(1099,600)
+243.1880 	DATA 	Keypress: return
+243.1897 	DATA 	RatingScale rating: (key response) rating=2
+243.1898 	DATA 	RatingScale rating: rating RT=5.114
+243.1898 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 3.73), (2, 5.114)]
+243.2046 	EXP 	New trial (rep=0, index=54): OrderedDict([('Number', 30), ('Item', u'Talk to a lot of different people at parties.'), ('Scoring', u'+'), ('Code', u'E2'), ('Facet', u'Gregariousness'), ('Factor', u'Extraversion')])
+243.2109 	EXP 	RatingScale rating: reset()
+243.2205 	EXP 	item: autoDraw = False
+243.2205 	EXP 	rating: autoDraw = False
+243.2205 	EXP 	msgContinue: autoDraw = False
+243.2205 	EXP 	item: text = u'Talk to a lot of different people at parties.'
+243.2205 	EXP 	item: autoDraw = True
+243.2205 	EXP 	rating: autoDraw = True
+243.2205 	EXP 	msgContinue: autoDraw = True
+247.2226 	DATA 	Mouse: Left button down, pos=(1844,595)
+247.2726 	DATA 	Mouse:  Left button up, pos=(1844,595)
+247.5902 	DATA 	Keypress: return
+247.5922 	DATA 	RatingScale rating: (key response) rating=5
+247.5923 	DATA 	RatingScale rating: rating RT=4.380
+247.5923 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 4.013), (5, 4.38)]
+247.6066 	EXP 	New trial (rep=0, index=55): OrderedDict([('Number', 100), ('Item', u'Know how to get things done.'), ('Scoring', u'+'), ('Code', u'C1'), ('Facet', u'Self-efficacy'), ('Factor', u'Conscientiousness')])
+247.6128 	EXP 	RatingScale rating: reset()
+247.6215 	EXP 	item: autoDraw = False
+247.6215 	EXP 	rating: autoDraw = False
+247.6215 	EXP 	msgContinue: autoDraw = False
+247.6215 	EXP 	item: text = u'Know how to get things done.'
+247.6215 	EXP 	item: autoDraw = True
+247.6215 	EXP 	rating: autoDraw = True
+247.6215 	EXP 	msgContinue: autoDraw = True
+249.2727 	DATA 	Mouse: Left button down, pos=(1567,598)
+249.3396 	DATA 	Mouse:  Left button up, pos=(1567,598)
+249.7731 	DATA 	Mouse: Left button down, pos=(1744,593)
+249.8896 	DATA 	Mouse:  Left button up, pos=(1744,593)
+250.1230 	DATA 	Keypress: return
+250.1249 	DATA 	RatingScale rating: (key response) rating=5
+250.1251 	DATA 	RatingScale rating: rating RT=2.511
+250.1251 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.66), (5, 2.161), (5, 2.511)]
+250.1397 	EXP 	New trial (rep=0, index=56): OrderedDict([('Number', 55), ('Item', u'Do not like poetry.'), ('Scoring', u'-'), ('Code', u'O2'), ('Facet', u'Artistic interests'), ('Factor', u'Openness')])
+250.1442 	EXP 	RatingScale rating: reset()
+250.1566 	EXP 	item: autoDraw = False
+250.1566 	EXP 	rating: autoDraw = False
+250.1566 	EXP 	msgContinue: autoDraw = False
+250.1566 	EXP 	item: text = u'Do not like poetry.'
+250.1566 	EXP 	item: autoDraw = True
+250.1566 	EXP 	rating: autoDraw = True
+250.1566 	EXP 	msgContinue: autoDraw = True
+251.7741 	DATA 	Mouse: Left button down, pos=(1317,605)
+251.8233 	DATA 	Mouse:  Left button up, pos=(1317,605)
+253.6942 	DATA 	Mouse: Left button down, pos=(1042,603)
+253.7589 	DATA 	Mouse:  Left button up, pos=(1042,603)
+254.1251 	DATA 	Keypress: return
+254.1269 	DATA 	RatingScale rating: (key response) rating=2
+254.1270 	DATA 	RatingScale rating: rating RT=3.982
+254.1270 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 1.631), (2, 3.549), (2, 3.982)]
+254.1412 	EXP 	New trial (rep=0, index=57): OrderedDict([('Number', 20), ('Item', u'Am able to control my cravings.'), ('Scoring', u'-'), ('Code', u'N5'), ('Facet', u'Immoderation'), ('Factor', u'Neuroticism')])
+254.1463 	EXP 	RatingScale rating: reset()
+254.1567 	EXP 	item: autoDraw = False
+254.1567 	EXP 	rating: autoDraw = False
+254.1567 	EXP 	msgContinue: autoDraw = False
+254.1567 	EXP 	item: text = u'Am able to control my cravings.'
+254.1567 	EXP 	item: autoDraw = True
+254.1567 	EXP 	rating: autoDraw = True
+254.1567 	EXP 	msgContinue: autoDraw = True
+257.5424 	DATA 	Mouse: Left button down, pos=(1544,596)
+257.5935 	DATA 	Mouse:  Left button up, pos=(1544,596)
+257.7425 	DATA 	Keypress: return
+257.7443 	DATA 	RatingScale rating: (key response) rating=4
+257.7444 	DATA 	RatingScale rating: rating RT=3.597
+257.7444 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 3.397), (4, 3.597)]
+257.7594 	EXP 	New trial (rep=0, index=58): OrderedDict([('Number', 66), ('Item', u'Avoid philosophical discussions.'), ('Scoring', u'-'), ('Code', u'O5'), ('Facet', u'Intellect'), ('Factor', u'Openness')])
+257.7643 	EXP 	RatingScale rating: reset()
+257.7742 	EXP 	item: autoDraw = False
+257.7742 	EXP 	rating: autoDraw = False
+257.7742 	EXP 	msgContinue: autoDraw = False
+257.7742 	EXP 	item: text = u'Avoid philosophical discussions.'
+257.7742 	EXP 	item: autoDraw = True
+257.7742 	EXP 	rating: autoDraw = True
+257.7742 	EXP 	msgContinue: autoDraw = True
+261.1105 	DATA 	Mouse: Left button down, pos=(874,586)
+261.1777 	DATA 	Mouse:  Left button up, pos=(874,586)
+261.7448 	DATA 	Keypress: return
+261.7466 	DATA 	RatingScale rating: (key response) rating=2
+261.7467 	DATA 	RatingScale rating: rating RT=3.981
+261.7467 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 3.347), (2, 3.981)]
+261.7604 	EXP 	New trial (rep=0, index=59): OrderedDict([('Number', 77), ('Item', u'Use others for my own ends.'), ('Scoring', u'-'), ('Code', u'A2'), ('Facet', u'Morality'), ('Factor', u'Agreeableness')])
+261.7672 	EXP 	RatingScale rating: reset()
+261.7766 	EXP 	item: autoDraw = False
+261.7766 	EXP 	rating: autoDraw = False
+261.7766 	EXP 	msgContinue: autoDraw = False
+261.7766 	EXP 	item: text = u'Use others for my own ends.'
+261.7766 	EXP 	item: autoDraw = True
+261.7766 	EXP 	rating: autoDraw = True
+261.7766 	EXP 	msgContinue: autoDraw = True
+264.1774 	DATA 	Mouse: Left button down, pos=(803,590)
+264.2625 	DATA 	Mouse:  Left button up, pos=(803,590)
+264.5776 	DATA 	Keypress: return
+264.5795 	DATA 	RatingScale rating: (key response) rating=1
+264.5796 	DATA 	RatingScale rating: rating RT=2.811
+264.5796 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 2.411), (1, 2.811)]
+264.5945 	EXP 	New trial (rep=0, index=60): OrderedDict([('Number', 16), ('Item', u'Am not bothered by difficult social situations.'), ('Scoring', u'-'), ('Code', u'N4'), ('Facet', u'Self-consciousness'), ('Factor', u'Neuroticism')])
+264.6008 	EXP 	RatingScale rating: reset()
+264.6102 	EXP 	item: autoDraw = False
+264.6102 	EXP 	rating: autoDraw = False
+264.6102 	EXP 	msgContinue: autoDraw = False
+264.6102 	EXP 	item: text = u'Am not bothered by difficult social situations.'
+264.6102 	EXP 	item: autoDraw = True
+264.6102 	EXP 	rating: autoDraw = True
+264.6102 	EXP 	msgContinue: autoDraw = True
+266.5959 	DATA 	Mouse: Left button down, pos=(818,590)
+266.6955 	DATA 	Mouse:  Left button up, pos=(818,590)
+267.1988 	DATA 	Mouse: Left button down, pos=(931,584)
+267.2957 	DATA 	Mouse:  Left button up, pos=(931,584)
+267.9127 	DATA 	Keypress: return
+267.9147 	DATA 	RatingScale rating: (key response) rating=2
+267.9148 	DATA 	RatingScale rating: rating RT=3.311
+267.9148 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 1.994), (2, 2.595), (2, 3.311)]
+267.9289 	EXP 	New trial (rep=0, index=61): OrderedDict([('Number', 8), ('Item', u'Am not easily annoyed.'), ('Scoring', u'-'), ('Code', u'N2'), ('Facet', u'Anger'), ('Factor', u'Neuroticism')])
+267.9346 	EXP 	RatingScale rating: reset()
+267.9442 	EXP 	item: autoDraw = False
+267.9442 	EXP 	rating: autoDraw = False
+267.9442 	EXP 	msgContinue: autoDraw = False
+267.9442 	EXP 	item: text = u'Am not easily annoyed.'
+267.9442 	EXP 	item: autoDraw = True
+267.9442 	EXP 	rating: autoDraw = True
+267.9442 	EXP 	msgContinue: autoDraw = True
+271.9496 	DATA 	Mouse: Left button down, pos=(923,585)
+272.0305 	DATA 	Mouse:  Left button up, pos=(923,585)
+281.5503 	DATA 	Keypress: return
+281.5523 	DATA 	RatingScale rating: (key response) rating=2
+281.5524 	DATA 	RatingScale rating: rating RT=13.617
+281.5524 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 4.03), (2, 13.617)]
+281.5673 	EXP 	New trial (rep=0, index=62): OrderedDict([('Number', 69), ('Item', u'Tend to vote for liberal political candidates.'), ('Scoring', u'+'), ('Code', u'O6'), ('Facet', u'Liberalism'), ('Factor', u'Openness')])
+281.5732 	EXP 	RatingScale rating: reset()
+281.5825 	EXP 	item: autoDraw = False
+281.5825 	EXP 	rating: autoDraw = False
+281.5825 	EXP 	msgContinue: autoDraw = False
+281.5825 	EXP 	item: text = u'Tend to vote for liberal political candidates.'
+281.5825 	EXP 	item: autoDraw = True
+281.5825 	EXP 	rating: autoDraw = True
+281.5825 	EXP 	msgContinue: autoDraw = True
+283.8174 	DATA 	Mouse: Left button down, pos=(956,581)
+283.8696 	DATA 	Mouse:  Left button up, pos=(956,581)
+293.1200 	DATA 	Mouse: Left button down, pos=(1915,593)
+293.2066 	DATA 	Mouse:  Left button up, pos=(1915,592)
+293.5370 	DATA 	Keypress: return
+293.5394 	DATA 	RatingScale rating: (key response) rating=5
+293.5396 	DATA 	RatingScale rating: rating RT=11.966
+293.5396 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 2.245), (5, 11.548), (5, 11.965)]
+293.5541 	EXP 	New trial (rep=0, index=63): OrderedDict([('Number', 75), ('Item', u'Trust what people say.'), ('Scoring', u'+'), ('Code', u'A1'), ('Facet', u'Trust'), ('Factor', u'Agreeableness')])
+293.5595 	EXP 	RatingScale rating: reset()
+293.5693 	EXP 	item: autoDraw = False
+293.5693 	EXP 	rating: autoDraw = False
+293.5693 	EXP 	msgContinue: autoDraw = False
+293.5693 	EXP 	item: text = u'Trust what people say.'
+293.5693 	EXP 	item: autoDraw = True
+293.5693 	EXP 	rating: autoDraw = True
+293.5693 	EXP 	msgContinue: autoDraw = True
+294.9371 	DATA 	Mouse: Left button down, pos=(1013,608)
+295.0057 	DATA 	Mouse:  Left button up, pos=(1013,608)
+296.2069 	DATA 	Keypress: return
+296.2088 	DATA 	RatingScale rating: (key response) rating=2
+296.2089 	DATA 	RatingScale rating: rating RT=2.648
+296.2089 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.378), (2, 2.648)]
+296.2219 	EXP 	New trial (rep=0, index=64): OrderedDict([('Number', 44), ('Item', u'Act wild and crazy.'), ('Scoring', u'+'), ('Code', u'E5'), ('Facet', u'Excitement-seeking'), ('Factor', u'Extraversion')])
+296.2272 	EXP 	RatingScale rating: reset()
+296.2378 	EXP 	item: autoDraw = False
+296.2378 	EXP 	rating: autoDraw = False
+296.2378 	EXP 	msgContinue: autoDraw = False
+296.2378 	EXP 	item: text = u'Act wild and crazy.'
+296.2378 	EXP 	item: autoDraw = True
+296.2378 	EXP 	rating: autoDraw = True
+296.2378 	EXP 	msgContinue: autoDraw = True
+297.0552 	DATA 	Keypress: right
+297.3222 	DATA 	Keypress: left
+298.7558 	DATA 	Keypress: 1
+298.8395 	DATA 	Keypress: 2
+299.0895 	DATA 	Keypress: 3
+299.4223 	DATA 	Keypress: 4
+299.5556 	DATA 	Keypress: 3
+299.6396 	DATA 	Keypress: 2
+299.9226 	DATA 	Keypress: 1
+300.1227 	DATA 	Keypress: 4
+300.3397 	DATA 	Keypress: 3
+300.4059 	DATA 	Keypress: 2
+303.4733 	DATA 	Mouse: Left button down, pos=(1807,592)
+303.5392 	DATA 	Mouse:  Left button up, pos=(1807,592)
+307.0935 	DATA 	Mouse: Left button down, pos=(1007,599)
+307.1748 	DATA 	Mouse:  Left button up, pos=(1007,598)
+309.7102 	DATA 	Keypress: return
+309.7104 	DATA 	RatingScale rating: (key response) rating=2
+309.7105 	DATA 	RatingScale rating: rating RT=13.482
+309.7105 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 2.53), (2, 2.614), (3, 2.864), (4, 3.196), (3, 3.33), (2, 3.414), (1, 3.697), (4, 3.897), (3, 4.114), (2, 4.18), (5, 7.247), (2, 10.866), (2, 13.482)]
+309.7258 	EXP 	New trial (rep=0, index=65): OrderedDict([('Number', 114), ('Item', u'Carry out my plans.'), ('Scoring', u'+'), ('Code', u'C5'), ('Facet', u'Self-discipline'), ('Factor', u'Conscientiousness')])
+309.7301 	EXP 	RatingScale rating: reset()
+309.7407 	EXP 	item: autoDraw = False
+309.7407 	EXP 	rating: autoDraw = False
+309.7407 	EXP 	msgContinue: autoDraw = False
+309.7407 	EXP 	item: text = u'Carry out my plans.'
+309.7407 	EXP 	item: autoDraw = True
+309.7407 	EXP 	rating: autoDraw = True
+309.7407 	EXP 	msgContinue: autoDraw = True
+311.4937 	DATA 	Mouse: Left button down, pos=(1582,590)
+311.5764 	DATA 	Mouse:  Left button up, pos=(1582,590)
+312.2438 	DATA 	Keypress: return
+312.2461 	DATA 	RatingScale rating: (key response) rating=4
+312.2463 	DATA 	RatingScale rating: rating RT=2.515
+312.2463 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.765), (4, 2.515)]
+312.2606 	EXP 	New trial (rep=0, index=66): OrderedDict([('Number', 45), ('Item', u'Radiate joy.'), ('Scoring', u'+'), ('Code', u'E6'), ('Facet', u'Cheerfulness'), ('Factor', u'Extraversion')])
+312.2641 	EXP 	RatingScale rating: reset()
+312.2764 	EXP 	item: autoDraw = False
+312.2764 	EXP 	rating: autoDraw = False
+312.2764 	EXP 	msgContinue: autoDraw = False
+312.2764 	EXP 	item: text = u'Radiate joy.'
+312.2764 	EXP 	item: autoDraw = True
+312.2764 	EXP 	rating: autoDraw = True
+312.2764 	EXP 	msgContinue: autoDraw = True
+319.2296 	DATA 	Mouse: Left button down, pos=(1288,593)
+319.3448 	DATA 	Mouse:  Left button up, pos=(1288,593)
+319.5621 	DATA 	Keypress: return
+319.5642 	DATA 	RatingScale rating: (key response) rating=3
+319.5643 	DATA 	RatingScale rating: rating RT=7.299
+319.5643 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 6.965), (3, 7.299)]
+319.5777 	EXP 	New trial (rep=0, index=67): OrderedDict([('Number', 115), ('Item', u'Waste my time.'), ('Scoring', u'-'), ('Code', u'C5'), ('Facet', u'Self-discipline'), ('Factor', u'Conscientiousness')])
+319.5811 	EXP 	RatingScale rating: reset()
+319.5954 	EXP 	item: autoDraw = False
+319.5954 	EXP 	rating: autoDraw = False
+319.5954 	EXP 	msgContinue: autoDraw = False
+319.5954 	EXP 	item: text = u'Waste my time.'
+319.5954 	EXP 	item: autoDraw = True
+319.5954 	EXP 	rating: autoDraw = True
+319.5954 	EXP 	msgContinue: autoDraw = True
+320.6459 	DATA 	Mouse: Left button down, pos=(1055,614)
+320.7290 	DATA 	Mouse:  Left button up, pos=(1055,614)
+321.9793 	DATA 	Mouse: Left button down, pos=(800,621)
+322.0631 	DATA 	Mouse:  Left button up, pos=(800,621)
+322.3634 	DATA 	Keypress: return
+322.3651 	DATA 	RatingScale rating: (key response) rating=1
+322.3652 	DATA 	RatingScale rating: rating RT=2.783
+322.3652 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.066), (1, 2.399), (1, 2.783)]
+322.3801 	EXP 	New trial (rep=0, index=68): OrderedDict([('Number', 91), ('Item', u'Have a high opinion of myself.'), ('Scoring', u'-'), ('Code', u'A5'), ('Facet', u'Modesty'), ('Factor', u'Agreeableness')])
+322.3846 	EXP 	RatingScale rating: reset()
+322.3959 	EXP 	item: autoDraw = False
+322.3959 	EXP 	rating: autoDraw = False
+322.3959 	EXP 	msgContinue: autoDraw = False
+322.3959 	EXP 	item: text = u'Have a high opinion of myself.'
+322.3959 	EXP 	item: autoDraw = True
+322.3959 	EXP 	rating: autoDraw = True
+322.3959 	EXP 	msgContinue: autoDraw = True
+324.1650 	DATA 	Mouse: Left button down, pos=(1511,612)
+324.2803 	DATA 	Mouse:  Left button up, pos=(1512,612)
+324.4143 	DATA 	Keypress: return
+324.4160 	DATA 	RatingScale rating: (key response) rating=4
+324.4161 	DATA 	RatingScale rating: rating RT=2.031
+324.4161 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.78), (4, 2.031)]
+324.4304 	EXP 	New trial (rep=0, index=69): OrderedDict([('Number', 109), ('Item', u"Do more than what's expected of me."), ('Scoring', u'+'), ('Code', u'C4'), ('Facet', u'Achievement-striving'), ('Factor', u'Conscientiousness')])
+324.4368 	EXP 	RatingScale rating: reset()
+324.4457 	EXP 	item: autoDraw = False
+324.4457 	EXP 	rating: autoDraw = False
+324.4457 	EXP 	msgContinue: autoDraw = False
+324.4457 	EXP 	item: text = u"Do more than what's expected of me."
+324.4457 	EXP 	item: autoDraw = True
+324.4457 	EXP 	rating: autoDraw = True
+324.4457 	EXP 	msgContinue: autoDraw = True
+325.3972 	DATA 	Mouse: Left button down, pos=(1117,632)
+325.4963 	DATA 	Mouse:  Left button up, pos=(1117,632)
+326.8978 	DATA 	Keypress: return
+326.8996 	DATA 	RatingScale rating: (key response) rating=2
+326.8997 	DATA 	RatingScale rating: rating RT=2.462
+326.8997 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 0.961), (2, 2.462)]
+326.9146 	EXP 	New trial (rep=0, index=70): OrderedDict([('Number', 120), ('Item', u'Act without thinking.'), ('Scoring', u'-'), ('Code', u'C6'), ('Facet', u'Cautiousness'), ('Factor', u'Conscientiousness')])
+326.9196 	EXP 	RatingScale rating: reset()
+326.9299 	EXP 	item: autoDraw = False
+326.9299 	EXP 	rating: autoDraw = False
+326.9299 	EXP 	msgContinue: autoDraw = False
+326.9299 	EXP 	item: text = u'Act without thinking.'
+326.9299 	EXP 	item: autoDraw = True
+326.9299 	EXP 	rating: autoDraw = True
+326.9299 	EXP 	msgContinue: autoDraw = True
+329.3172 	DATA 	Mouse: Left button down, pos=(813,610)
+329.3974 	DATA 	Mouse:  Left button up, pos=(813,610)
+329.8647 	DATA 	Keypress: return
+329.8666 	DATA 	RatingScale rating: (key response) rating=1
+329.8667 	DATA 	RatingScale rating: rating RT=2.946
+329.8667 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 2.397), (1, 2.946)]
+329.8817 	EXP 	New trial (rep=0, index=71): OrderedDict([('Number', 106), ('Item', u'Tell the truth.'), ('Scoring', u'+'), ('Code', u'C3'), ('Facet', u'Dutifulness'), ('Factor', u'Conscientiousness')])
+329.8856 	EXP 	RatingScale rating: reset()
+329.8981 	EXP 	item: autoDraw = False
+329.8981 	EXP 	rating: autoDraw = False
+329.8981 	EXP 	msgContinue: autoDraw = False
+329.8981 	EXP 	item: text = u'Tell the truth.'
+329.8981 	EXP 	item: autoDraw = True
+329.8981 	EXP 	rating: autoDraw = True
+329.8981 	EXP 	msgContinue: autoDraw = True
+332.0497 	DATA 	Mouse: Left button down, pos=(1199,603)
+332.1495 	DATA 	Mouse:  Left button up, pos=(1199,603)
+339.9849 	DATA 	Mouse: Left button down, pos=(1559,620)
+340.0538 	DATA 	Mouse:  Left button up, pos=(1559,620)
+341.3192 	DATA 	Keypress: return
+341.3211 	DATA 	RatingScale rating: (key response) rating=4
+341.3212 	DATA 	RatingScale rating: rating RT=11.435
+341.3212 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 2.165), (4, 10.1), (4, 11.435)]
+341.3370 	EXP 	New trial (rep=0, index=72): OrderedDict([('Number', 61), ('Item', u'Prefer variety to routine.'), ('Scoring', u'+'), ('Code', u'O4'), ('Facet', u'Adventurousness'), ('Factor', u'Openness')])
+341.3415 	EXP 	RatingScale rating: reset()
+341.3512 	EXP 	item: autoDraw = False
+341.3512 	EXP 	rating: autoDraw = False
+341.3512 	EXP 	msgContinue: autoDraw = False
+341.3512 	EXP 	item: text = u'Prefer variety to routine.'
+341.3512 	EXP 	item: autoDraw = True
+341.3512 	EXP 	rating: autoDraw = True
+341.3512 	EXP 	msgContinue: autoDraw = True
+345.9052 	DATA 	Mouse: Left button down, pos=(1091,630)
+345.9544 	DATA 	Mouse:  Left button up, pos=(1091,630)
+353.5416 	DATA 	Keypress: return
+353.5418 	DATA 	RatingScale rating: (key response) rating=2
+353.5419 	DATA 	RatingScale rating: rating RT=12.199
+353.5419 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 4.564), (2, 12.199)]
+353.5558 	EXP 	New trial (rep=0, index=73): OrderedDict([('Number', 10), ('Item', u'Dislike myself.'), ('Scoring', u'+'), ('Code', u'N3'), ('Facet', u'Depression'), ('Factor', u'Neuroticism')])
+353.5597 	EXP 	RatingScale rating: reset()
+353.5719 	EXP 	item: autoDraw = False
+353.5719 	EXP 	rating: autoDraw = False
+353.5719 	EXP 	msgContinue: autoDraw = False
+353.5719 	EXP 	item: text = u'Dislike myself.'
+353.5719 	EXP 	item: autoDraw = True
+353.5719 	EXP 	rating: autoDraw = True
+353.5719 	EXP 	msgContinue: autoDraw = True
+354.7227 	DATA 	Mouse: Left button down, pos=(1293,632)
+354.8226 	DATA 	Mouse:  Left button up, pos=(1293,632)
+355.9256 	DATA 	Mouse: Left button down, pos=(797,615)
+356.0070 	DATA 	Mouse:  Left button up, pos=(797,615)
+356.4250 	DATA 	Keypress: return
+356.4270 	DATA 	RatingScale rating: (key response) rating=1
+356.4271 	DATA 	RatingScale rating: rating RT=2.866
+356.4271 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 1.164), (1, 2.365), (1, 2.866)]
+356.4402 	EXP 	New trial (rep=0, index=74): OrderedDict([('Number', 48), ('Item', u'Look at the bright side of life.'), ('Scoring', u'+'), ('Code', u'E6'), ('Facet', u'Cheerfulness'), ('Factor', u'Extraversion')])
+356.4456 	EXP 	RatingScale rating: reset()
+356.4567 	EXP 	item: autoDraw = False
+356.4567 	EXP 	rating: autoDraw = False
+356.4567 	EXP 	msgContinue: autoDraw = False
+356.4567 	EXP 	item: text = u'Look at the bright side of life.'
+356.4567 	EXP 	item: autoDraw = True
+356.4567 	EXP 	rating: autoDraw = True
+356.4567 	EXP 	msgContinue: autoDraw = True
+362.6099 	DATA 	Mouse: Left button down, pos=(1817,642)
+362.7253 	DATA 	Mouse:  Left button up, pos=(1817,641)
+363.1263 	DATA 	Keypress: return
+363.1284 	DATA 	RatingScale rating: (key response) rating=5
+363.1285 	DATA 	RatingScale rating: rating RT=6.682
+363.1285 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 6.165), (5, 6.682)]
+363.1428 	EXP 	New trial (rep=0, index=75): OrderedDict([('Number', 76), ('Item', u'Distrust people.'), ('Scoring', u'-'), ('Code', u'A1'), ('Facet', u'Trust'), ('Factor', u'Agreeableness')])
+363.1471 	EXP 	RatingScale rating: reset()
+363.1578 	EXP 	item: autoDraw = False
+363.1578 	EXP 	rating: autoDraw = False
+363.1578 	EXP 	msgContinue: autoDraw = False
+363.1578 	EXP 	item: text = u'Distrust people.'
+363.1578 	EXP 	item: autoDraw = True
+363.1578 	EXP 	rating: autoDraw = True
+363.1578 	EXP 	msgContinue: autoDraw = True
+538.1321 	DATA 	Mouse: Left button down, pos=(628,610)
+538.2143 	DATA 	Mouse:  Left button up, pos=(628,610)
+538.5141 	DATA 	Mouse: Left button down, pos=(715,601)
+538.6142 	DATA 	Mouse:  Left button up, pos=(719,601)
+539.6316 	DATA 	Keypress: return
+539.6335 	DATA 	RatingScale rating: (key response) rating=1
+539.6336 	DATA 	RatingScale rating: rating RT=176.485
+539.6336 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 175.368), (1, 176.485)]
+539.6483 	EXP 	New trial (rep=0, index=76): OrderedDict([('Number', 65), ('Item', u'Love to read challenging material.'), ('Scoring', u'+'), ('Code', u'O5'), ('Facet', u'Intellect'), ('Factor', u'Openness')])
+539.6539 	EXP 	RatingScale rating: reset()
+539.6633 	EXP 	item: autoDraw = False
+539.6633 	EXP 	rating: autoDraw = False
+539.6633 	EXP 	msgContinue: autoDraw = False
+539.6633 	EXP 	item: text = u'Love to read challenging material.'
+539.6633 	EXP 	item: autoDraw = True
+539.6633 	EXP 	rating: autoDraw = True
+539.6633 	EXP 	msgContinue: autoDraw = True
+541.5822 	DATA 	Mouse: Left button down, pos=(1572,595)
+541.6675 	DATA 	Mouse:  Left button up, pos=(1572,595)
+541.9324 	DATA 	Keypress: return
+541.9342 	DATA 	RatingScale rating: (key response) rating=4
+541.9343 	DATA 	RatingScale rating: rating RT=2.279
+541.9344 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.929), (4, 2.279)]
+541.9501 	EXP 	New trial (rep=0, index=77): OrderedDict([('Number', 97), ('Item', u'Complete tasks successfully.'), ('Scoring', u'+'), ('Code', u'C1'), ('Facet', u'Self-efficacy'), ('Factor', u'Conscientiousness')])
+541.9552 	EXP 	RatingScale rating: reset()
+541.9644 	EXP 	item: autoDraw = False
+541.9644 	EXP 	rating: autoDraw = False
+541.9644 	EXP 	msgContinue: autoDraw = False
+541.9644 	EXP 	item: text = u'Complete tasks successfully.'
+541.9644 	EXP 	item: autoDraw = True
+541.9644 	EXP 	rating: autoDraw = True
+541.9644 	EXP 	msgContinue: autoDraw = True
+544.7665 	DATA 	Mouse: Left button down, pos=(1842,599)
+544.8521 	DATA 	Mouse:  Left button up, pos=(1842,599)
+545.0354 	DATA 	Keypress: return
+545.0356 	DATA 	RatingScale rating: (key response) rating=5
+545.0357 	DATA 	RatingScale rating: rating RT=3.080
+545.0357 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 2.812), (5, 3.079)]
+545.0506 	EXP 	New trial (rep=0, index=78): OrderedDict([('Number', 103), ('Item', u'Leave a mess in my room.'), ('Scoring', u'-'), ('Code', u'C2'), ('Facet', u'Orderliness'), ('Factor', u'Conscientiousness')])
+545.0553 	EXP 	RatingScale rating: reset()
+545.0656 	EXP 	item: autoDraw = False
+545.0656 	EXP 	rating: autoDraw = False
+545.0656 	EXP 	msgContinue: autoDraw = False
+545.0656 	EXP 	item: text = u'Leave a mess in my room.'
+545.0656 	EXP 	item: autoDraw = True
+545.0656 	EXP 	rating: autoDraw = True
+545.0656 	EXP 	msgContinue: autoDraw = True
+546.5674 	DATA 	Mouse: Left button down, pos=(1020,599)
+546.6193 	DATA 	Mouse:  Left button up, pos=(1020,599)
+546.7508 	DATA 	Keypress: return
+546.7528 	DATA 	RatingScale rating: (key response) rating=2
+546.7529 	DATA 	RatingScale rating: rating RT=1.696
+546.7529 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.513), (2, 1.696)]
+546.7676 	EXP 	New trial (rep=0, index=79): OrderedDict([('Number', 110), ('Item', u'Work hard.'), ('Scoring', u'+'), ('Code', u'C4'), ('Facet', u'Achievement-striving'), ('Factor', u'Conscientiousness')])
+546.7710 	EXP 	RatingScale rating: reset()
+546.7838 	EXP 	item: autoDraw = False
+546.7838 	EXP 	rating: autoDraw = False
+546.7838 	EXP 	msgContinue: autoDraw = False
+546.7838 	EXP 	item: text = u'Work hard.'
+546.7838 	EXP 	item: autoDraw = True
+546.7838 	EXP 	rating: autoDraw = True
+546.7838 	EXP 	msgContinue: autoDraw = True
+547.9345 	DATA 	Mouse: Left button down, pos=(1934,592)
+548.0358 	DATA 	Mouse:  Left button up, pos=(1935,592)
+548.4514 	DATA 	Mouse: Left button down, pos=(1879,592)
+548.5675 	DATA 	Mouse:  Left button up, pos=(1879,593)
+548.7015 	DATA 	Keypress: return
+548.7031 	DATA 	RatingScale rating: (key response) rating=5
+548.7032 	DATA 	RatingScale rating: rating RT=1.931
+548.7032 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 1.681), (5, 1.931)]
+548.7178 	EXP 	New trial (rep=0, index=80): OrderedDict([('Number', 14), ('Item', u'Am afraid to draw attention to myself.'), ('Scoring', u'+'), ('Code', u'N4'), ('Facet', u'Self-consciousness'), ('Factor', u'Neuroticism')])
+548.7249 	EXP 	RatingScale rating: reset()
+548.7331 	EXP 	item: autoDraw = False
+548.7331 	EXP 	rating: autoDraw = False
+548.7331 	EXP 	msgContinue: autoDraw = False
+548.7331 	EXP 	item: text = u'Am afraid to draw attention to myself.'
+548.7331 	EXP 	item: autoDraw = True
+548.7331 	EXP 	rating: autoDraw = True
+548.7331 	EXP 	msgContinue: autoDraw = True
+550.7678 	DATA 	Mouse: Left button down, pos=(728,595)
+550.8200 	DATA 	Mouse:  Left button up, pos=(728,595)
+550.9875 	DATA 	Keypress: return
+550.9877 	DATA 	RatingScale rating: (key response) rating=1
+550.9878 	DATA 	RatingScale rating: rating RT=2.262
+550.9878 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 2.044), (1, 2.262)]
+551.0021 	EXP 	New trial (rep=0, index=81): OrderedDict([('Number', 42), ('Item', u'Seek adventure.'), ('Scoring', u'+'), ('Code', u'E5'), ('Facet', u'Excitement-seeking'), ('Factor', u'Extraversion')])
+551.0059 	EXP 	RatingScale rating: reset()
+551.0181 	EXP 	item: autoDraw = False
+551.0181 	EXP 	rating: autoDraw = False
+551.0181 	EXP 	msgContinue: autoDraw = False
+551.0181 	EXP 	item: text = u'Seek adventure.'
+551.0181 	EXP 	item: autoDraw = True
+551.0181 	EXP 	rating: autoDraw = True
+551.0181 	EXP 	msgContinue: autoDraw = True
+552.5198 	DATA 	Mouse: Left button down, pos=(951,591)
+552.6357 	DATA 	Mouse:  Left button up, pos=(951,591)
+552.8698 	DATA 	Keypress: return
+552.8717 	DATA 	RatingScale rating: (key response) rating=2
+552.8718 	DATA 	RatingScale rating: rating RT=1.865
+552.8718 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.515), (2, 1.865)]
+552.8868 	EXP 	New trial (rep=0, index=82): OrderedDict([('Number', 33), ('Item', u'Take charge.'), ('Scoring', u'+'), ('Code', u'E3'), ('Facet', u'Assertiveness'), ('Factor', u'Extraversion')])
+552.8903 	EXP 	RatingScale rating: reset()
+552.9032 	EXP 	item: autoDraw = False
+552.9032 	EXP 	rating: autoDraw = False
+552.9032 	EXP 	msgContinue: autoDraw = False
+552.9032 	EXP 	item: text = u'Take charge.'
+552.9032 	EXP 	item: autoDraw = True
+552.9032 	EXP 	rating: autoDraw = True
+552.9032 	EXP 	msgContinue: autoDraw = True
+554.4368 	DATA 	Mouse: Left button down, pos=(1786,594)
+554.5875 	DATA 	Mouse:  Left button up, pos=(1786,594)
+554.7228 	DATA 	Keypress: return
+554.7372 	DATA 	RatingScale rating: (key response) rating=5
+554.7373 	DATA 	RatingScale rating: rating RT=1.846
+554.7373 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 1.547), (5, 1.846)]
+554.7531 	EXP 	New trial (rep=0, index=83): OrderedDict([('Number', 19), ('Item', u'Easily resist temptations.'), ('Scoring', u'-'), ('Code', u'N5'), ('Facet', u'Immoderation'), ('Factor', u'Neuroticism')])
+554.7576 	EXP 	RatingScale rating: reset()
+554.7695 	EXP 	item: autoDraw = False
+554.7695 	EXP 	rating: autoDraw = False
+554.7695 	EXP 	msgContinue: autoDraw = False
+554.7695 	EXP 	item: text = u'Easily resist temptations.'
+554.7695 	EXP 	item: autoDraw = True
+554.7695 	EXP 	rating: autoDraw = True
+554.7695 	EXP 	msgContinue: autoDraw = True
+715.7219 	DATA 	Mouse: Left button down, pos=(1396,593)
+715.7869 	DATA 	Mouse:  Left button up, pos=(1397,593)
+718.7714 	DATA 	Keypress: return
+718.7732 	DATA 	RatingScale rating: (key response) rating=3
+718.7734 	DATA 	RatingScale rating: rating RT=164.015
+718.7734 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 160.964), (3, 164.015)]
+718.7886 	EXP 	New trial (rep=0, index=84): OrderedDict([('Number', 40), ('Item', u'Like to take it easy.'), ('Scoring', u'-'), ('Code', u'E4'), ('Facet', u'Actvity level'), ('Factor', u'Extraversion')])
+718.7931 	EXP 	RatingScale rating: reset()
+718.8034 	EXP 	item: autoDraw = False
+718.8034 	EXP 	rating: autoDraw = False
+718.8034 	EXP 	msgContinue: autoDraw = False
+718.8034 	EXP 	item: text = u'Like to take it easy.'
+718.8034 	EXP 	item: autoDraw = True
+718.8034 	EXP 	rating: autoDraw = True
+718.8034 	EXP 	msgContinue: autoDraw = True
+724.3905 	DATA 	Mouse: Left button down, pos=(1288,598)
+724.4734 	DATA 	Mouse:  Left button up, pos=(1288,598)
+725.0400 	DATA 	Keypress: return
+725.0419 	DATA 	RatingScale rating: (key response) rating=3
+725.0420 	DATA 	RatingScale rating: rating RT=6.248
+725.0420 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 5.598), (3, 6.248)]
+725.0566 	EXP 	New trial (rep=0, index=85): OrderedDict([('Number', 71), ('Item', u'Tend to vote for conservative political candidates.'), ('Scoring', u'-'), ('Code', u'O6'), ('Facet', u'Liberalism'), ('Factor', u'Openness')])
+725.0631 	EXP 	RatingScale rating: reset()
+725.0716 	EXP 	item: autoDraw = False
+725.0716 	EXP 	rating: autoDraw = False
+725.0716 	EXP 	msgContinue: autoDraw = False
+725.0716 	EXP 	item: text = u'Tend to vote for conservative political candidates.'
+725.0716 	EXP 	item: autoDraw = True
+725.0716 	EXP 	rating: autoDraw = True
+725.0716 	EXP 	msgContinue: autoDraw = True
+727.7910 	DATA 	Mouse: Left button down, pos=(747,601)
+727.8576 	DATA 	Mouse:  Left button up, pos=(747,601)
+728.1248 	DATA 	Keypress: return
+728.1267 	DATA 	RatingScale rating: (key response) rating=1
+728.1268 	DATA 	RatingScale rating: rating RT=3.063
+728.1269 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 2.729), (1, 3.063)]
+728.1418 	EXP 	New trial (rep=0, index=86): OrderedDict([('Number', 60), ('Item', u"Don't understand people who get emotional."), ('Scoring', u'-'), ('Code', u'O3'), ('Facet', u'Emotionality'), ('Factor', u'Openness')])
+728.1494 	EXP 	RatingScale rating: reset()
+728.1572 	EXP 	item: autoDraw = False
+728.1572 	EXP 	rating: autoDraw = False
+728.1572 	EXP 	msgContinue: autoDraw = False
+728.1572 	EXP 	item: text = u"Don't understand people who get emotional."
+728.1572 	EXP 	item: autoDraw = True
+728.1572 	EXP 	rating: autoDraw = True
+728.1572 	EXP 	msgContinue: autoDraw = True
+731.7933 	DATA 	Mouse: Left button down, pos=(1305,607)
+731.8761 	DATA 	Mouse:  Left button up, pos=(1305,607)
+732.6100 	DATA 	Keypress: return
+732.6120 	DATA 	RatingScale rating: (key response) rating=3
+732.6121 	DATA 	RatingScale rating: rating RT=4.461
+732.6121 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 3.644), (3, 4.461)]
+732.6256 	EXP 	New trial (rep=0, index=87): OrderedDict([('Number', 2), ('Item', u'Fear for the worst.'), ('Scoring', u'+'), ('Code', u'N1'), ('Facet', u'Anxiety'), ('Factor', u'Neuroticism')])
+732.6301 	EXP 	RatingScale rating: reset()
+732.6418 	EXP 	item: autoDraw = False
+732.6418 	EXP 	rating: autoDraw = False
+732.6418 	EXP 	msgContinue: autoDraw = False
+732.6418 	EXP 	item: text = u'Fear for the worst.'
+732.6418 	EXP 	item: autoDraw = True
+732.6418 	EXP 	rating: autoDraw = True
+732.6418 	EXP 	msgContinue: autoDraw = True
+735.7781 	DATA 	Mouse: Left button down, pos=(1354,605)
+735.8429 	DATA 	Mouse:  Left button up, pos=(1354,605)
+736.0952 	DATA 	Keypress: return
+736.0973 	DATA 	RatingScale rating: (key response) rating=3
+736.0976 	DATA 	RatingScale rating: rating RT=3.467
+736.0976 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 3.147), (3, 3.466)]
+736.1107 	EXP 	New trial (rep=0, index=88): OrderedDict([('Number', 15), ('Item', u'Only feel comfortable with friends.'), ('Scoring', u'+'), ('Code', u'N4'), ('Facet', u'Self-consciousness'), ('Factor', u'Neuroticism')])
+736.1183 	EXP 	RatingScale rating: reset()
+736.1266 	EXP 	item: autoDraw = False
+736.1266 	EXP 	rating: autoDraw = False
+736.1266 	EXP 	msgContinue: autoDraw = False
+736.1266 	EXP 	item: text = u'Only feel comfortable with friends.'
+736.1266 	EXP 	item: autoDraw = True
+736.1266 	EXP 	rating: autoDraw = True
+736.1266 	EXP 	msgContinue: autoDraw = True
+741.7955 	DATA 	Mouse: Left button down, pos=(1000,608)
+741.8630 	DATA 	Mouse:  Left button up, pos=(1000,608)
+744.1626 	DATA 	Keypress: return
+744.1645 	DATA 	RatingScale rating: (key response) rating=2
+744.1646 	DATA 	RatingScale rating: rating RT=8.045
+744.1646 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 5.678), (2, 8.045)]
+744.1796 	EXP 	New trial (rep=0, index=89): OrderedDict([('Number', 54), ('Item', u'See beauty in things that others might not notice.'), ('Scoring', u'+'), ('Code', u'O2'), ('Facet', u'Artistic interests'), ('Factor', u'Openness')])
+744.1868 	EXP 	RatingScale rating: reset()
+744.1949 	EXP 	item: autoDraw = False
+744.1949 	EXP 	rating: autoDraw = False
+744.1949 	EXP 	msgContinue: autoDraw = False
+744.1949 	EXP 	item: text = u'See beauty in things that others might not notice.'
+744.1949 	EXP 	item: autoDraw = True
+744.1949 	EXP 	rating: autoDraw = True
+744.1949 	EXP 	msgContinue: autoDraw = True
+747.7308 	DATA 	Mouse: Left button down, pos=(1254,597)
+747.8468 	DATA 	Mouse:  Left button up, pos=(1254,597)
+748.0170 	DATA 	Keypress: return
+748.0172 	DATA 	RatingScale rating: (key response) rating=3
+748.0173 	DATA 	RatingScale rating: rating RT=3.829
+748.0173 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 3.545), (3, 3.829)]
+748.0302 	EXP 	New trial (rep=0, index=90): OrderedDict([('Number', 67), ('Item', u'Have difficulty understanding abstract ideas.'), ('Scoring', u'-'), ('Code', u'O5'), ('Facet', u'Intellect'), ('Factor', u'Openness')])
+748.0361 	EXP 	RatingScale rating: reset()
+748.0469 	EXP 	item: autoDraw = False
+748.0469 	EXP 	rating: autoDraw = False
+748.0469 	EXP 	msgContinue: autoDraw = False
+748.0469 	EXP 	item: text = u'Have difficulty understanding abstract ideas.'
+748.0469 	EXP 	item: autoDraw = True
+748.0469 	EXP 	rating: autoDraw = True
+748.0469 	EXP 	msgContinue: autoDraw = True
+751.2997 	DATA 	Mouse: Left button down, pos=(742,609)
+751.3660 	DATA 	Mouse:  Left button up, pos=(742,609)
+751.5829 	DATA 	Keypress: return
+751.5845 	DATA 	RatingScale rating: (key response) rating=1
+751.5847 	DATA 	RatingScale rating: rating RT=3.548
+751.5847 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 3.264), (1, 3.548)]
+751.5989 	EXP 	New trial (rep=0, index=91): OrderedDict([('Number', 31), ('Item', u'Prefer to be alone.'), ('Scoring', u'-'), ('Code', u'E2'), ('Facet', u'Gregariousness'), ('Factor', u'Extraversion')])
+751.6035 	EXP 	RatingScale rating: reset()
+751.6155 	EXP 	item: autoDraw = False
+751.6155 	EXP 	rating: autoDraw = False
+751.6155 	EXP 	msgContinue: autoDraw = False
+751.6155 	EXP 	item: text = u'Prefer to be alone.'
+751.6155 	EXP 	item: autoDraw = True
+751.6155 	EXP 	rating: autoDraw = True
+751.6155 	EXP 	msgContinue: autoDraw = True
+753.7321 	DATA 	Mouse: Left button down, pos=(779,608)
+753.8011 	DATA 	Mouse:  Left button up, pos=(779,608)
+756.9696 	DATA 	Mouse: Left button down, pos=(968,605)
+757.0343 	DATA 	Mouse:  Left button up, pos=(968,605)
+758.1175 	DATA 	Keypress: return
+758.1193 	DATA 	RatingScale rating: (key response) rating=2
+758.1194 	DATA 	RatingScale rating: rating RT=6.515
+758.1194 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 2.13), (2, 5.366), (2, 6.515)]
+758.1342 	EXP 	New trial (rep=0, index=92): OrderedDict([('Number', 99), ('Item', u'Handle tasks smoothly.'), ('Scoring', u'+'), ('Code', u'C1'), ('Facet', u'Self-efficacy'), ('Factor', u'Conscientiousness')])
+758.1381 	EXP 	RatingScale rating: reset()
+758.1504 	EXP 	item: autoDraw = False
+758.1504 	EXP 	rating: autoDraw = False
+758.1504 	EXP 	msgContinue: autoDraw = False
+758.1504 	EXP 	item: text = u'Handle tasks smoothly.'
+758.1504 	EXP 	item: autoDraw = True
+758.1504 	EXP 	rating: autoDraw = True
+758.1504 	EXP 	msgContinue: autoDraw = True
+762.6694 	DATA 	Mouse: Left button down, pos=(1787,613)
+762.7518 	DATA 	Mouse:  Left button up, pos=(1787,613)
+762.8189 	DATA 	Keypress: return
+762.8204 	DATA 	RatingScale rating: (key response) rating=5
+762.8206 	DATA 	RatingScale rating: rating RT=4.682
+762.8206 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 4.532), (5, 4.682)]
+762.8356 	EXP 	New trial (rep=0, index=93): OrderedDict([('Number', 9), ('Item', u'Often feel blue.'), ('Scoring', u'+'), ('Code', u'N3'), ('Facet', u'Depression'), ('Factor', u'Neuroticism')])
+762.8398 	EXP 	RatingScale rating: reset()
+762.8516 	EXP 	item: autoDraw = False
+762.8516 	EXP 	rating: autoDraw = False
+762.8516 	EXP 	msgContinue: autoDraw = False
+762.8516 	EXP 	item: text = u'Often feel blue.'
+762.8516 	EXP 	item: autoDraw = True
+762.8516 	EXP 	rating: autoDraw = True
+762.8516 	EXP 	msgContinue: autoDraw = True
+764.2357 	DATA 	Mouse: Left button down, pos=(880,597)
+764.3517 	DATA 	Mouse:  Left button up, pos=(879,597)
+764.4359 	DATA 	Keypress: return
+764.4381 	DATA 	RatingScale rating: (key response) rating=2
+764.4382 	DATA 	RatingScale rating: rating RT=1.597
+764.4383 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.397), (2, 1.597)]
+764.4527 	EXP 	New trial (rep=0, index=94): OrderedDict([('Number', 89), ('Item', u'Believe that I am better than others.'), ('Scoring', u'-'), ('Code', u'A5'), ('Facet', u'Modesty'), ('Factor', u'Agreeableness')])
+764.4586 	EXP 	RatingScale rating: reset()
+764.4683 	EXP 	item: autoDraw = False
+764.4683 	EXP 	rating: autoDraw = False
+764.4683 	EXP 	msgContinue: autoDraw = False
+764.4683 	EXP 	item: text = u'Believe that I am better than others.'
+764.4683 	EXP 	item: autoDraw = True
+764.4683 	EXP 	rating: autoDraw = True
+764.4683 	EXP 	msgContinue: autoDraw = True
+768.4876 	DATA 	Mouse: Left button down, pos=(1192,588)
+768.5867 	DATA 	Mouse:  Left button up, pos=(1192,588)
+768.6727 	DATA 	Keypress: return
+768.6729 	DATA 	RatingScale rating: (key response) rating=3
+768.6730 	DATA 	RatingScale rating: rating RT=4.213
+768.6730 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 4.029), (3, 4.213)]
+768.6876 	EXP 	New trial (rep=0, index=95): OrderedDict([('Number', 73), ('Item', u'Trust others.'), ('Scoring', u'+'), ('Code', u'A1'), ('Facet', u'Trust'), ('Factor', u'Agreeableness')])
+768.6912 	EXP 	RatingScale rating: reset()
+768.7034 	EXP 	item: autoDraw = False
+768.7034 	EXP 	rating: autoDraw = False
+768.7034 	EXP 	msgContinue: autoDraw = False
+768.7034 	EXP 	item: text = u'Trust others.'
+768.7034 	EXP 	item: autoDraw = True
+768.7034 	EXP 	rating: autoDraw = True
+768.7034 	EXP 	msgContinue: autoDraw = True
+782.7604 	DATA 	Mouse: Left button down, pos=(1583,585)
+782.8585 	DATA 	Mouse:  Left button up, pos=(1583,585)
+784.1916 	DATA 	Keypress: return
+784.1935 	DATA 	RatingScale rating: (key response) rating=4
+784.1936 	DATA 	RatingScale rating: rating RT=15.501
+784.1936 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 14.068), (4, 15.501)]
+784.2086 	EXP 	New trial (rep=0, index=96): OrderedDict([('Number', 64), ('Item', u'Am attached to conventional ways.'), ('Scoring', u'-'), ('Code', u'O4'), ('Facet', u'Adventurousness'), ('Factor', u'Openness')])
+784.2143 	EXP 	RatingScale rating: reset()
+784.2237 	EXP 	item: autoDraw = False
+784.2237 	EXP 	rating: autoDraw = False
+784.2237 	EXP 	msgContinue: autoDraw = False
+784.2237 	EXP 	item: text = u'Am attached to conventional ways.'
+784.2237 	EXP 	item: autoDraw = True
+784.2237 	EXP 	rating: autoDraw = True
+784.2237 	EXP 	msgContinue: autoDraw = True
+786.7286 	DATA 	Mouse: Left button down, pos=(836,608)
+786.8095 	DATA 	Mouse:  Left button up, pos=(836,608)
+789.0096 	DATA 	Mouse: Left button down, pos=(920,605)
+789.0943 	DATA 	Mouse:  Left button up, pos=(920,605)
+790.6445 	DATA 	Mouse: Left button down, pos=(1132,600)
+790.7604 	DATA 	Mouse:  Left button up, pos=(1132,600)
+791.1128 	DATA 	Mouse: Left button down, pos=(1246,594)
+791.2446 	DATA 	Mouse:  Left button up, pos=(1246,594)
+791.8117 	DATA 	Keypress: return
+791.8139 	DATA 	RatingScale rating: (key response) rating=3
+791.8141 	DATA 	RatingScale rating: rating RT=7.599
+791.8141 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 2.529), (2, 4.796), (3, 6.898), (3, 7.598)]
+791.8288 	EXP 	New trial (rep=0, index=97): OrderedDict([('Number', 84), ('Item', u'Take no time for others.'), ('Scoring', u'-'), ('Code', u'A3'), ('Facet', u'Altruism'), ('Factor', u'Agreeableness')])
+791.8336 	EXP 	RatingScale rating: reset()
+791.8438 	EXP 	item: autoDraw = False
+791.8438 	EXP 	rating: autoDraw = False
+791.8438 	EXP 	msgContinue: autoDraw = False
+791.8438 	EXP 	item: text = u'Take no time for others.'
+791.8438 	EXP 	item: autoDraw = True
+791.8438 	EXP 	rating: autoDraw = True
+791.8438 	EXP 	msgContinue: autoDraw = True
+796.0962 	DATA 	Mouse: Left button down, pos=(995,604)
+796.1630 	DATA 	Mouse:  Left button up, pos=(995,604)
+796.7472 	DATA 	Keypress: return
+796.7490 	DATA 	RatingScale rating: (key response) rating=2
+796.7492 	DATA 	RatingScale rating: rating RT=4.915
+796.7492 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 4.263), (2, 4.914)]
+796.7625 	EXP 	New trial (rep=0, index=98): OrderedDict([('Number', 51), ('Item', u'Love to daydream.'), ('Scoring', u'+'), ('Code', u'O1'), ('Facet', u'Imagination'), ('Factor', u'Openness')])
+796.7665 	EXP 	RatingScale rating: reset()
+796.7787 	EXP 	item: autoDraw = False
+796.7787 	EXP 	rating: autoDraw = False
+796.7787 	EXP 	msgContinue: autoDraw = False
+796.7787 	EXP 	item: text = u'Love to daydream.'
+796.7787 	EXP 	item: autoDraw = True
+796.7787 	EXP 	rating: autoDraw = True
+796.7787 	EXP 	msgContinue: autoDraw = True
+798.0300 	DATA 	Mouse: Left button down, pos=(1025,603)
+798.1292 	DATA 	Mouse:  Left button up, pos=(1025,603)
+801.4815 	DATA 	Keypress: return
+801.4834 	DATA 	RatingScale rating: (key response) rating=2
+801.4835 	DATA 	RatingScale rating: rating RT=4.716
+801.4835 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.264), (2, 4.716)]
+801.4981 	EXP 	New trial (rep=0, index=99): OrderedDict([('Number', 37), ('Item', u'Am always busy.'), ('Scoring', u'+'), ('Code', u'E4'), ('Facet', u'Actvity level'), ('Factor', u'Extraversion')])
+801.5027 	EXP 	RatingScale rating: reset()
+801.5133 	EXP 	item: autoDraw = False
+801.5133 	EXP 	rating: autoDraw = False
+801.5133 	EXP 	msgContinue: autoDraw = False
+801.5133 	EXP 	item: text = u'Am always busy.'
+801.5133 	EXP 	item: autoDraw = True
+801.5133 	EXP 	rating: autoDraw = True
+801.5133 	EXP 	msgContinue: autoDraw = True
+803.7654 	DATA 	Mouse: Left button down, pos=(1797,610)
+803.8650 	DATA 	Mouse:  Left button up, pos=(1798,610)
+803.9985 	DATA 	Keypress: return
+804.0004 	DATA 	RatingScale rating: (key response) rating=5
+804.0005 	DATA 	RatingScale rating: rating RT=2.497
+804.0006 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 2.264), (5, 2.497)]
+804.0155 	EXP 	New trial (rep=0, index=100): OrderedDict([('Number', 34), ('Item', u'Try to lead others.'), ('Scoring', u'+'), ('Code', u'E3'), ('Facet', u'Assertiveness'), ('Factor', u'Extraversion')])
+804.0199 	EXP 	RatingScale rating: reset()
+804.0311 	EXP 	item: autoDraw = False
+804.0311 	EXP 	rating: autoDraw = False
+804.0311 	EXP 	msgContinue: autoDraw = False
+804.0311 	EXP 	item: text = u'Try to lead others.'
+804.0311 	EXP 	item: autoDraw = True
+804.0311 	EXP 	rating: autoDraw = True
+804.0311 	EXP 	msgContinue: autoDraw = True
+805.1821 	DATA 	Mouse: Left button down, pos=(1610,609)
+805.2825 	DATA 	Mouse:  Left button up, pos=(1610,609)
+806.2494 	DATA 	Mouse: Left button down, pos=(1689,607)
+806.3664 	DATA 	Mouse:  Left button up, pos=(1689,607)
+806.8673 	DATA 	Mouse: Left button down, pos=(1769,607)
+806.9666 	DATA 	Mouse:  Left button up, pos=(1769,607)
+807.0990 	DATA 	Keypress: return
+807.1014 	DATA 	RatingScale rating: (key response) rating=5
+807.1015 	DATA 	RatingScale rating: rating RT=3.080
+807.1016 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.163), (5, 2.848), (5, 3.08)]
+807.1174 	EXP 	New trial (rep=0, index=101): OrderedDict([('Number', 24), ('Item', u'Remain calm under pressure.'), ('Scoring', u'-'), ('Code', u'N6'), ('Facet', u'Vulnerability'), ('Factor', u'Neuroticism')])
+807.1223 	EXP 	RatingScale rating: reset()
+807.1315 	EXP 	item: autoDraw = False
+807.1315 	EXP 	rating: autoDraw = False
+807.1315 	EXP 	msgContinue: autoDraw = False
+807.1315 	EXP 	item: text = u'Remain calm under pressure.'
+807.1315 	EXP 	item: autoDraw = True
+807.1315 	EXP 	rating: autoDraw = True
+807.1315 	EXP 	msgContinue: autoDraw = True
+809.0834 	DATA 	Mouse: Left button down, pos=(1198,617)
+809.1334 	DATA 	Mouse:  Left button up, pos=(1198,617)
+810.1328 	DATA 	Mouse: Left button down, pos=(1633,600)
+810.2332 	DATA 	Mouse:  Left button up, pos=(1633,600)
+810.6666 	DATA 	Keypress: return
+810.6685 	DATA 	RatingScale rating: (key response) rating=4
+810.6686 	DATA 	RatingScale rating: rating RT=3.545
+810.6686 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 1.962), (4, 3.011), (4, 3.545)]
+810.6838 	EXP 	New trial (rep=0, index=102): OrderedDict([('Number', 26), ('Item', u'Feel comfortable around people.'), ('Scoring', u'+'), ('Code', u'E1'), ('Facet', u'Friendliness'), ('Factor', u'Extraversion')])
+810.6882 	EXP 	RatingScale rating: reset()
+810.6987 	EXP 	item: autoDraw = False
+810.6987 	EXP 	rating: autoDraw = False
+810.6987 	EXP 	msgContinue: autoDraw = False
+810.6987 	EXP 	item: text = u'Feel comfortable around people.'
+810.6987 	EXP 	item: autoDraw = True
+810.6987 	EXP 	rating: autoDraw = True
+810.6987 	EXP 	msgContinue: autoDraw = True
+812.0018 	DATA 	Mouse: Left button down, pos=(1602,600)
+812.1179 	DATA 	Mouse:  Left button up, pos=(1602,600)
+812.4516 	DATA 	Mouse: Left button down, pos=(1725,595)
+812.5848 	DATA 	Mouse:  Left button up, pos=(1725,595)
+812.7531 	DATA 	Keypress: return
+812.7533 	DATA 	RatingScale rating: (key response) rating=5
+812.7534 	DATA 	RatingScale rating: rating RT=2.065
+812.7534 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.315), (5, 1.765), (5, 2.065)]
+812.7679 	EXP 	New trial (rep=0, index=103): OrderedDict([('Number', 72), ('Item', u'Believe that we should be tough on crime.'), ('Scoring', u'-'), ('Code', u'O6'), ('Facet', u'Liberalism'), ('Factor', u'Openness')])
+812.7742 	EXP 	RatingScale rating: reset()
+812.7840 	EXP 	item: autoDraw = False
+812.7840 	EXP 	rating: autoDraw = False
+812.7840 	EXP 	msgContinue: autoDraw = False
+812.7840 	EXP 	item: text = u'Believe that we should be tough on crime.'
+812.7840 	EXP 	item: autoDraw = True
+812.7840 	EXP 	rating: autoDraw = True
+812.7840 	EXP 	msgContinue: autoDraw = True
+816.8690 	DATA 	Mouse: Left button down, pos=(1266,602)
+817.0207 	DATA 	Mouse:  Left button up, pos=(1266,602)
+817.4199 	DATA 	Keypress: return
+817.4216 	DATA 	RatingScale rating: (key response) rating=3
+817.4217 	DATA 	RatingScale rating: rating RT=4.647
+817.4218 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 4.096), (3, 4.646)]
+817.4371 	EXP 	New trial (rep=0, index=104): OrderedDict([('Number', 62), ('Item', u'Prefer to stick with things that I know.'), ('Scoring', u'-'), ('Code', u'O4'), ('Facet', u'Adventurousness'), ('Factor', u'Openness')])
+817.4440 	EXP 	RatingScale rating: reset()
+817.4516 	EXP 	item: autoDraw = False
+817.4516 	EXP 	rating: autoDraw = False
+817.4516 	EXP 	msgContinue: autoDraw = False
+817.4516 	EXP 	item: text = u'Prefer to stick with things that I know.'
+817.4516 	EXP 	item: autoDraw = True
+817.4516 	EXP 	rating: autoDraw = True
+817.4516 	EXP 	msgContinue: autoDraw = True
+821.2211 	DATA 	Mouse: Left button down, pos=(967,599)
+821.3381 	DATA 	Mouse:  Left button up, pos=(967,599)
+822.2713 	DATA 	Keypress: return
+822.2731 	DATA 	RatingScale rating: (key response) rating=2
+822.2733 	DATA 	RatingScale rating: rating RT=4.828
+822.2733 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 3.778), (2, 4.828)]
+822.2879 	EXP 	New trial (rep=0, index=105): OrderedDict([('Number', 27), ('Item', u'Avoid contacts with others.'), ('Scoring', u'-'), ('Code', u'E1'), ('Facet', u'Friendliness'), ('Factor', u'Extraversion')])
+822.2937 	EXP 	RatingScale rating: reset()
+822.3033 	EXP 	item: autoDraw = False
+822.3033 	EXP 	rating: autoDraw = False
+822.3033 	EXP 	msgContinue: autoDraw = False
+822.3033 	EXP 	item: text = u'Avoid contacts with others.'
+822.3033 	EXP 	item: autoDraw = True
+822.3033 	EXP 	rating: autoDraw = True
+822.3033 	EXP 	msgContinue: autoDraw = True
+824.8885 	DATA 	Mouse: Left button down, pos=(904,599)
+825.0240 	DATA 	Mouse:  Left button up, pos=(904,599)
+825.4553 	DATA 	Mouse: Left button down, pos=(773,600)
+825.5551 	DATA 	Mouse:  Left button up, pos=(773,600)
+825.7385 	DATA 	Keypress: return
+825.7408 	DATA 	RatingScale rating: (key response) rating=1
+825.7409 	DATA 	RatingScale rating: rating RT=3.446
+825.7409 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 2.596), (1, 3.163), (1, 3.446)]
+825.7546 	EXP 	New trial (rep=0, index=106): OrderedDict([('Number', 88), ('Item', u'Get back at others.'), ('Scoring', u'-'), ('Code', u'A4'), ('Facet', u'Cooperation'), ('Factor', u'Agreeableness')])
+825.7587 	EXP 	RatingScale rating: reset()
+825.7701 	EXP 	item: autoDraw = False
+825.7701 	EXP 	rating: autoDraw = False
+825.7701 	EXP 	msgContinue: autoDraw = False
+825.7701 	EXP 	item: text = u'Get back at others.'
+825.7701 	EXP 	item: autoDraw = True
+825.7701 	EXP 	rating: autoDraw = True
+825.7701 	EXP 	msgContinue: autoDraw = True
+829.5233 	DATA 	Mouse: Left button down, pos=(1112,607)
+829.6086 	DATA 	Mouse:  Left button up, pos=(1112,607)
+829.8404 	DATA 	Keypress: return
+829.8422 	DATA 	RatingScale rating: (key response) rating=2
+829.8423 	DATA 	RatingScale rating: rating RT=4.082
+829.8423 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 3.765), (2, 4.082)]
+829.8567 	EXP 	New trial (rep=0, index=107): OrderedDict([('Number', 80), ('Item', u"Obstruct others' plans."), ('Scoring', u'-'), ('Code', u'A2'), ('Facet', u'Morality'), ('Factor', u'Agreeableness')])
+829.8619 	EXP 	RatingScale rating: reset()
+829.8713 	EXP 	item: autoDraw = False
+829.8713 	EXP 	rating: autoDraw = False
+829.8713 	EXP 	msgContinue: autoDraw = False
+829.8713 	EXP 	item: text = u"Obstruct others' plans."
+829.8713 	EXP 	item: autoDraw = True
+829.8713 	EXP 	rating: autoDraw = True
+829.8713 	EXP 	msgContinue: autoDraw = True
+831.5248 	DATA 	Mouse: Left button down, pos=(865,600)
+831.6573 	DATA 	Mouse:  Left button up, pos=(857,600)
+832.1586 	DATA 	Mouse: Left button down, pos=(762,599)
+832.2583 	DATA 	Mouse:  Left button up, pos=(761,599)
+832.4246 	DATA 	Keypress: return
+832.4267 	DATA 	RatingScale rating: (key response) rating=1
+832.4268 	DATA 	RatingScale rating: rating RT=2.564
+832.4268 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.664), (1, 2.298), (1, 2.564)]
+832.4407 	EXP 	New trial (rep=0, index=108): OrderedDict([('Number', 29), ('Item', u'Love large parties.'), ('Scoring', u'+'), ('Code', u'E2'), ('Facet', u'Gregariousness'), ('Factor', u'Extraversion')])
+832.4448 	EXP 	RatingScale rating: reset()
+832.4570 	EXP 	item: autoDraw = False
+832.4570 	EXP 	rating: autoDraw = False
+832.4570 	EXP 	msgContinue: autoDraw = False
+832.4570 	EXP 	item: text = u'Love large parties.'
+832.4570 	EXP 	item: autoDraw = True
+832.4570 	EXP 	rating: autoDraw = True
+832.4570 	EXP 	msgContinue: autoDraw = True
+834.8748 	DATA 	Mouse: Left button down, pos=(1608,589)
+835.0242 	DATA 	Mouse:  Left button up, pos=(1608,589)
+837.2927 	DATA 	Mouse: Left button down, pos=(1350,600)
+837.3593 	DATA 	Mouse:  Left button up, pos=(1350,600)
+837.5591 	DATA 	Keypress: return
+837.5610 	DATA 	RatingScale rating: (key response) rating=3
+837.5611 	DATA 	RatingScale rating: rating RT=5.115
+837.5612 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 2.431), (3, 4.849), (3, 5.115)]
+837.5760 	EXP 	New trial (rep=0, index=109): OrderedDict([('Number', 94), ('Item', u'Feel sympathy for those who are worse off than myself.'), ('Scoring', u'+'), ('Code', u'A6'), ('Facet', u'Sympathy'), ('Factor', u'Agreeableness')])
+837.5841 	EXP 	RatingScale rating: reset()
+837.5924 	EXP 	item: autoDraw = False
+837.5924 	EXP 	rating: autoDraw = False
+837.5924 	EXP 	msgContinue: autoDraw = False
+837.5924 	EXP 	item: text = u'Feel sympathy for those who are worse off than myself.'
+837.5924 	EXP 	item: autoDraw = True
+837.5924 	EXP 	rating: autoDraw = True
+837.5924 	EXP 	msgContinue: autoDraw = True
+839.9121 	DATA 	Mouse: Left button down, pos=(1591,593)
+840.0929 	DATA 	Mouse:  Left button up, pos=(1591,593)
+840.3102 	DATA 	Keypress: return
+840.3120 	DATA 	RatingScale rating: (key response) rating=4
+840.3122 	DATA 	RatingScale rating: rating RT=2.727
+840.3122 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 2.343), (4, 2.727)]
+840.3260 	EXP 	New trial (rep=0, index=110): OrderedDict([('Number', 92), ('Item', u'Boast about my virtues.'), ('Scoring', u'-'), ('Code', u'A5'), ('Facet', u'Modesty'), ('Factor', u'Agreeableness')])
+840.3307 	EXP 	RatingScale rating: reset()
+840.3417 	EXP 	item: autoDraw = False
+840.3417 	EXP 	rating: autoDraw = False
+840.3417 	EXP 	msgContinue: autoDraw = False
+840.3417 	EXP 	item: text = u'Boast about my virtues.'
+840.3417 	EXP 	item: autoDraw = True
+840.3417 	EXP 	rating: autoDraw = True
+840.3417 	EXP 	msgContinue: autoDraw = True
+843.8109 	DATA 	Mouse: Left button down, pos=(956,609)
+843.8931 	DATA 	Mouse:  Left button up, pos=(956,609)
+844.1443 	DATA 	Keypress: return
+844.1463 	DATA 	RatingScale rating: (key response) rating=2
+844.1464 	DATA 	RatingScale rating: rating RT=3.814
+844.1464 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 3.481), (2, 3.814)]
+844.1613 	EXP 	New trial (rep=0, index=111): OrderedDict([('Number', 95), ('Item', u"Am not interested in other people's problems."), ('Scoring', u'-'), ('Code', u'A6'), ('Facet', u'Sympathy'), ('Factor', u'Agreeableness')])
+844.1682 	EXP 	RatingScale rating: reset()
+844.1769 	EXP 	item: autoDraw = False
+844.1769 	EXP 	rating: autoDraw = False
+844.1769 	EXP 	msgContinue: autoDraw = False
+844.1769 	EXP 	item: text = u"Am not interested in other people's problems."
+844.1769 	EXP 	item: autoDraw = True
+844.1769 	EXP 	rating: autoDraw = True
+844.1769 	EXP 	msgContinue: autoDraw = True
+850.8787 	DATA 	Mouse: Left button down, pos=(1021,612)
+850.9814 	DATA 	Mouse:  Left button up, pos=(1021,612)
+856.5319 	DATA 	Keypress: return
+856.5339 	DATA 	RatingScale rating: (key response) rating=2
+856.5340 	DATA 	RatingScale rating: rating RT=12.365
+856.5340 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 6.711), (2, 12.364)]
+856.5488 	EXP 	New trial (rep=0, index=112): OrderedDict([('Number', 3), ('Item', u'Am afraid of many things.'), ('Scoring', u'+'), ('Code', u'N1'), ('Facet', u'Anxiety'), ('Factor', u'Neuroticism')])
+856.5533 	EXP 	RatingScale rating: reset()
+856.5641 	EXP 	item: autoDraw = False
+856.5641 	EXP 	rating: autoDraw = False
+856.5641 	EXP 	msgContinue: autoDraw = False
+856.5641 	EXP 	item: text = u'Am afraid of many things.'
+856.5641 	EXP 	item: autoDraw = True
+856.5641 	EXP 	rating: autoDraw = True
+856.5641 	EXP 	msgContinue: autoDraw = True
+859.0667 	DATA 	Mouse: Left button down, pos=(722,611)
+859.1994 	DATA 	Mouse:  Left button up, pos=(712,612)
+859.4010 	DATA 	Keypress: return
+859.4012 	DATA 	RatingScale rating: (key response) rating=1
+859.4013 	DATA 	RatingScale rating: rating RT=2.847
+859.4013 	DATA 	RatingScale rating: history=[(None, 0.0), (1, 2.515), (1, 2.847)]
+859.4159 	EXP 	New trial (rep=0, index=113): OrderedDict([('Number', 90), ('Item', u'Think highly of myself.'), ('Scoring', u'-'), ('Code', u'A5'), ('Facet', u'Modesty'), ('Factor', u'Agreeableness')])
+859.4219 	EXP 	RatingScale rating: reset()
+859.4319 	EXP 	item: autoDraw = False
+859.4319 	EXP 	rating: autoDraw = False
+859.4319 	EXP 	msgContinue: autoDraw = False
+859.4319 	EXP 	item: text = u'Think highly of myself.'
+859.4319 	EXP 	item: autoDraw = True
+859.4319 	EXP 	rating: autoDraw = True
+859.4319 	EXP 	msgContinue: autoDraw = True
+860.9668 	DATA 	Mouse: Left button down, pos=(1814,590)
+861.0166 	DATA 	Mouse:  Left button up, pos=(1816,590)
+861.3358 	DATA 	Keypress: return
+861.3360 	DATA 	RatingScale rating: (key response) rating=5
+861.3361 	DATA 	RatingScale rating: rating RT=1.913
+861.3361 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 1.545), (5, 1.913)]
+861.3501 	EXP 	New trial (rep=0, index=114): OrderedDict([('Number', 111), ('Item', u'Put little time and effort into my work.'), ('Scoring', u'-'), ('Code', u'C4'), ('Facet', u'Achievement-striving'), ('Factor', u'Conscientiousness')])
+861.3559 	EXP 	RatingScale rating: reset()
+861.3654 	EXP 	item: autoDraw = False
+861.3654 	EXP 	rating: autoDraw = False
+861.3654 	EXP 	msgContinue: autoDraw = False
+861.3654 	EXP 	item: text = u'Put little time and effort into my work.'
+861.3654 	EXP 	item: autoDraw = True
+861.3654 	EXP 	rating: autoDraw = True
+861.3654 	EXP 	msgContinue: autoDraw = True
+862.6673 	DATA 	Mouse: Left button down, pos=(1378,596)
+862.7010 	DATA 	Mouse:  Left button up, pos=(1378,596)
+862.9181 	DATA 	Keypress: return
+862.9201 	DATA 	RatingScale rating: (key response) rating=3
+862.9202 	DATA 	RatingScale rating: rating RT=1.563
+862.9203 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 1.312), (3, 1.563)]
+862.9333 	EXP 	New trial (rep=0, index=115): OrderedDict([('Number', 113), ('Item', u'Am always prepared.'), ('Scoring', u'+'), ('Code', u'C5'), ('Facet', u'Self-discipline'), ('Factor', u'Conscientiousness')])
+862.9388 	EXP 	RatingScale rating: reset()
+862.9498 	EXP 	item: autoDraw = False
+862.9498 	EXP 	rating: autoDraw = False
+862.9498 	EXP 	msgContinue: autoDraw = False
+862.9498 	EXP 	item: text = u'Am always prepared.'
+862.9498 	EXP 	item: autoDraw = True
+862.9498 	EXP 	rating: autoDraw = True
+862.9498 	EXP 	msgContinue: autoDraw = True
+865.5172 	DATA 	Mouse: Left button down, pos=(1136,602)
+865.6000 	DATA 	Mouse:  Left button up, pos=(1136,602)
+871.8882 	DATA 	Keypress: return
+871.8884 	DATA 	RatingScale rating: (key response) rating=3
+871.8885 	DATA 	RatingScale rating: rating RT=8.949
+871.8885 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 2.579), (3, 8.948)]
+871.9035 	EXP 	New trial (rep=0, index=116): OrderedDict([('Number', 23), ('Item', u"Feel that I'm unable to deal with things."), ('Scoring', u'+'), ('Code', u'N6'), ('Facet', u'Vulnerability'), ('Factor', u'Neuroticism')])
+871.9103 	EXP 	RatingScale rating: reset()
+871.9190 	EXP 	item: autoDraw = False
+871.9190 	EXP 	rating: autoDraw = False
+871.9190 	EXP 	msgContinue: autoDraw = False
+871.9190 	EXP 	item: text = u"Feel that I'm unable to deal with things."
+871.9190 	EXP 	item: autoDraw = True
+871.9190 	EXP 	rating: autoDraw = True
+871.9190 	EXP 	msgContinue: autoDraw = True
+875.1874 	DATA 	Mouse: Left button down, pos=(1037,626)
+875.2559 	DATA 	Mouse:  Left button up, pos=(1037,626)
+876.4387 	DATA 	Keypress: return
+876.4407 	DATA 	RatingScale rating: (key response) rating=2
+876.4408 	DATA 	RatingScale rating: rating RT=4.529
+876.4408 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 3.278), (2, 4.529)]
+876.4546 	EXP 	New trial (rep=0, index=117): OrderedDict([('Number', 6), ('Item', u'Get irritated easily.'), ('Scoring', u'+'), ('Code', u'N2'), ('Facet', u'Anger'), ('Factor', u'Neuroticism')])
+876.4590 	EXP 	RatingScale rating: reset()
+876.4719 	EXP 	item: autoDraw = False
+876.4719 	EXP 	rating: autoDraw = False
+876.4719 	EXP 	msgContinue: autoDraw = False
+876.4719 	EXP 	item: text = u'Get irritated easily.'
+876.4719 	EXP 	item: autoDraw = True
+876.4719 	EXP 	rating: autoDraw = True
+876.4719 	EXP 	msgContinue: autoDraw = True
+878.4241 	DATA 	Mouse: Left button down, pos=(988,619)
+878.5218 	DATA 	Mouse:  Left button up, pos=(988,619)
+880.0890 	DATA 	Keypress: return
+880.0910 	DATA 	RatingScale rating: (key response) rating=2
+880.0911 	DATA 	RatingScale rating: rating RT=3.631
+880.0911 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.964), (2, 3.631)]
+880.1056 	EXP 	New trial (rep=0, index=118): OrderedDict([('Number', 47), ('Item', u'Love life.'), ('Scoring', u'+'), ('Code', u'E6'), ('Facet', u'Cheerfulness'), ('Factor', u'Extraversion')])
+880.1090 	EXP 	RatingScale rating: reset()
+880.1214 	EXP 	item: autoDraw = False
+880.1214 	EXP 	rating: autoDraw = False
+880.1214 	EXP 	msgContinue: autoDraw = False
+880.1214 	EXP 	item: text = u'Love life.'
+880.1214 	EXP 	item: autoDraw = True
+880.1214 	EXP 	rating: autoDraw = True
+880.1214 	EXP 	msgContinue: autoDraw = True
+881.3917 	DATA 	Mouse: Left button down, pos=(1833,606)
+881.5070 	DATA 	Mouse:  Left button up, pos=(1833,606)
+881.6909 	DATA 	Keypress: return
+881.6930 	DATA 	RatingScale rating: (key response) rating=5
+881.6931 	DATA 	RatingScale rating: rating RT=1.583
+881.6931 	DATA 	RatingScale rating: history=[(None, 0.0), (5, 1.282), (5, 1.583)]
+881.7060 	EXP 	New trial (rep=0, index=119): OrderedDict([('Number', 12), ('Item', u'Feel comfortable with myself.'), ('Scoring', u'-'), ('Code', u'N3'), ('Facet', u'Depression'), ('Factor', u'Neuroticism')])
+881.7113 	EXP 	RatingScale rating: reset()
+881.7234 	EXP 	item: autoDraw = False
+881.7234 	EXP 	rating: autoDraw = False
+881.7234 	EXP 	msgContinue: autoDraw = False
+881.7234 	EXP 	item: text = u'Feel comfortable with myself.'
+881.7234 	EXP 	item: autoDraw = True
+881.7234 	EXP 	rating: autoDraw = True
+881.7234 	EXP 	msgContinue: autoDraw = True
+882.8400 	DATA 	Mouse: Left button down, pos=(1562,608)
+882.9722 	DATA 	Mouse:  Left button up, pos=(1563,608)
+884.1908 	DATA 	Mouse: Left button down, pos=(1755,610)
+884.3404 	DATA 	Mouse:  Left button up, pos=(1750,612)
+884.9402 	DATA 	Keypress: return
+884.9423 	DATA 	RatingScale rating: (key response) rating=5
+884.9424 	DATA 	RatingScale rating: rating RT=3.230
+884.9424 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 1.13), (5, 2.48), (5, 3.23)]
+884.9736 	EXP 	item: autoDraw = False
+884.9736 	EXP 	rating: autoDraw = False
+884.9736 	EXP 	msgContinue: autoDraw = False
+884.9736 	EXP 	thanksText: autoDraw = True
+886.7603 	DATA 	Keypress: return
+887.1403 	EXP 	window1: mouseVisible = True

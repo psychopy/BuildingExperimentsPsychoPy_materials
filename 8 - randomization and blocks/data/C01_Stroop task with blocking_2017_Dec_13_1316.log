@@ -1,0 +1,78 @@
+5.7208 	WARNING 	unknown type:Age
+5.7209 	WARNING 	unknown type:Gender
+5.7209 	WARNING 	unknown type:Participant
+6.2976 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1136e8c90>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1440,  900]), stereo=False, units=u'norm', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.2976 	EXP 	window1: recordFrameIntervals = False
+6.4619 	EXP 	window1: recordFrameIntervals = True
+6.6472 	EXP 	window1: recordFrameIntervals = False
+6.7637 	EXP 	Created instructFixed = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='instructFixed', opacity=1.0, ori=0, pos=array([ 0. ,  0.6]), rgb=array([ 255.,  255.,  255.]), text=newstr(...), units='norm', win=Window(...), wrapWidth=1)
+6.7808 	EXP 	Created instructChanging = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='instructChanging', opacity=1.0, ori=0, pos=array([ 0. , -0.1]), rgb=array([ 255.,  255.,  255.]), text='default text', units=u'norm', win=Window(...), wrapWidth=1)
+6.7921 	EXP 	Created pushSpace = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='pushSpace', opacity=1.0, ori=0, pos=array([ 0. , -0.5]), rgb=array([ 255.,  255.,  255.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+6.8035 	EXP 	Created fixation = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineWidth=1, name='fixation', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 30.,  30.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+6.8143 	EXP 	Created stroopText = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.25, italic=False, name='stroopText', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 1.,  1.,  1.]), text='default text', units=u'norm', win=Window(...), wrapWidth=1)
+6.8189 	EXP 	Created feedbackText = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='feedbackText', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text='Feedback', units=u'norm', win=Window(...), wrapWidth=1)
+6.8210 	EXP 	Imported block_order_instr.csv as conditions, 2 conditions, 2 params
+6.8213 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+6.8216 	EXP 	New trial (rep=0, index=0): OrderedDict([('language', u'English'), ('instructions', u'red = \u2190, green = \u2193, blue = \u2192')])
+6.8520 	EXP 	instructChanging: text = u'red = \u2190, green = \u2193, blue = \u2192'
+6.8520 	EXP 	instructFixed: autoDraw = True
+6.8520 	EXP 	instructChanging: autoDraw = True
+6.8520 	EXP 	pushSpace: autoDraw = True
+8.9585 	DATA 	Keypress: space
+8.9904 	EXP 	Imported English.xlsx as conditions, 9 conditions, 4 params
+8.9911 	EXP 	Created sequence: random, trialTypes=9, nReps=10, seed=None
+8.9916 	EXP 	New trial (rep=0, index=0): {u'congruent': 1L, u'word': u'green', u'corrAns': u'down', u'letterColor': u'green'}
+9.0020 	EXP 	instructFixed: autoDraw = False
+9.0020 	EXP 	instructChanging: autoDraw = False
+9.0020 	EXP 	pushSpace: autoDraw = False
+9.0020 	EXP 	stroopText: color = u'green (named)'
+9.0020 	EXP 	stroopText: text = u'green'
+9.0020 	EXP 	fixation: autoDraw = True
+9.5040 	EXP 	fixation: autoDraw = False
+9.5214 	EXP 	stroopText: autoDraw = True
+10.1260 	DATA 	Keypress: left
+10.1282 	EXP 	New trial (rep=0, index=1): {u'congruent': 1L, u'word': u'red', u'corrAns': u'left', u'letterColor': u'red'}
+10.1399 	EXP 	fixation: autoDraw = False
+10.1399 	EXP 	stroopText: autoDraw = False
+10.1399 	EXP 	stroopText: color = u'red (named)'
+10.1399 	EXP 	stroopText: text = u'red'
+10.1399 	EXP 	fixation: autoDraw = True
+10.6411 	EXP 	fixation: autoDraw = False
+10.6578 	EXP 	stroopText: autoDraw = True
+10.9108 	DATA 	Keypress: left
+10.9126 	EXP 	New trial (rep=0, index=2): {u'congruent': 0L, u'word': u'green', u'corrAns': u'right', u'letterColor': u'blue'}
+10.9250 	EXP 	fixation: autoDraw = False
+10.9250 	EXP 	stroopText: autoDraw = False
+10.9250 	EXP 	stroopText: color = u'blue (named)'
+10.9250 	EXP 	stroopText: text = u'green'
+10.9250 	EXP 	fixation: autoDraw = True
+11.4266 	EXP 	fixation: autoDraw = False
+11.4433 	EXP 	stroopText: autoDraw = True
+11.7472 	DATA 	Keypress: down
+11.7487 	EXP 	New trial (rep=0, index=3): {u'congruent': 0L, u'word': u'blue', u'corrAns': u'down', u'letterColor': u'green'}
+11.7590 	EXP 	fixation: autoDraw = False
+11.7590 	EXP 	stroopText: autoDraw = False
+11.7590 	EXP 	stroopText: color = u'green (named)'
+11.7590 	EXP 	stroopText: text = u'blue'
+11.7590 	EXP 	fixation: autoDraw = True
+12.2621 	EXP 	fixation: autoDraw = False
+12.2789 	EXP 	stroopText: autoDraw = True
+12.5155 	DATA 	Keypress: right
+12.5172 	EXP 	New trial (rep=0, index=4): {u'congruent': 0L, u'word': u'green', u'corrAns': u'left', u'letterColor': u'red'}
+12.5297 	EXP 	fixation: autoDraw = False
+12.5297 	EXP 	stroopText: autoDraw = False
+12.5297 	EXP 	stroopText: color = u'red (named)'
+12.5297 	EXP 	stroopText: text = u'green'
+12.5297 	EXP 	fixation: autoDraw = True
+13.0309 	EXP 	fixation: autoDraw = False
+13.0474 	EXP 	stroopText: autoDraw = True
+13.3342 	DATA 	Keypress: down
+13.3360 	EXP 	New trial (rep=0, index=5): {u'congruent': 0L, u'word': u'red', u'corrAns': u'down', u'letterColor': u'green'}
+13.3475 	EXP 	fixation: autoDraw = False
+13.3475 	EXP 	stroopText: autoDraw = False
+13.3475 	EXP 	stroopText: color = u'green (named)'
+13.3475 	EXP 	stroopText: text = u'red'
+13.3475 	EXP 	fixation: autoDraw = True
+13.8491 	EXP 	fixation: autoDraw = False
+13.8665 	EXP 	stroopText: autoDraw = True
+14.2366 	DATA 	Keypress: escape

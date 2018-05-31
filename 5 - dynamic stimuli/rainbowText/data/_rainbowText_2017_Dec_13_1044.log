@@ -1,0 +1,7 @@
+3.9343 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1135da3d0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1440,  900]), stereo=False, units=u'norm', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+3.9343 	EXP 	window1: recordFrameIntervals = False
+4.0999 	EXP 	window1: recordFrameIntervals = True
+4.2840 	EXP 	window1: recordFrameIntervals = False
+4.3465 	EXP 	Created rainbowText = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='hsv', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='rainbowText', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 1.        , -0.96666667, -1.        ]), text='Crazy colors', units=u'norm', win=Window(...), wrapWidth=1)
+4.3558 	EXP 	rainbowText: autoDraw = True
+8.3495 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,121 @@
+Number,Item,Scoring,Code,Facet,Factor,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,rating.response,rating.rt,score,date,frameRate,expName,session,participant
+13,Find it difficult to approach others.,+,N4,Self-consciousness,Neuroticism,0,0,0,12,1,4.261,1,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+87,Insult people.,-,A4,Cooperation,Agreeableness,0,1,1,86,1,3.699,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+1,Worry about things.,+,N1,Anxiety,Neuroticism,0,2,2,0,3,9.932,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+43,Enjoy being reckless.,+,E5,Excitement-seeking,Extraversion,0,3,3,42,1,5.282,1,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+49,Have a vivid imagination.,+,O1,Imagination,Openness,0,4,4,48,4,3.581,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+32,Avoid crowds.,-,E2,Gregariousness,Extraversion,0,5,5,31,1,2.213,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+101,Like to tidy up.,+,C2,Orderliness,Conscientiousness,0,6,6,100,2,4.081,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+11,Am often down in the dumps.,+,N3,Depression,Neuroticism,0,7,7,10,1,2.879,1,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+53,Believe in the importance of art.,+,O2,Artistic interests,Openness,0,8,8,52,5,2.713,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+18,Rarely overindulge.,-,N5,Immoderation,Neuroticism,0,9,9,17,4,6.882,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+46,Have a lot of fun.,+,E6,Cheerfulness,Extraversion,0,10,10,45,4,3.866,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+22,Become overwhelmed by events.,+,N6,Vulnerability,Neuroticism,0,11,11,21,1,4.247,1,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+25,Make friends easily.,+,E1,Friendliness,Extraversion,0,12,12,24,5,2.096,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+108,Break my promises.,-,C3,Dutifulness,Conscientiousness,0,13,13,107,1,3.099,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+105,Keep my promises.,+,C3,Dutifulness,Conscientiousness,0,14,14,104,5,1.814,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+68,Am not interested in theoretical discussions.,-,O5,Intellect,Openness,0,15,15,67,1,3.361,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+5,Get angry easily.,+,N2,Anger,Neuroticism,0,16,16,4,1,2.748,1,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+41,Love excitement.,+,E5,Excitement-seeking,Extraversion,0,17,17,40,4,6.132,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+59,Rarely notice my emotional reactions.,-,O3,Emotionality,Openness,0,18,18,58,1,3.931,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+118,Make rash decisions.,-,C6,Cautiousness,Conscientiousness,0,19,19,117,1,1.865,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+35,Take control of things.,+,E3,Assertiveness,Extraversion,0,20,20,34,5,1.946,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+102,Often forget to put things back in their proper place.,-,C2,Orderliness,Conscientiousness,0,21,21,101,3,6.062,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+116,Have difficulty starting tasks.,-,C5,Self-discipline,Conscientiousness,0,22,22,115,2,4.998,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+119,Rush into things.,-,C6,Cautiousness,Conscientiousness,0,23,23,118,3,4.148,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+78,Cheat to get ahead.,-,A2,Morality,Agreeableness,0,24,24,77,1,2.031,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+58,Feel others' emotions.,+,O3,Emotionality,Openness,0,25,25,57,5,3.329,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+93,Sympathize with the homeless.,+,A6,Sympathy,Agreeableness,0,26,26,92,5,3.762,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+28,Keep others at a distance.,-,E1,Friendliness,Extraversion,0,27,27,27,2,4.182,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+21,Panic easily.,+,N6,Vulnerability,Neuroticism,0,28,28,20,1,2.548,1,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+79,Take advantage of others.,-,A2,Morality,Agreeableness,0,29,29,78,1,2.497,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+81,Am concerned about others.,+,A3,Altruism,Agreeableness,0,30,30,80,4,5.596,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+38,Am always on the go.,+,E4,Actvity level,Extraversion,0,31,31,37,4,1.63,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+39,Do a lot in my spare time.,+,E4,Actvity level,Extraversion,0,32,32,38,5,4.581,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+98,Excel in what I do.,+,C1,Self-efficacy,Conscientiousness,0,33,33,97,5,2.364,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+82,Love to help others.,+,A3,Altruism,Agreeableness,0,34,34,81,4,3.981,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+74,Believe that others have good intentions.,+,A1,Trust,Agreeableness,0,35,35,73,4,3.029,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+117,Jump into things without thinking.,-,C6,Cautiousness,Conscientiousness,0,36,36,116,1,6.13,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+50,Enjoy wild flights of fantasy.,+,O1,Imagination,Openness,0,37,37,49,1,6.447,1,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+107,Break rules.,-,C3,Dutifulness,Conscientiousness,0,38,38,106,3,5.349,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+4,Get stressed out easily.,+,N1,Anxiety,Neuroticism,0,39,39,3,2,4.215,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+96,Try not to think about the needy.,-,A6,Sympathy,Agreeableness,0,40,40,95,2,5.764,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+36,Wait for others to lead the way.,-,E3,Assertiveness,Extraversion,0,41,41,35,1,6.081,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+83,Am indifferent to the feelings of others.,-,A3,Altruism,Agreeableness,0,42,42,82,2,3.497,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+86,Yell at people.,-,A4,Cooperation,Agreeableness,0,43,43,85,1,5.548,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+70,Believe that there is no absolute right and wrong.,+,O6,Liberalism,Openness,0,44,44,69,3,10.163,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+56,Do not enjoy going to art museums.,-,O2,Artistic interests,Openness,0,45,45,55,3,2.646,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+7,Lose my temper.,+,N2,Anger,Neuroticism,0,46,46,6,1,2.415,1,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+52,Like to get lost in thought.,+,O1,Imagination,Openness,0,47,47,51,4,4.331,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+17,Go on binges.,+,N5,Immoderation,Neuroticism,0,48,48,16,2,1.981,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+63,Dislike changes.,-,O4,Adventurousness,Openness,0,49,49,62,3,6.767,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+112,Do just enough work to get by.,-,C4,Achievement-striving,Conscientiousness,0,50,50,111,1,4.014,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+104,Leave my belongings around.,-,C2,Orderliness,Conscientiousness,0,51,51,103,2,2.698,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+85,Love a good fight.,-,A4,Cooperation,Agreeableness,0,52,52,84,4,4.217,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+57,Experience my emotions intensely.,+,O3,Emotionality,Openness,0,53,53,56,2,5.114,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+30,Talk to a lot of different people at parties.,+,E2,Gregariousness,Extraversion,0,54,54,29,5,4.38,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+100,Know how to get things done.,+,C1,Self-efficacy,Conscientiousness,0,55,55,99,5,2.511,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+55,Do not like poetry.,-,O2,Artistic interests,Openness,0,56,56,54,2,3.982,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+20,Am able to control my cravings.,-,N5,Immoderation,Neuroticism,0,57,57,19,4,3.597,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+66,Avoid philosophical discussions.,-,O5,Intellect,Openness,0,58,58,65,2,3.981,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+77,Use others for my own ends.,-,A2,Morality,Agreeableness,0,59,59,76,1,2.811,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+16,Am not bothered by difficult social situations.,-,N4,Self-consciousness,Neuroticism,0,60,60,15,2,3.311,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+8,Am not easily annoyed.,-,N2,Anger,Neuroticism,0,61,61,7,2,13.617,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+69,Tend to vote for liberal political candidates.,+,O6,Liberalism,Openness,0,62,62,68,5,11.966,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+75,Trust what people say.,+,A1,Trust,Agreeableness,0,63,63,74,2,2.648,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+44,Act wild and crazy.,+,E5,Excitement-seeking,Extraversion,0,64,64,43,2,13.482,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+114,Carry out my plans.,+,C5,Self-discipline,Conscientiousness,0,65,65,113,4,2.515,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+45,Radiate joy.,+,E6,Cheerfulness,Extraversion,0,66,66,44,3,7.299,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+115,Waste my time.,-,C5,Self-discipline,Conscientiousness,0,67,67,114,1,2.783,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+91,Have a high opinion of myself.,-,A5,Modesty,Agreeableness,0,68,68,90,4,2.031,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+109,Do more than what's expected of me.,+,C4,Achievement-striving,Conscientiousness,0,69,69,108,2,2.462,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+120,Act without thinking.,-,C6,Cautiousness,Conscientiousness,0,70,70,119,1,2.946,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+106,Tell the truth.,+,C3,Dutifulness,Conscientiousness,0,71,71,105,4,11.435,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+61,Prefer variety to routine.,+,O4,Adventurousness,Openness,0,72,72,60,2,12.199,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+10,Dislike myself.,+,N3,Depression,Neuroticism,0,73,73,9,1,2.866,1,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+48,Look at the bright side of life.,+,E6,Cheerfulness,Extraversion,0,74,74,47,5,6.682,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+76,Distrust people.,-,A1,Trust,Agreeableness,0,75,75,75,1,3.465,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+65,Love to read challenging material.,+,O5,Intellect,Openness,0,76,76,64,4,2.279,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+97,Complete tasks successfully.,+,C1,Self-efficacy,Conscientiousness,0,77,77,96,5,3.08,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+103,Leave a mess in my room.,-,C2,Orderliness,Conscientiousness,0,78,78,102,2,1.696,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+110,Work hard.,+,C4,Achievement-striving,Conscientiousness,0,79,79,109,5,1.931,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+14,Am afraid to draw attention to myself.,+,N4,Self-consciousness,Neuroticism,0,80,80,13,1,2.262,1,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+42,Seek adventure.,+,E5,Excitement-seeking,Extraversion,0,81,81,41,2,1.865,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+33,Take charge.,+,E3,Assertiveness,Extraversion,0,82,82,32,5,1.846,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+19,Easily resist temptations.,-,N5,Immoderation,Neuroticism,0,83,83,18,3,1.432,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+40,Like to take it easy.,-,E4,Actvity level,Extraversion,0,84,84,39,3,6.248,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+71,Tend to vote for conservative political candidates.,-,O6,Liberalism,Openness,0,85,85,70,1,3.063,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+60,Don't understand people who get emotional.,-,O3,Emotionality,Openness,0,86,86,59,3,4.461,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+2,Fear for the worst.,+,N1,Anxiety,Neuroticism,0,87,87,1,3,3.467,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+15,Only feel comfortable with friends.,+,N4,Self-consciousness,Neuroticism,0,88,88,14,2,8.045,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+54,See beauty in things that others might not notice.,+,O2,Artistic interests,Openness,0,89,89,53,3,3.829,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+67,Have difficulty understanding abstract ideas.,-,O5,Intellect,Openness,0,90,90,66,1,3.548,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+31,Prefer to be alone.,-,E2,Gregariousness,Extraversion,0,91,91,30,2,6.515,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+99,Handle tasks smoothly.,+,C1,Self-efficacy,Conscientiousness,0,92,92,98,5,4.682,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+9,Often feel blue.,+,N3,Depression,Neuroticism,0,93,93,8,2,1.597,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+89,Believe that I am better than others.,-,A5,Modesty,Agreeableness,0,94,94,88,3,4.213,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+73,Trust others.,+,A1,Trust,Agreeableness,0,95,95,72,4,15.501,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+64,Am attached to conventional ways.,-,O4,Adventurousness,Openness,0,96,96,63,3,7.599,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+84,Take no time for others.,-,A3,Altruism,Agreeableness,0,97,97,83,2,4.915,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+51,Love to daydream.,+,O1,Imagination,Openness,0,98,98,50,2,4.716,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+37,Am always busy.,+,E4,Actvity level,Extraversion,0,99,99,36,5,2.497,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+34,Try to lead others.,+,E3,Assertiveness,Extraversion,0,100,100,33,5,3.08,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+24,Remain calm under pressure.,-,N6,Vulnerability,Neuroticism,0,101,101,23,4,3.545,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+26,Feel comfortable around people.,+,E1,Friendliness,Extraversion,0,102,102,25,5,2.065,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+72,Believe that we should be tough on crime.,-,O6,Liberalism,Openness,0,103,103,71,3,4.647,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+62,Prefer to stick with things that I know.,-,O4,Adventurousness,Openness,0,104,104,61,2,4.828,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+27,Avoid contacts with others.,-,E1,Friendliness,Extraversion,0,105,105,26,1,3.446,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+88,Get back at others.,-,A4,Cooperation,Agreeableness,0,106,106,87,2,4.082,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+80,Obstruct others' plans.,-,A2,Morality,Agreeableness,0,107,107,79,1,2.564,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+29,Love large parties.,+,E2,Gregariousness,Extraversion,0,108,108,28,3,5.115,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+94,Feel sympathy for those who are worse off than myself.,+,A6,Sympathy,Agreeableness,0,109,109,93,4,2.727,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+92,Boast about my virtues.,-,A5,Modesty,Agreeableness,0,110,110,91,2,3.814,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+95,Am not interested in other people's problems.,-,A6,Sympathy,Agreeableness,0,111,111,94,2,12.365,4,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+3,Am afraid of many things.,+,N1,Anxiety,Neuroticism,0,112,112,2,1,2.847,1,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+90,Think highly of myself.,-,A5,Modesty,Agreeableness,0,113,113,89,5,1.913,1,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+111,Put little time and effort into my work.,-,C4,Achievement-striving,Conscientiousness,0,114,114,110,3,1.563,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+113,Am always prepared.,+,C5,Self-discipline,Conscientiousness,0,115,115,112,3,8.949,3,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+23,Feel that I'm unable to deal with things.,+,N6,Vulnerability,Neuroticism,0,116,116,22,2,4.529,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+6,Get irritated easily.,+,N2,Anger,Neuroticism,0,117,117,5,2,3.631,2,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+47,Love life.,+,E6,Cheerfulness,Extraversion,0,118,118,46,5,1.583,5,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08
+12,Feel comfortable with myself.,-,N3,Depression,Neuroticism,0,119,119,11,5,3.23,1,2017_Oct_11_1505,59.94457601,IPIP-NEO-120,1,ID08

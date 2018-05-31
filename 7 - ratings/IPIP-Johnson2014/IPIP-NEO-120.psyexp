@@ -1,0 +1,186 @@
+<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="1.85.4">
+  <Settings>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="Experiment info" updates="None" val="{u'session': u'001', u'participant': u''}" valType="code"/>
+    <Param name="JS libs" updates="None" val="packaged" valType="str"/>
+    <Param name="Units" updates="None" val="use prefs" valType="str"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Window size (pixels)" updates="None" val="[1440, 900]" valType="code"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="HTML path" updates="None" val="html" valType="str"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="OSF Project ID" updates="None" val="" valType="str"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="expName" updates="None" val="IPIP-NEO-120" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <TextComponent name="item">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="item" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="set every repeat" val="$Item" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0.5)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <RatingScaleComponent name="rating">
+        <Param name="labels" updates="constant" val="Very inaccurate, Very accurate" valType="str"/>
+        <Param name="pos" updates="constant" val="0, -0.2" valType="str"/>
+        <Param name="high" updates="constant" val="5" valType="code"/>
+        <Param name="storeRating" updates="constant" val="True" valType="bool"/>
+        <Param name="marker" updates="constant" val="triangle" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="markerStart" updates="constant" val="" valType="str"/>
+        <Param name="disappear" updates="constant" val="False" valType="bool"/>
+        <Param name="size" updates="constant" val="1.5" valType="code"/>
+        <Param name="tickHeight" updates="constant" val="" valType="str"/>
+        <Param name="showAccept" updates="constant" val="False" valType="bool"/>
+        <Param name="storeRatingTime" updates="constant" val="True" valType="bool"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="low" updates="constant" val="1" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="visualAnalogScale" updates="constant" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="scaleDescription" updates="constant" val="" valType="str"/>
+        <Param name="storeHistory" updates="constant" val="False" valType="bool"/>
+        <Param name="categoryChoices" updates="constant" val="" valType="str"/>
+        <Param name="customize_everything" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="rating" valType="code"/>
+        <Param name="singleClick" updates="constant" val="False" valType="bool"/>
+      </RatingScaleComponent>
+      <TextComponent name="msgContinue">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="msgContinue" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="Use the mouse to select a response and then press the &lt;return&gt; key to continue" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -0.8)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.07" valType="code"/>
+      </TextComponent>
+      <CodeComponent name="code">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="if Scoring=='-':&amp;#10;    thisExp.addData('score', 5-rating.getRating())&amp;#10;elif Scoring=='+':&amp;#10;    thisExp.addData('score', rating.getRating())&amp;#10;else:&amp;#10;    print(repr(Scoring))" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="thanks">
+      <TextComponent name="thanksText">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="constant" val="thanksText" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="$[1, 1, 1]" valType="str"/>
+        <Param name="text" updates="constant" val="This is the end of the experiment.&amp;#10;&amp;#10;Thanks!" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2.0" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.3" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="instructions">
+      <TextComponent name="instrText">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="constant" val="instrText" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="$[1, 1, 1]" valType="str"/>
+        <Param name="text" updates="constant" val="You will see a number of statements and your task is to rate how accurately they describe you.&amp;#10;&amp;#10;For each rating you should select the point on the scale that is most appropriate and then press the &lt;return&gt; key&amp;#10;&amp;#10;When you're ready to start press any key now" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.08" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="ready">
+        <Param name="correctAns" updates="constant" val="thisTrial.corrAns" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="ready" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="conditionsFile" updates="None" val="IPIP-NEO-PI-R-120-Johnson2014.xlsx" valType="str"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[{u'Scoring': u'+', u'Code': u'N1', u'Number': 1L, u'Facet': u'Anxiety', u'Item': u'Worry about things.', u'Factor': u'Neuroticism'}, {u'Scoring': u'+', u'Code': u'N1', u'Number': 2L, u'Facet': u'Anxiety', u'Item': u'Fear for the worst.', u'Factor': u'Neuroticism'}, {u'Scoring': u'+', u'Code': u'N1', u'Number': 3L, u'Facet': u'Anxiety', u'Item': u'Am afraid of many things.', u'Factor': u'Neuroticism'}, {u'Scoring': u'+', u'Code': u'N1', u'Number': 4L, u'Facet': u'Anxiety', u'Item': u'Get stressed out easily.', u'Factor': u'Neuroticism'}, {u'Scoring': u'+', u'Code': u'N2', u'Number': 5L, u'Facet': u'Anger', u'Item': u'Get angry easily.', u'Factor': u'Neuroticism'}, {u'Scoring': u'+', u'Code': u'N2', u'Number': 6L, u'Facet': u'Anger', u'Item': u'Get irritated easily.', u'Factor': u'Neuroticism'}, {u'Scoring': u'+', u'Code': u'N2', u'Number': 7L, u'Facet': u'Anger', u'Item': u'Lose my temper.', u'Factor': u'Neuroticism'}, {u'Scoring': u'-', u'Code': u'N2', u'Number': 8L, u'Facet': u'Anger', u'Item': u'Am not easily annoyed.', u'Factor': u'Neuroticism'}, {u'Scoring': u'+', u'Code': u'N3', u'Number': 9L, u'Facet': u'Depression', u'Item': u'Often feel blue.', u'Factor': u'Neuroticism'}, {u'Scoring': u'+', u'Code': u'N3', u'Number': 10L, u'Facet': u'Depression', u'Item': u'Dislike myself.', u'Factor': u'Neuroticism'}, {u'Scoring': u'+', u'Code': u'N3', u'Number': 11L, u'Facet': u'Depression', u'Item': u'Am often down in the dumps.', u'Factor': u'Neuroticism'}, {u'Scoring': u'-', u'Code': u'N3', u'Number': 12L, u'Facet': u'Depression', u'Item': u'Feel comfortable with myself.', u'Factor': u'Neuroticism'}, {u'Scoring': u'+', u'Code': u'N4', u'Number': 13L, u'Facet': u'Self-consciousness', u'Item': u'Find it difficult to approach others.', u'Factor': u'Neuroticism'}, {u'Scoring': u'+', u'Code': u'N4', u'Number': 14L, u'Facet': u'Self-consciousness', u'Item': u'Am afraid to draw attention to myself.', u'Factor': u'Neuroticism'}, {u'Scoring': u'+', u'Code': u'N4', u'Number': 15L, u'Facet': u'Self-consciousness', u'Item': u'Only feel comfortable with friends.', u'Factor': u'Neuroticism'}, {u'Scoring': u'-', u'Code': u'N4', u'Number': 16L, u'Facet': u'Self-consciousness', u'Item': u'Am not bothered by difficult social situations.', u'Factor': u'Neuroticism'}, {u'Scoring': u'+', u'Code': u'N5', u'Number': 17L, u'Facet': u'Immoderation', u'Item': u'Go on binges.', u'Factor': u'Neuroticism'}, {u'Scoring': u'-', u'Code': u'N5', u'Number': 18L, u'Facet': u'Immoderation', u'Item': u'Rarely overindulge.', u'Factor': u'Neuroticism'}, {u'Scoring': u'-', u'Code': u'N5', u'Number': 19L, u'Facet': u'Immoderation', u'Item': u'Easily resist temptations.', u'Factor': u'Neuroticism'}, {u'Scoring': u'-', u'Code': u'N5', u'Number': 20L, u'Facet': u'Immoderation', u'Item': u'Am able to control my cravings.', u'Factor': u'Neuroticism'}, {u'Scoring': u'+', u'Code': u'N6', u'Number': 21L, u'Facet': u'Vulnerability', u'Item': u'Panic easily.', u'Factor': u'Neuroticism'}, {u'Scoring': u'+', u'Code': u'N6', u'Number': 22L, u'Facet': u'Vulnerability', u'Item': u'Become overwhelmed by events.', u'Factor': u'Neuroticism'}, {u'Scoring': u'+', u'Code': u'N6', u'Number': 23L, u'Facet': u'Vulnerability', u'Item': u&quot;Feel that I'm unable to deal with things.&quot;, u'Factor': u'Neuroticism'}, {u'Scoring': u'-', u'Code': u'N6', u'Number': 24L, u'Facet': u'Vulnerability', u'Item': u'Remain calm under pressure.', u'Factor': u'Neuroticism'}, {u'Scoring': u'+', u'Code': u'E1', u'Number': 25L, u'Facet': u'Friendliness', u'Item': u'Make friends easily.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'E1', u'Number': 26L, u'Facet': u'Friendliness', u'Item': u'Feel comfortable around people.', u'Factor': u'Extraversion'}, {u'Scoring': u'-', u'Code': u'E1', u'Number': 27L, u'Facet': u'Friendliness', u'Item': u'Avoid contacts with others.', u'Factor': u'Extraversion'}, {u'Scoring': u'-', u'Code': u'E1', u'Number': 28L, u'Facet': u'Friendliness', u'Item': u'Keep others at a distance.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'E2', u'Number': 29L, u'Facet': u'Gregariousness', u'Item': u'Love large parties.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'E2', u'Number': 30L, u'Facet': u'Gregariousness', u'Item': u'Talk to a lot of different people at parties.', u'Factor': u'Extraversion'}, {u'Scoring': u'-', u'Code': u'E2', u'Number': 31L, u'Facet': u'Gregariousness', u'Item': u'Prefer to be alone.', u'Factor': u'Extraversion'}, {u'Scoring': u'-', u'Code': u'E2', u'Number': 32L, u'Facet': u'Gregariousness', u'Item': u'Avoid crowds.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'E3', u'Number': 33L, u'Facet': u'Assertiveness', u'Item': u'Take charge.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'E3', u'Number': 34L, u'Facet': u'Assertiveness', u'Item': u'Try to lead others.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'E3', u'Number': 35L, u'Facet': u'Assertiveness', u'Item': u'Take control of things.', u'Factor': u'Extraversion'}, {u'Scoring': u'-', u'Code': u'E3', u'Number': 36L, u'Facet': u'Assertiveness', u'Item': u'Wait for others to lead the way.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'E4', u'Number': 37L, u'Facet': u'Actvity level', u'Item': u'Am always busy.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'E4', u'Number': 38L, u'Facet': u'Actvity level', u'Item': u'Am always on the go.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'E4', u'Number': 39L, u'Facet': u'Actvity level', u'Item': u'Do a lot in my spare time.', u'Factor': u'Extraversion'}, {u'Scoring': u'-', u'Code': u'E4', u'Number': 40L, u'Facet': u'Actvity level', u'Item': u'Like to take it easy.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'E5', u'Number': 41L, u'Facet': u'Excitement-seeking', u'Item': u'Love excitement.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'E5', u'Number': 42L, u'Facet': u'Excitement-seeking', u'Item': u'Seek adventure.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'E5', u'Number': 43L, u'Facet': u'Excitement-seeking', u'Item': u'Enjoy being reckless.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'E5', u'Number': 44L, u'Facet': u'Excitement-seeking', u'Item': u'Act wild and crazy.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'E6', u'Number': 45L, u'Facet': u'Cheerfulness', u'Item': u'Radiate joy.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'E6', u'Number': 46L, u'Facet': u'Cheerfulness', u'Item': u'Have a lot of fun.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'E6', u'Number': 47L, u'Facet': u'Cheerfulness', u'Item': u'Love life.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'E6', u'Number': 48L, u'Facet': u'Cheerfulness', u'Item': u'Look at the bright side of life.', u'Factor': u'Extraversion'}, {u'Scoring': u'+', u'Code': u'O1', u'Number': 49L, u'Facet': u'Imagination', u'Item': u'Have a vivid imagination.', u'Factor': u'Openness'}, {u'Scoring': u'+', u'Code': u'O1', u'Number': 50L, u'Facet': u'Imagination', u'Item': u'Enjoy wild flights of fantasy.', u'Factor': u'Openness'}, {u'Scoring': u'+', u'Code': u'O1', u'Number': 51L, u'Facet': u'Imagination', u'Item': u'Love to daydream.', u'Factor': u'Openness'}, {u'Scoring': u'+', u'Code': u'O1', u'Number': 52L, u'Facet': u'Imagination', u'Item': u'Like to get lost in thought.', u'Factor': u'Openness'}, {u'Scoring': u'+', u'Code': u'O2', u'Number': 53L, u'Facet': u'Artistic interests', u'Item': u'Believe in the importance of art.', u'Factor': u'Openness'}, {u'Scoring': u'+', u'Code': u'O2', u'Number': 54L, u'Facet': u'Artistic interests', u'Item': u'See beauty in things that others might not notice.', u'Factor': u'Openness'}, {u'Scoring': u'-', u'Code': u'O2', u'Number': 55L, u'Facet': u'Artistic interests', u'Item': u'Do not like poetry.', u'Factor': u'Openness'}, {u'Scoring': u'-', u'Code': u'O2', u'Number': 56L, u'Facet': u'Artistic interests', u'Item': u'Do not enjoy going to art museums.', u'Factor': u'Openness'}, {u'Scoring': u'+', u'Code': u'O3', u'Number': 57L, u'Facet': u'Emotionality', u'Item': u'Experience my emotions intensely.', u'Factor': u'Openness'}, {u'Scoring': u'+', u'Code': u'O3', u'Number': 58L, u'Facet': u'Emotionality', u'Item': u&quot;Feel others' emotions.&quot;, u'Factor': u'Openness'}, {u'Scoring': u'-', u'Code': u'O3', u'Number': 59L, u'Facet': u'Emotionality', u'Item': u'Rarely notice my emotional reactions.', u'Factor': u'Openness'}, {u'Scoring': u'-', u'Code': u'O3', u'Number': 60L, u'Facet': u'Emotionality', u'Item': u&quot;Don't understand people who get emotional.&quot;, u'Factor': u'Openness'}, {u'Scoring': u'+', u'Code': u'O4', u'Number': 61L, u'Facet': u'Adventurousness', u'Item': u'Prefer variety to routine.', u'Factor': u'Openness'}, {u'Scoring': u'-', u'Code': u'O4', u'Number': 62L, u'Facet': u'Adventurousness', u'Item': u'Prefer to stick with things that I know.', u'Factor': u'Openness'}, {u'Scoring': u'-', u'Code': u'O4', u'Number': 63L, u'Facet': u'Adventurousness', u'Item': u'Dislike changes.', u'Factor': u'Openness'}, {u'Scoring': u'-', u'Code': u'O4', u'Number': 64L, u'Facet': u'Adventurousness', u'Item': u'Am attached to conventional ways.', u'Factor': u'Openness'}, {u'Scoring': u'+', u'Code': u'O5', u'Number': 65L, u'Facet': u'Intellect', u'Item': u'Love to read challenging material.', u'Factor': u'Openness'}, {u'Scoring': u'-', u'Code': u'O5', u'Number': 66L, u'Facet': u'Intellect', u'Item': u'Avoid philosophical discussions.', u'Factor': u'Openness'}, {u'Scoring': u'-', u'Code': u'O5', u'Number': 67L, u'Facet': u'Intellect', u'Item': u'Have difficulty understanding abstract ideas.', u'Factor': u'Openness'}, {u'Scoring': u'-', u'Code': u'O5', u'Number': 68L, u'Facet': u'Intellect', u'Item': u'Am not interested in theoretical discussions.', u'Factor': u'Openness'}, {u'Scoring': u'+', u'Code': u'O6', u'Number': 69L, u'Facet': u'Liberalism', u'Item': u'Tend to vote for liberal political candidates.', u'Factor': u'Openness'}, {u'Scoring': u'+', u'Code': u'O6', u'Number': 70L, u'Facet': u'Liberalism', u'Item': u'Believe that there is no absolute right and wrong.', u'Factor': u'Openness'}, {u'Scoring': u'-', u'Code': u'O6', u'Number': 71L, u'Facet': u'Liberalism', u'Item': u'Tend to vote for conservative political candidates.', u'Factor': u'Openness'}, {u'Scoring': u'-', u'Code': u'O6', u'Number': 72L, u'Facet': u'Liberalism', u'Item': u'Believe that we should be tough on crime.', u'Factor': u'Openness'}, {u'Scoring': u'+', u'Code': u'A1', u'Number': 73L, u'Facet': u'Trust', u'Item': u'Trust others.', u'Factor': u'Agreeableness'}, {u'Scoring': u'+', u'Code': u'A1', u'Number': 74L, u'Facet': u'Trust', u'Item': u'Believe that others have good intentions.', u'Factor': u'Agreeableness'}, {u'Scoring': u'+', u'Code': u'A1', u'Number': 75L, u'Facet': u'Trust', u'Item': u'Trust what people say.', u'Factor': u'Agreeableness'}, {u'Scoring': u'-', u'Code': u'A1', u'Number': 76L, u'Facet': u'Trust', u'Item': u'Distrust people.', u'Factor': u'Agreeableness'}, {u'Scoring': u'-', u'Code': u'A2', u'Number': 77L, u'Facet': u'Morality', u'Item': u'Use others for my own ends.', u'Factor': u'Agreeableness'}, {u'Scoring': u'-', u'Code': u'A2', u'Number': 78L, u'Facet': u'Morality', u'Item': u'Cheat to get ahead.', u'Factor': u'Agreeableness'}, {u'Scoring': u'-', u'Code': u'A2', u'Number': 79L, u'Facet': u'Morality', u'Item': u'Take advantage of others.', u'Factor': u'Agreeableness'}, {u'Scoring': u'-', u'Code': u'A2', u'Number': 80L, u'Facet': u'Morality', u'Item': u&quot;Obstruct others' plans.&quot;, u'Factor': u'Agreeableness'}, {u'Scoring': u'+', u'Code': u'A3', u'Number': 81L, u'Facet': u'Altruism', u'Item': u'Am concerned about others.', u'Factor': u'Agreeableness'}, {u'Scoring': u'+', u'Code': u'A3', u'Number': 82L, u'Facet': u'Altruism', u'Item': u'Love to help others.', u'Factor': u'Agreeableness'}, {u'Scoring': u'-', u'Code': u'A3', u'Number': 83L, u'Facet': u'Altruism', u'Item': u'Am indifferent to the feelings of others.', u'Factor': u'Agreeableness'}, {u'Scoring': u'-', u'Code': u'A3', u'Number': 84L, u'Facet': u'Altruism', u'Item': u'Take no time for others.', u'Factor': u'Agreeableness'}, {u'Scoring': u'-', u'Code': u'A4', u'Number': 85L, u'Facet': u'Cooperation', u'Item': u'Love a good fight.', u'Factor': u'Agreeableness'}, {u'Scoring': u'-', u'Code': u'A4', u'Number': 86L, u'Facet': u'Cooperation', u'Item': u'Yell at people.', u'Factor': u'Agreeableness'}, {u'Scoring': u'-', u'Code': u'A4', u'Number': 87L, u'Facet': u'Cooperation', u'Item': u'Insult people.', u'Factor': u'Agreeableness'}, {u'Scoring': u'-', u'Code': u'A4', u'Number': 88L, u'Facet': u'Cooperation', u'Item': u'Get back at others.', u'Factor': u'Agreeableness'}, {u'Scoring': u'-', u'Code': u'A5', u'Number': 89L, u'Facet': u'Modesty', u'Item': u'Believe that I am better than others.', u'Factor': u'Agreeableness'}, {u'Scoring': u'-', u'Code': u'A5', u'Number': 90L, u'Facet': u'Modesty', u'Item': u'Think highly of myself.', u'Factor': u'Agreeableness'}, {u'Scoring': u'-', u'Code': u'A5', u'Number': 91L, u'Facet': u'Modesty', u'Item': u'Have a high opinion of myself.', u'Factor': u'Agreeableness'}, {u'Scoring': u'-', u'Code': u'A5', u'Number': 92L, u'Facet': u'Modesty', u'Item': u'Boast about my virtues.', u'Factor': u'Agreeableness'}, {u'Scoring': u'+', u'Code': u'A6', u'Number': 93L, u'Facet': u'Sympathy', u'Item': u'Sympathize with the homeless.', u'Factor': u'Agreeableness'}, {u'Scoring': u'+', u'Code': u'A6', u'Number': 94L, u'Facet': u'Sympathy', u'Item': u'Feel sympathy for those who are worse off than myself.', u'Factor': u'Agreeableness'}, {u'Scoring': u'-', u'Code': u'A6', u'Number': 95L, u'Facet': u'Sympathy', u'Item': u&quot;Am not interested in other people's problems.&quot;, u'Factor': u'Agreeableness'}, {u'Scoring': u'-', u'Code': u'A6', u'Number': 96L, u'Facet': u'Sympathy', u'Item': u'Try not to think about the needy.', u'Factor': u'Agreeableness'}, {u'Scoring': u'+', u'Code': u'C1', u'Number': 97L, u'Facet': u'Self-efficacy', u'Item': u'Complete tasks successfully.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'+', u'Code': u'C1', u'Number': 98L, u'Facet': u'Self-efficacy', u'Item': u'Excel in what I do.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'+', u'Code': u'C1', u'Number': 99L, u'Facet': u'Self-efficacy', u'Item': u'Handle tasks smoothly.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'+', u'Code': u'C1', u'Number': 100L, u'Facet': u'Self-efficacy', u'Item': u'Know how to get things done.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'+', u'Code': u'C2', u'Number': 101L, u'Facet': u'Orderliness', u'Item': u'Like to tidy up.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'-', u'Code': u'C2', u'Number': 102L, u'Facet': u'Orderliness', u'Item': u'Often forget to put things back in their proper place.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'-', u'Code': u'C2', u'Number': 103L, u'Facet': u'Orderliness', u'Item': u'Leave a mess in my room.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'-', u'Code': u'C2', u'Number': 104L, u'Facet': u'Orderliness', u'Item': u'Leave my belongings around.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'+', u'Code': u'C3', u'Number': 105L, u'Facet': u'Dutifulness', u'Item': u'Keep my promises.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'+', u'Code': u'C3', u'Number': 106L, u'Facet': u'Dutifulness', u'Item': u'Tell the truth.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'-', u'Code': u'C3', u'Number': 107L, u'Facet': u'Dutifulness', u'Item': u'Break rules.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'-', u'Code': u'C3', u'Number': 108L, u'Facet': u'Dutifulness', u'Item': u'Break my promises.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'+', u'Code': u'C4', u'Number': 109L, u'Facet': u'Achievement-striving', u'Item': u&quot;Do more than what's expected of me.&quot;, u'Factor': u'Conscientiousness'}, {u'Scoring': u'+', u'Code': u'C4', u'Number': 110L, u'Facet': u'Achievement-striving', u'Item': u'Work hard.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'-', u'Code': u'C4', u'Number': 111L, u'Facet': u'Achievement-striving', u'Item': u'Put little time and effort into my work.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'-', u'Code': u'C4', u'Number': 112L, u'Facet': u'Achievement-striving', u'Item': u'Do just enough work to get by.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'+', u'Code': u'C5', u'Number': 113L, u'Facet': u'Self-discipline', u'Item': u'Am always prepared.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'+', u'Code': u'C5', u'Number': 114L, u'Facet': u'Self-discipline', u'Item': u'Carry out my plans.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'-', u'Code': u'C5', u'Number': 115L, u'Facet': u'Self-discipline', u'Item': u'Waste my time.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'-', u'Code': u'C5', u'Number': 116L, u'Facet': u'Self-discipline', u'Item': u'Have difficulty starting tasks.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'-', u'Code': u'C6', u'Number': 117L, u'Facet': u'Cautiousness', u'Item': u'Jump into things without thinking.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'-', u'Code': u'C6', u'Number': 118L, u'Facet': u'Cautiousness', u'Item': u'Make rash decisions.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'-', u'Code': u'C6', u'Number': 119L, u'Facet': u'Cautiousness', u'Item': u'Rush into things.', u'Factor': u'Conscientiousness'}, {u'Scoring': u'-', u'Code': u'C6', u'Number': 120L, u'Facet': u'Cautiousness', u'Item': u'Act without thinking.', u'Factor': u'Conscientiousness'}]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="thanks"/>
+  </Flow>
+</PsychoPy2experiment>

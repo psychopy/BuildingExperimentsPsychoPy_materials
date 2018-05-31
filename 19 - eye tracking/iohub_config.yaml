@@ -1,0 +1,64 @@
+# specify what devices to monitor
+monitor_devices:
+    - Display:
+        name: display
+        reporting_unit_type: pix
+        device_number: 1
+        physical_dimensions:
+            width: 1574
+            height: 877
+            unit_type: mm
+        default_eye_distance:
+            surface_center: 1649
+            unit_type: mm
+        psychopy_monitor_name: DLP
+
+    - Keyboard:
+        name: keyboard
+
+    - Mouse:
+        name: mouse
+
+    - Experiment:
+        name: experimentRuntime
+
+    # SMI iView eye tracker configuration
+    - eyetracker.hw.smi.iviewx.EyeTracker:
+        enable: True
+        name: tracker
+        save_events: True
+        stream_events: True
+        event_buffer_length: 1024
+        monitor_event_types: [BinocularEyeSampleEvent]
+        network_settings:
+            send_ip_address: 192.168.110.63
+            send_port: 4444
+            receive_ip_address: 192.168.110.65
+            receive_port: 4444
+        runtime_settings:
+            sampling_rate: 500
+            track_eyes: BINOCULAR_AVERAGED
+            sample_filtering:
+                FILTER_ALL: FILTER_OFF
+            vog_settings:
+                pupil_measure_types: PUPIL_DIAMETER
+        calibration:
+            type: NINE_POINTS
+            auto_pace: Yes
+            pacing_speed: FAST
+            screen_background_color: 20
+            target_type: CIRCLE_TARGET
+            target_attributes:
+                target_size: 30
+                target_color: 239
+                target_inner_color: RED
+            show_validation_accuracy_window: True
+        model_name: HiSpeed
+
+# specify data storage options
+data_store:
+    enable: True
+    experiment_info:
+        title: Visual search with eye tracking
+    session_info:
+        code: SUBJECT05

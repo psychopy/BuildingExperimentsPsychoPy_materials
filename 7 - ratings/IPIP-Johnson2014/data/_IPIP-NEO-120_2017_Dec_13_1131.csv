@@ -1,0 +1,4 @@
+Scoring,Facet,Code,Item,Factor,Number,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,rating.response,rating.rt,score,date,frameRate,expName,session,participant,
++,Cheerfulness,E6,Radiate joy.,Extraversion,45,0,0,0,44,4,3.947,4,2017_Dec_13_1131,59.8415185004,IPIP-NEO-120,001,,
+-,Morality,A2,Cheat to get ahead.,Agreeableness,78,0,1,1,77,2,1.929,3,2017_Dec_13_1131,59.8415185004,IPIP-NEO-120,001,,
+-,Emotionality,O3,Rarely notice my emotional reactions.,Openness,59,0,2,2,58,3,1.678,2,2017_Dec_13_1131,59.8415185004,IPIP-NEO-120,001,,

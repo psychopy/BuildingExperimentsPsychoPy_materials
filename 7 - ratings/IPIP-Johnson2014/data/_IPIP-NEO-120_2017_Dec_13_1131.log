@@ -1,0 +1,70 @@
+4.4333 	WARNING 	unknown type:participant
+4.4334 	WARNING 	unknown type:session
+5.0827 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x11401d850>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1440,  900]), stereo=False, units=u'norm', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.0828 	EXP 	window1: recordFrameIntervals = False
+5.2486 	EXP 	window1: recordFrameIntervals = True
+5.4327 	EXP 	window1: recordFrameIntervals = False
+5.5623 	EXP 	Created instrText = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, name='instrText', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 1.,  1.,  1.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+5.5711 	EXP 	Created item = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='item', opacity=1.0, ori=0, pos=array([ 0. ,  0.5]), rgb=array([ 255.,  255.,  255.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+5.6857 	EXP 	Created rating = RatingScale(acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText=UNKNOWN, autoLog=True, choices=False, depth=0, disappear=False, flipVert=False, high=5, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=1, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating', noMouse=False, pos=[0.0, -0.2], precision=1, respKeys=['1', '2', '3', '4', '5'], rightKeys=['right'], scale='', self=UNKNOWN, showAccept=False, showValue=True, singleClick=False, size=0.8999999999999999, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.18, tickHeight=1.0, tickMarks=4.0, win=Window(...))
+5.7046 	EXP 	Created msgContinue = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, name='msgContinue', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 255.,  255.,  255.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+5.7350 	EXP 	Created thanksText = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='arial', fontFiles=[], height=0.3, italic=False, name='thanksText', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 1.,  1.,  1.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+5.7441 	EXP 	rating: flipVert = False
+5.7441 	EXP 	rating: autoLog = True
+5.7441 	EXP 	instrText: autoDraw = True
+7.3255 	DATA 	Keypress: right
+7.3598 	EXP 	Imported IPIP-NEO-PI-R-120-Johnson2014.xlsx as conditions, 120 conditions, 6 params
+7.3639 	EXP 	Created sequence: random, trialTypes=120, nReps=1, seed=None
+7.3646 	EXP 	New trial (rep=0, index=0): {u'Scoring': u'+', u'Facet': u'Cheerfulness', u'Code': u'E6', u'Item': u'Radiate joy.', u'Factor': u'Extraversion', u'Number': 45L}
+7.3729 	EXP 	RatingScale rating: reset()
+7.3872 	EXP 	instrText: autoDraw = False
+7.3872 	EXP 	item: text = u'Radiate joy.'
+7.3872 	EXP 	item: autoDraw = True
+7.3872 	EXP 	rating: autoDraw = True
+7.3872 	EXP 	msgContinue: autoDraw = True
+9.4930 	DATA 	Mouse: Left button down, pos=(882,356)
+9.5442 	DATA 	Mouse:  Left button up, pos=(882,356)
+11.3180 	DATA 	Keypress: return
+11.3207 	DATA 	RatingScale rating: (key response) rating=4
+11.3210 	DATA 	RatingScale rating: rating RT=3.947
+11.3210 	DATA 	RatingScale rating: history=[(None, 0.0), (4, 2.122), (4, 3.947)]
+11.3337 	EXP 	New trial (rep=0, index=1): {u'Scoring': u'-', u'Facet': u'Morality', u'Code': u'A2', u'Item': u'Cheat to get ahead.', u'Factor': u'Agreeableness', u'Number': 78L}
+11.3458 	EXP 	RatingScale rating: reset()
+11.3533 	EXP 	item: autoDraw = False
+11.3533 	EXP 	rating: autoDraw = False
+11.3533 	EXP 	msgContinue: autoDraw = False
+11.3533 	EXP 	item: text = u'Cheat to get ahead.'
+11.3533 	EXP 	item: autoDraw = True
+11.3533 	EXP 	rating: autoDraw = True
+11.3533 	EXP 	msgContinue: autoDraw = True
+12.6194 	DATA 	Mouse: Left button down, pos=(564,354)
+12.7065 	DATA 	Mouse:  Left button up, pos=(564,354)
+13.2728 	DATA 	Keypress: return
+13.2756 	DATA 	RatingScale rating: (key response) rating=2
+13.2759 	DATA 	RatingScale rating: rating RT=1.929
+13.2760 	DATA 	RatingScale rating: history=[(None, 0.0), (2, 1.275), (2, 1.929)]
+13.2879 	EXP 	New trial (rep=0, index=2): {u'Scoring': u'-', u'Facet': u'Emotionality', u'Code': u'O3', u'Item': u'Rarely notice my emotional reactions.', u'Factor': u'Openness', u'Number': 59L}
+13.3026 	EXP 	RatingScale rating: reset()
+13.3101 	EXP 	item: autoDraw = False
+13.3101 	EXP 	rating: autoDraw = False
+13.3101 	EXP 	msgContinue: autoDraw = False
+13.3101 	EXP 	item: text = u'Rarely notice my emotional reactions.'
+13.3101 	EXP 	item: autoDraw = True
+13.3101 	EXP 	rating: autoDraw = True
+13.3101 	EXP 	msgContinue: autoDraw = True
+14.4584 	DATA 	Mouse: Left button down, pos=(733,348)
+14.5781 	DATA 	Mouse:  Left button up, pos=(733,348)
+14.9811 	DATA 	Keypress: return
+14.9816 	DATA 	RatingScale rating: (key response) rating=3
+14.9819 	DATA 	RatingScale rating: rating RT=1.678
+14.9819 	DATA 	RatingScale rating: history=[(None, 0.0), (3, 1.157), (3, 1.678)]
+14.9930 	EXP 	New trial (rep=0, index=3): {u'Scoring': u'-', u'Facet': u'Modesty', u'Code': u'A5', u'Item': u'Boast about my virtues.', u'Factor': u'Agreeableness', u'Number': 92L}
+15.0073 	EXP 	RatingScale rating: reset()
+15.0149 	EXP 	item: autoDraw = False
+15.0149 	EXP 	rating: autoDraw = False
+15.0149 	EXP 	msgContinue: autoDraw = False
+15.0149 	EXP 	item: text = u'Boast about my virtues.'
+15.0149 	EXP 	item: autoDraw = True
+15.0149 	EXP 	rating: autoDraw = True
+15.0149 	EXP 	msgContinue: autoDraw = True
+15.4622 	DATA 	Keypress: escape

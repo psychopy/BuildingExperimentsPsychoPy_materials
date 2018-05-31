@@ -1,0 +1,33 @@
+The images in this folder are all provided under Creative Commons licenses:
+
+face01 (Obama):
+ Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+ https://commons.wikimedia.org/wiki/File:Obama_portrait_crop.jpg
+ Pete Souza/Notwist
+	
+face02 (Clinton):
+ Creative Commons Attribution 2.0 Generic (CC BY 2.0)
+ https://commons.wikimedia.org/wiki/File:Hillary_Clinton_March_2016.jpg
+ originally https://www.flickr.com/photos/jurvetson/25392716563/
+ Steve Jurvetson
+
+face03 (Trump):
+ Creative Commons Attribution-Share Alike 2.0 Generic (CC BY-SA 2.0)
+ https://www.flickr.com/photos/80038275@N00/14235998650/
+ https://commons.wikimedia.org/wiki/File:Donald_Trump_(14235998650)_(cropped).jpg
+ Michael Vadon
+
+house01.jpg:
+ Creative Commons CC-BY-2.0 Generic
+ https://www.flickr.com/photos/18702768@N04/2504864021
+ David Sawyer
+
+house02.jpg
+ Attribution 2.0 Generic (CC BY 2.0)
+ https://www.flickr.com/photos/joc67/1189776958
+ Jimmy_Joe
+
+house03.jpg
+ Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)
+ https://www.flickr.com/photos/18702768@N04/2336673588
+ David Sawyer

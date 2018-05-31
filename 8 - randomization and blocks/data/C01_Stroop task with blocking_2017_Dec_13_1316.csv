@@ -1,0 +1,6 @@
+language,instructions,congruent,word,corrAns,letterColor,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,instructResp.keys,instructResp.rt,response.keys,response.corr,response.rt,Participant,Gender,Age,frameRate,expName,date,
+English,"red = ←, green = ↓, blue = →",1,green,down,green,0,0,0,0,0,0,0,4,space,2.11878800392,left,0,0.604939937592,C01,specify,99,59.3626549063,Stroop task with blocking,2017_Dec_13_1316,
+English,"red = ←, green = ↓, blue = →",1,red,left,red,0,0,0,0,0,1,1,0,,,left,1,0.253399848938,C01,specify,99,59.3626549063,Stroop task with blocking,2017_Dec_13_1316,
+English,"red = ←, green = ↓, blue = →",0,green,right,blue,0,0,0,0,0,2,2,5,,,down,0,0.30421090126,C01,specify,99,59.3626549063,Stroop task with blocking,2017_Dec_13_1316,
+English,"red = ←, green = ↓, blue = →",0,blue,down,green,0,0,0,0,0,3,3,7,,,right,0,0.236899137497,C01,specify,99,59.3626549063,Stroop task with blocking,2017_Dec_13_1316,
+English,"red = ←, green = ↓, blue = →",0,green,left,red,0,0,0,0,0,4,4,3,,,down,0,0.287209033966,C01,specify,99,59.3626549063,Stroop task with blocking,2017_Dec_13_1316,
