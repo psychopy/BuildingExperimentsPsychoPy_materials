@@ -1,6 +1,6 @@
 # Building Experiments in PsychoPy (materials)
 
-<img align="left" src="BuildingExperimentsCover.jpg">
+<img align="left" src="BuildingExperimentsCover.jpg" width="300pix">
 
 This repository contains the materials that go with the [the book Building Experiments in PsychoPy][bookURL] (Peirce and MacAskill, Sage Publishing). The examples here are organised by chapter number. To make sense of the materials you might want to buy that book! ;-)
 
